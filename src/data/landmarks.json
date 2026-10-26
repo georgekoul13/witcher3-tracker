@@ -1,0 +1,650 @@
+{
+ "landmarks": [
+  {
+   "name": "Carsten",
+   "mentions": 16,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g005",
+    "g006",
+    "g012",
+    "g099",
+    "g120",
+    "g121",
+    "g195",
+    "g206",
+    "g210",
+    "g212",
+    "g213",
+    "g226",
+    "g227",
+    "g228",
+    "g245",
+    "g246"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "The Alchemy",
+   "mentions": 12,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g184",
+    "g207",
+    "g211",
+    "g226",
+    "g227",
+    "g228"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "Lindenvale",
+   "mentions": 11,
+   "sources": [
+    "gwent",
+    "scavenger"
+   ],
+   "refs": [
+    "g018",
+    "g096",
+    "g098",
+    "g103",
+    "g105",
+    "g118",
+    "g226",
+    "g227",
+    "g228",
+    "s036",
+    "s135"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "Crow's Perch",
+   "mentions": 9,
+   "sources": [
+    "gwent",
+    "scavenger"
+   ],
+   "refs": [
+    "g002",
+    "g094",
+    "g097",
+    "g108",
+    "g114",
+    "g115",
+    "g126",
+    "g231",
+    "s035"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "The Golden Sturgeon",
+   "mentions": 9,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g120",
+    "g121",
+    "g181",
+    "g194",
+    "g205"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "Passiflora",
+   "mentions": 7,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g005",
+    "g006",
+    "g195",
+    "g206",
+    "g226",
+    "g227",
+    "g228"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "Midcopse",
+   "mentions": 5,
+   "sources": [
+    "gwent",
+    "scavenger"
+   ],
+   "refs": [
+    "g003",
+    "g009",
+    "g019",
+    "g112",
+    "s087"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "Claywich",
+   "mentions": 5,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g008",
+    "g095",
+    "g102",
+    "g117",
+    "g122"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "Crossroads",
+   "mentions": 5,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g098",
+    "g109",
+    "g111",
+    "g116",
+    "g119"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "Cunny of the Goose",
+   "mentions": 5,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g106",
+    "g124",
+    "g190",
+    "g197",
+    "g239"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "Seven Cats Inn",
+   "mentions": 5,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g107",
+    "g125",
+    "g193",
+    "g204",
+    "g232"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "The Kingfisher Inn",
+   "mentions": 5,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g189",
+    "g192",
+    "g203",
+    "g212",
+    "g213"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "The Kingfisher Inn's",
+   "mentions": 5,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g189",
+    "g192",
+    "g203",
+    "g212",
+    "g213"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "Arinbjorn",
+   "mentions": 4,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g021",
+    "g053",
+    "g058",
+    "g065"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "Harviken",
+   "mentions": 4,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g049",
+    "g051",
+    "g067",
+    "g074"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "Urialla Harbor",
+   "mentions": 4,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g054",
+    "g076",
+    "g187",
+    "g241"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "Svorlag",
+   "mentions": 4,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g055",
+    "g066",
+    "g068",
+    "g073"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "The New Port",
+   "mentions": 4,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g060",
+    "g063"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "Upper Mill",
+   "mentions": 3,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g061",
+    "g198",
+    "g244"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "Goose's",
+   "mentions": 3,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g190",
+    "g197",
+    "g239"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "Inn at the Crossroads",
+   "mentions": 3,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g226",
+    "g227",
+    "g228"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "Crossroads's",
+   "mentions": 3,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g226",
+    "g227",
+    "g228"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "Kaer Trolde",
+   "mentions": 3,
+   "sources": [
+    "scavenger"
+   ],
+   "refs": [
+    "s001",
+    "s138",
+    "s140"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "Glory Gate",
+   "mentions": 3,
+   "sources": [
+    "scavenger"
+   ],
+   "refs": [
+    "s089",
+    "s136",
+    "s139"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "The New Port Inn",
+   "mentions": 2,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g056"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "Till Death Do You",
+   "mentions": 2,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g071",
+    "g072"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "Goose",
+   "mentions": 2,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g106",
+    "g124"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "from The Golden Sturgeon",
+   "mentions": 2,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g120",
+    "g121"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "Francollarts",
+   "mentions": 2,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g145",
+    "g148"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "The Scarlet Cardinal Inn",
+   "mentions": 2,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g148"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "The Perfumery",
+   "mentions": 2,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g153"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "Tourney Ground",
+   "mentions": 2,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g158",
+    "g162"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "Blackbough",
+   "mentions": 2,
+   "sources": [
+    "scavenger"
+   ],
+   "refs": [
+    "s033",
+    "s034"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "Hierarch Square",
+   "mentions": 2,
+   "sources": [
+    "scavenger"
+   ],
+   "refs": [
+    "s088",
+    "s137"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  }
+ ],
+ "regions": [
+  {
+   "name": "Skellige",
+   "mentions": 13,
+   "sources": [
+    "gwent",
+    "scavenger"
+   ],
+   "refs": [
+    "g049",
+    "g051",
+    "g053",
+    "g054",
+    "g055",
+    "g056",
+    "g068",
+    "g073",
+    "g076",
+    "g187",
+    "g240",
+    "g241",
+    "s001"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "White Orchard",
+   "mentions": 6,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g001",
+    "g004",
+    "g007",
+    "g011",
+    "g230",
+    "g236"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "Novigrad",
+   "mentions": 5,
+   "sources": [
+    "gwent",
+    "scavenger"
+   ],
+   "refs": [
+    "g181",
+    "g194",
+    "s089",
+    "s136",
+    "s139"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "Beauclair",
+   "mentions": 4,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g149",
+    "g150",
+    "g153",
+    "g155"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  },
+  {
+   "name": "Vizima",
+   "mentions": 1,
+   "sources": [
+    "gwent"
+   ],
+   "refs": [
+    "g013"
+   ],
+   "map": null,
+   "x": null,
+   "y": null
+  }
+ ]
+}

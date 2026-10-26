@@ -1,0 +1,2992 @@
+[
+ {
+  "id": "a001",
+  "category": "Alcohol/Quest",
+  "name": "ALCOHEST",
+  "known": false,
+  "ingredients": [
+   "1x Empty bottle",
+   "1x Cherry cordial",
+   "1x Nilfgaardian lemon",
+   "1x Balisse fruit"
+  ],
+  "row": 4,
+  "effect": "Alchemy ingredient",
+  "charges": null,
+  "toxicity": null,
+  "duration": null,
+  "formula": "Location"
+ },
+ {
+  "id": "a002",
+  "category": "Alcohol/Quest",
+  "name": "CHORT LURE",
+  "known": false,
+  "ingredients": [
+   "1x Fiend dung",
+   "2x Crow's eye"
+  ],
+  "row": 8,
+  "effect": "Attracts a chort during the Contract: Mysterious Tracks",
+  "charges": null,
+  "toxicity": null,
+  "duration": null,
+  "formula": "Location"
+ },
+ {
+  "id": "a003",
+  "category": "Alcohol/Quest",
+  "name": "CLEANSING MIXTURE",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "2x Rotfiend blood",
+   "2x Wolfsbane"
+  ],
+  "row": 10,
+  "effect": "Makes the consumer feel ill",
+  "charges": null,
+  "toxicity": null,
+  "duration": null,
+  "formula": "Location"
+ },
+ {
+  "id": "a004",
+  "category": "Alcohol/Quest",
+  "name": "DWARVEN SPIRIT",
+  "known": false,
+  "ingredients": [
+   "1x Empty bottle",
+   "2x Mahakaman spirit",
+   "1x White myrtle petals"
+  ],
+  "row": 13,
+  "effect": "Alchemy ingredient",
+  "charges": null,
+  "toxicity": null,
+  "duration": null,
+  "formula": "Location"
+ },
+ {
+  "id": "a005",
+  "category": "Alcohol/Quest",
+  "name": "WHITE GULL",
+  "known": false,
+  "ingredients": [
+   "1x Empty bottle",
+   "1x Redanian herbal",
+   "1x Cherry cordial",
+   "1x Mandrake cordial",
+   "1x Arenaria"
+  ],
+  "row": 16,
+  "effect": "Alchemy ingredient",
+  "charges": null,
+  "toxicity": null,
+  "duration": null,
+  "formula": "Location"
+ },
+ {
+  "id": "a006",
+  "category": "Alcohol/Quest",
+  "name": "REINALD'S PHILTER",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "4x Celandine",
+   "1x Reinald's Secret Ingredient"
+  ],
+  "row": 21,
+  "effect": "Increases Sign intensity and accelerates Stamina regeneration",
+  "charges": "1.0",
+  "toxicity": "50.0",
+  "duration": "360s",
+  "formula": "Location"
+ },
+ {
+  "id": "a007",
+  "category": "Alcohol/Quest",
+  "name": "PAINT BALL - BLUE",
+  "known": false,
+  "ingredients": [
+   "-"
+  ],
+  "row": 24,
+  "effect": "Leaves blue paint splatters on surfaces",
+  "charges": "3.0",
+  "toxicity": null,
+  "duration": null,
+  "formula": "Location"
+ },
+ {
+  "id": "a008",
+  "category": "Alcohol/Quest",
+  "name": "PAINT BALL - GREEN",
+  "known": false,
+  "ingredients": [
+   "-"
+  ],
+  "row": 26,
+  "effect": "Leaves green paint splatters on surfaces",
+  "charges": "3.0",
+  "toxicity": null,
+  "duration": null,
+  "formula": "Location"
+ },
+ {
+  "id": "a009",
+  "category": "Alcohol/Quest",
+  "name": "PAINT BALL - PURPLE",
+  "known": false,
+  "ingredients": [
+   "-"
+  ],
+  "row": 28,
+  "effect": "Leaves purple paint splatters on surfaces",
+  "charges": "3.0",
+  "toxicity": null,
+  "duration": null,
+  "formula": "Location"
+ },
+ {
+  "id": "a010",
+  "category": "Alcohol/Quest",
+  "name": "PAINT BALL - RED",
+  "known": false,
+  "ingredients": [
+   "-"
+  ],
+  "row": 30,
+  "effect": "Leaves red paint splatters on surfaces",
+  "charges": "3.0",
+  "toxicity": null,
+  "duration": null,
+  "formula": "Location"
+ },
+ {
+  "id": "a011",
+  "category": "Alcohol/Quest",
+  "name": "PAINT BALL - YELLOW",
+  "known": false,
+  "ingredients": [
+   "-"
+  ],
+  "row": 32,
+  "effect": "Leaves yellow paint splatters on surfaces",
+  "charges": "3.0",
+  "toxicity": null,
+  "duration": null,
+  "formula": "Location"
+ },
+ {
+  "id": "a012",
+  "category": "Alcohol/Quest",
+  "name": "SHAELMAAR BAIT",
+  "known": false,
+  "ingredients": [
+   "1x Fresh human blood",
+   "3x Sewant Mushrooms"
+  ],
+  "row": 34,
+  "effect": "Attracts a shaelmaar during the Contract: The Tufo Monster",
+  "charges": null,
+  "toxicity": null,
+  "duration": null,
+  "formula": "Location"
+ },
+ {
+  "id": "a013",
+  "category": "Alcohol/Quest",
+  "name": "SNOWBALL",
+  "known": false,
+  "ingredients": [
+   "-"
+  ],
+  "row": 36,
+  "effect": "Can be thrown during a snowball fight",
+  "charges": "3.0",
+  "toxicity": null,
+  "duration": null,
+  "formula": "Location"
+ },
+ {
+  "id": "a014",
+  "category": "Bombs",
+  "name": "DANCING STAR",
+  "known": false,
+  "ingredients": [
+   "1x Saltpeter",
+   "2x Sulfur"
+  ],
+  "row": 4,
+  "effect": "Produces a fiery explosion that can cause nearby opponents to start burning. Destroys monster nests. 100 Fire damage",
+  "charges": "3.0",
+  "duration": "4s",
+  "formula": "Location"
+ },
+ {
+  "id": "a015",
+  "category": "Bombs",
+  "name": "ENHANCED DANCING STAR",
+  "known": false,
+  "ingredients": [
+   "1x Stammelford's dust",
+   "1x Dancing Star",
+   "1x Phosphorus",
+   "1x Sulfur",
+   "1x Sewant mushrooms",
+   "1x Hellebore petals",
+   "1x Nostrix"
+  ],
+  "row": 8,
+  "effect": "Produces a fiery explosion that can cause nearby opponents to start burning. Enhanced effect. Destroys monster nests. 200 Fire damage",
+  "charges": "3.0",
+  "duration": "7s",
+  "formula": "Location"
+ },
+ {
+  "id": "a016",
+  "category": "Bombs",
+  "name": "SUPERIOR DANCING STAR",
+  "known": false,
+  "ingredients": [
+   "1x Alchemists' powder",
+   "1x Enhanced Dancing Star",
+   "2x Phosphorus",
+   "2x Sulfur",
+   "2x Sewant mushrooms",
+   "2x Nostrix",
+   "1x Nigredo"
+  ],
+  "row": 15,
+  "effect": "Produces a fiery explosion that ignites the surrounding area. Enhanced and extended effect. Destroys monster nests. 300 Fire damage",
+  "charges": "4.0",
+  "duration": "13s",
+  "formula": "Location"
+ },
+ {
+  "id": "a017",
+  "category": "Bombs",
+  "name": "DEVIL'S PUFFBALL",
+  "known": false,
+  "ingredients": [
+   "1x Saltpeter",
+   "2x Sewant mushrooms"
+  ],
+  "row": 22,
+  "effect": "Releases a cloud of poison when detonated. 10s Effect duration 100 Poison damage",
+  "charges": "2.0",
+  "duration": "10s",
+  "formula": "Location"
+ },
+ {
+  "id": "a018",
+  "category": "Bombs",
+  "name": "ENHANCED DEVIL'S PUFFBALL",
+  "known": false,
+  "ingredients": [
+   "1x Stammelford's dust",
+   "1x Devil's Puffball",
+   "1x Calcium equum",
+   "1x Endrega heart",
+   "1x Sewant mushrooms",
+   "1x Ginatia petals",
+   "1x Green mold"
+  ],
+  "row": 25,
+  "effect": "Releases a cloud of poison when detonated. Enhanced effect. 30s Effect duration +100 Poison damage",
+  "charges": "3.0",
+  "duration": "30s",
+  "formula": "Location"
+ },
+ {
+  "id": "a019",
+  "category": "Bombs",
+  "name": "SUPERIOR DEVIL'S PUFFBALL",
+  "known": false,
+  "ingredients": [
+   "1x Alchemists' powder",
+   "1x Enhanced Devil's Puffball",
+   "2x Calcium equum",
+   "2x Endrega heart",
+   "2x Sewant mushrooms",
+   "2x Ginatia petals",
+   "1x Rebis"
+  ],
+  "row": 32,
+  "effect": "Releases a cloud of poison when detonated. Enhanced and extended effect. 33s Effect duration 100 Poison damage",
+  "charges": "4.0",
+  "duration": "33s",
+  "formula": "Location"
+ },
+ {
+  "id": "a020",
+  "category": "Bombs",
+  "name": "DIMERITIUM BOMB",
+  "known": false,
+  "ingredients": [
+   "5x Saltpeter",
+   "2x Optima mater"
+  ],
+  "row": 39,
+  "effect": "Releases a cloud of dimeritium slivers that block magic and monsters' magic abilities. 15s Effect duration",
+  "charges": "2.0",
+  "duration": "15s",
+  "formula": "Location"
+ },
+ {
+  "id": "a021",
+  "category": "Bombs",
+  "name": "ENHANCED DIMERITIUM BOMB",
+  "known": false,
+  "ingredients": [
+   "1x Stammelford's dust",
+   "1x Dimeritium bomb",
+   "1x Optima mater",
+   "1x Powdered pearl",
+   "1x Blowball",
+   "1x Ginatia petals",
+   "1x Bloodmoss"
+  ],
+  "row": 42,
+  "effect": "Releases a cloud of dimeritium slivers that block magic and monsters' magic abilities. 30s Effect duration",
+  "charges": "3.0",
+  "duration": "30s",
+  "formula": "Location"
+ },
+ {
+  "id": "a022",
+  "category": "Bombs",
+  "name": "SUPERIOR DIMERITIUM BOMB",
+  "known": false,
+  "ingredients": [
+   "1x Alchemists' powder",
+   "1x Enhanced Dimeritium bomb",
+   "2x Optima mater",
+   "2x Powdered Pearl",
+   "2x Puffball",
+   "2x Bloodmoss",
+   "1x Nigredo"
+  ],
+  "row": 49,
+  "effect": "Releases a cloud of dimeritium slivers that block magic and monsters' magic abilities. The blockade survives for a short time after the cloud dissipates. 30s Effect duration",
+  "charges": "4.0",
+  "duration": "30s",
+  "formula": "Location"
+ },
+ {
+  "id": "a023",
+  "category": "Bombs",
+  "name": "DRAGON'S DREAM",
+  "known": false,
+  "ingredients": [
+   "1x Saltpeter",
+   "2x Phosphorus"
+  ],
+  "row": 56,
+  "effect": "Releases a cloud of gas that explodes when ignited. 15s Effect duration +300 Fire damage",
+  "charges": "2.0",
+  "duration": "15s",
+  "formula": "Location"
+ },
+ {
+  "id": "a024",
+  "category": "Bombs",
+  "name": "ENHANCED DRAGON'S DREAM",
+  "known": false,
+  "ingredients": [
+   "1x Stammelford's dust",
+   "1x Dragon's Dream",
+   "1x Phosphorus",
+   "1x Optima mater",
+   "1x Mistletoe",
+   "1x Allspice",
+   "1x Bryonia"
+  ],
+  "row": 59,
+  "effect": "Releases a cloud of gas that explodes when ignited. Enhanced effect and chance to apply Burning. 30s Effect duration +400 Fire damage",
+  "charges": "3.0",
+  "duration": "30s",
+  "formula": "Location"
+ },
+ {
+  "id": "a025",
+  "category": "Bombs",
+  "name": "SUPERIOR DRAGON'S DREAM",
+  "known": false,
+  "ingredients": [
+   "1x Alchemists' powder",
+   "1x Enhanced Dragon's Dream",
+   "2x Phosphorus",
+   "2x Optima mater",
+   "2x Allspice",
+   "2x Bryonia",
+   "1x Aether"
+  ],
+  "row": 66,
+  "effect": "Releases a cloud of gas that exploded when ignited. Enhanced effect and chance to apply Burning. Foes it kills explode, wounding others nearby. 30s Effect duration +400 Fire damage",
+  "charges": "4.0",
+  "duration": "30s",
+  "formula": "Location"
+ },
+ {
+  "id": "a026",
+  "category": "Bombs",
+  "name": "GRAPESHOT",
+  "known": false,
+  "ingredients": [
+   "2x Saltpeter",
+   "2x Calcium equum"
+  ],
+  "row": 73,
+  "effect": "Inflicts shrapnel damage to foes within its explosion radius. Deals a small amount of fire damage. Destroys monster nests. +350 Physical damage +350 Silver damage +5 Fire damage",
+  "charges": "2.0",
+  "duration": null,
+  "formula": "Location"
+ },
+ {
+  "id": "a027",
+  "category": "Bombs",
+  "name": "ENHANCED GRAPESHOT",
+  "known": false,
+  "ingredients": [
+   "1x Stammelford's dust",
+   "1x Grapeshot",
+   "1x Calcium equum",
+   "1x Blowball",
+   "1x Crow's eye",
+   "1x Longrube"
+  ],
+  "row": 79,
+  "effect": "Inflicts shrapnel damage to foes within its explosion radius. Deals fire damage. Enhanced effect. Destroys monster nests. 600 Physical damage 600 Silver damage 10 Fire damage",
+  "charges": "3.0",
+  "duration": null,
+  "formula": "Location"
+ },
+ {
+  "id": "a028",
+  "category": "Bombs",
+  "name": "SUPERIOR GRAPESHOT",
+  "known": false,
+  "ingredients": [
+   "1x Alchemists' powder",
+   "1x Enhanced Grapeshot",
+   "2x Calcium equum",
+   "2x Sulfur",
+   "2x Longrube",
+   "2x Hop Umbels",
+   "1x Nigredo"
+  ],
+  "row": 85,
+  "effect": "Inflicts shrapnel damage to foes within its explosion radius. Deals fire damage. Enhanced effect. Damage ignores enemy armor. Destroys monster nests. 900 Physical damage 900 Silver damage 10 Fire damage",
+  "charges": "4.0",
+  "duration": null,
+  "formula": "Location"
+ },
+ {
+  "id": "a029",
+  "category": "Bombs",
+  "name": "MOON DUST",
+  "known": false,
+  "ingredients": [
+   "1x Saltpeter",
+   "2x Quicksilver solution"
+  ],
+  "row": 92,
+  "effect": "Contains silver splinters that temporarily prevent monsters from transforming. 20s Effect duration",
+  "charges": "2.0",
+  "duration": "20s",
+  "formula": "Location"
+ },
+ {
+  "id": "a030",
+  "category": "Bombs",
+  "name": "ENHANCED MOON DUST",
+  "known": false,
+  "ingredients": [
+   "1x Stammelford's dust",
+   "1x Moon Dust",
+   "1x Quicksilver solution",
+   "1x Sulfur",
+   "1x Hop umbels",
+   "1x Blowball",
+   "1x Honeysuckle"
+  ],
+  "row": 95,
+  "effect": "Contains silver splinters that temporarily prevent monsters from transforming. Extended duration. 40s Effect duration",
+  "charges": "3.0",
+  "duration": "40s",
+  "formula": "Location"
+ },
+ {
+  "id": "a031",
+  "category": "Bombs",
+  "name": "SUPERIOR MOON DUST",
+  "known": false,
+  "ingredients": [
+   "1x Alchemists' powder",
+   "1x Enhanced Moon Dust",
+   "2x Quicksilver Solution",
+   "2x Sulfur",
+   "2x Hop Umbels",
+   "2x Blowball",
+   "1x Nigredo"
+  ],
+  "row": 102,
+  "effect": "Contains silver splinters that permanently prevent monsters from transforming",
+  "charges": "4.0",
+  "duration": null,
+  "formula": "Location"
+ },
+ {
+  "id": "a032",
+  "category": "Bombs",
+  "name": "NORTHERN WIND",
+  "known": false,
+  "ingredients": [
+   "1x Saltpeter",
+   "1x Ducal water",
+   "1x Powdered pearl",
+   "2x Allspice"
+  ],
+  "row": 109,
+  "effect": "Freezes foes. Blows landed on frozen foes deal additional damage. 4s Effect duration",
+  "charges": "2.0",
+  "duration": "4s",
+  "formula": "Location"
+ },
+ {
+  "id": "a033",
+  "category": "Bombs",
+  "name": "ENHANCED NORTHERN WIND",
+  "known": false,
+  "ingredients": [
+   "1x Stammelford's dust",
+   "1x Northern Wind",
+   "2x Ducal Water",
+   "1x Powdered Pearl",
+   "1x Fool's Parsley Leaves",
+   "1x Verbena",
+   "2x Allspice"
+  ],
+  "row": 113,
+  "effect": "Freezes foes. Blows landed on frozen foes deal additional damage. Extended duration",
+  "charges": "3.0",
+  "duration": "7s",
+  "formula": "Location"
+ },
+ {
+  "id": "a034",
+  "category": "Bombs",
+  "name": "SUPERIOR NORTHERN WIND",
+  "known": false,
+  "ingredients": [
+   "1x Saltpeter",
+   "1x Enhanced Northern Wind",
+   "3x Ducal Water",
+   "2x Powdered Pearl",
+   "2x Verbena",
+   "3x Allspice",
+   "1x Quebrith"
+  ],
+  "row": 120,
+  "effect": "Freezes foes. Blows landed on frozen foes deal additional damage. Extended duration. Chance of instant kill. 10s Effect duration",
+  "charges": "4.0",
+  "duration": "10s",
+  "formula": "Location"
+ },
+ {
+  "id": "a035",
+  "category": "Bombs",
+  "name": "PHEREMONE BOMB  *Only added with console commands *",
+  "known": false,
+  "ingredients": [
+   "DISMANTLING",
+   "1x Leather scraps",
+   "1x String"
+  ],
+  "row": 127,
+  "effect": "Pheromone bomb is an unused bomb in The Witcher 3: Wild Hunt. They cannot be thrown",
+  "charges": null,
+  "duration": null,
+  "formula": "Location"
+ },
+ {
+  "id": "a036",
+  "category": "Bombs",
+  "name": "SAMUM",
+  "known": false,
+  "ingredients": [
+   "1x Saltpeter",
+   "2x Celandine"
+  ],
+  "row": 130,
+  "effect": "Blinds opponents within its explosion radius. Destroys monster nests",
+  "charges": "2.0",
+  "duration": null,
+  "formula": "Location"
+ },
+ {
+  "id": "a037",
+  "category": "Bombs",
+  "name": "ENHANCED SAMUM",
+  "known": false,
+  "ingredients": [
+   "1x Stammelford's dust",
+   "1x Samum",
+   "1x Phosphorus",
+   "1x Foglet teeth",
+   "1x Celandine",
+   "1x Blowball"
+  ],
+  "row": 133,
+  "effect": "Blinds opponents within its explosion radius. Extended duration. Destroys monster nests. 600 Physical damage 600 Silver damage 10 Fire damage",
+  "charges": "3.0",
+  "duration": null,
+  "formula": "Location"
+ },
+ {
+  "id": "a038",
+  "category": "Bombs",
+  "name": "SUPERIOR SAMUM",
+  "known": false,
+  "ingredients": [
+   "1x Alchemists' powder",
+   "1x Enhanced Samum",
+   "2x Phosphorus",
+   "2x Foglet teeth",
+   "2x Celandine",
+   "2x Hellebore Petals",
+   "1x Aether"
+  ],
+  "row": 139,
+  "effect": "Blinds opponents within its explosion radius. Extended duration. The first hit landed on a blinded opponent is always critical. Destroys monster nests. 100% Critical hit chance 8s Effect duration",
+  "charges": "4.0",
+  "duration": "8s",
+  "formula": "Location"
+ },
+ {
+  "id": "a039",
+  "category": "Bombs",
+  "name": "TRAINING BOMB",
+  "known": false,
+  "ingredients": [
+   "Given during the Kaer Morhen tutorial quest"
+  ],
+  "row": 146,
+  "effect": "Creates a grey gas explosion",
+  "charges": "3.0",
+  "duration": null,
+  "formula": "Location"
+ },
+ {
+  "id": "a040",
+  "category": "Decoctions",
+  "name": "ALGHOUL DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "5x Lesser red mutagen",
+   "1x Alghoul bone marrow",
+   "1x Buckthorn"
+  ],
+  "row": 4,
+  "effect": "Adrenaline Points are generated more quickly than normal until the first successful enemy attack. 50% Adrenaline Point gain",
+  "charges": "1.0",
+  "toxicity": "50.0",
+  "duration": "1800s",
+  "formula": "Location"
+ },
+ {
+  "id": "a041",
+  "category": "Decoctions",
+  "name": "ANCIENT LESHEN DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "1x Ancient leshen mutagen",
+   "1x Mandrake root",
+   "1x Ginatia petals",
+   "1x Honeysuckle"
+  ],
+  "row": 9,
+  "effect": "Each Sign cast increases Stamina regeneration for the remainder of the fight. + Stamina regeneration in combat",
+  "charges": "1.0",
+  "toxicity": "50.0",
+  "duration": "1800s",
+  "formula": "Location"
+ },
+ {
+  "id": "a042",
+  "category": "Decoctions",
+  "name": "ARACHAS DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "1x Arachas mutagen",
+   "1x White myrtle petals"
+  ],
+  "row": 14,
+  "effect": "Reduces damage received based on armor and inventory weight: less weight carried and lighter armor means less damage is taken",
+  "charges": "1.0",
+  "toxicity": "50.0",
+  "duration": "1800s",
+  "formula": "Location"
+ },
+ {
+  "id": "a043",
+  "category": "Decoctions",
+  "name": "ARCHGRIFFIN DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "1x Archgriffin mutagen",
+   "1x Ribleaf",
+   "1x Blowball"
+  ],
+  "row": 19,
+  "effect": "If any Stamina is available, strong attacks consume all of it and reduce the struck foe's Vitality by 5% after their normal damage is calculated",
+  "charges": "1.0",
+  "toxicity": "50.0",
+  "duration": "1800s",
+  "formula": "Location"
+ },
+ {
+  "id": "a044",
+  "category": "Decoctions",
+  "name": "BASILISK DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "1x Basilisk mutagen",
+   "1x Blowball",
+   "1x Fool's parsley leaves",
+   "1x Beggartick blossoms"
+  ],
+  "row": 24,
+  "effect": "Applies a buff increasing the intensity of a randomly selected Sign at dusk and dawn. Lasts longer than other mutagen decoctions",
+  "charges": "1.0",
+  "toxicity": "40.0",
+  "duration": "5760s",
+  "formula": "Location"
+ },
+ {
+  "id": "a045",
+  "category": "Decoctions",
+  "name": "CHORT DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "1x Chort mutagen",
+   "1x Puffball",
+   "1x Cortinarius"
+  ],
+  "row": 29,
+  "effect": "Provides complete resistance to the Stagger effect and reduces the Knock-down effects to Stagger",
+  "charges": "1.0",
+  "toxicity": "50.0",
+  "duration": "1800s",
+  "formula": "Location"
+ },
+ {
+  "id": "a046",
+  "category": "Decoctions",
+  "name": "COCKATRICE DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "1x Cockatrice mutagen",
+   "1x Crow's eye"
+  ],
+  "row": 33,
+  "effect": "All alchemy creations can be used one additional time",
+  "charges": "1.0",
+  "toxicity": "50.0",
+  "duration": "1800s",
+  "formula": "Location"
+ },
+ {
+  "id": "a047",
+  "category": "Decoctions",
+  "name": "DOPPLER DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "1x Doppler mutagen",
+   "1x Han fiber",
+   "1x Longrube"
+  ],
+  "row": 36,
+  "effect": "Increases critical hit damage when attacking from behind. 50% Increased damage",
+  "charges": "1.0",
+  "toxicity": "50.0",
+  "duration": "1800s",
+  "formula": "Location"
+ },
+ {
+  "id": "a048",
+  "category": "Decoctions",
+  "name": "EARTH ELEMENTAL DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "1x Earth elemental mutagen",
+   "1x Balisse fruit",
+   "1x Pringrape"
+  ],
+  "row": 40,
+  "effect": "Increases the witcher's resistance to Vitality-depleting critical effects applied during combat. The resistance level rises the longer the critical effects is applied",
+  "charges": "1.0",
+  "toxicity": "50.0",
+  "duration": "1800s",
+  "formula": "Location"
+ },
+ {
+  "id": "a049",
+  "category": "Decoctions",
+  "name": "EKHIDNA DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "1x Ekhidna mutagen",
+   "1x Ribleaf",
+   "1x Berbercane fruit"
+  ],
+  "row": 46,
+  "effect": "Performing actions that consume Stamina regenerates Vitality",
+  "charges": "1.0",
+  "toxicity": "50.0",
+  "duration": "1800s",
+  "formula": "Location"
+ },
+ {
+  "id": "a050",
+  "category": "Decoctions",
+  "name": "EKIMMARA DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "1x Ekimmara mutagen",
+   "1x White myrtle petals",
+   "1x Mandrake root"
+  ],
+  "row": 50,
+  "effect": "Damage dealt to foes regenerates Vitality. 10% Vitality drain",
+  "charges": "1.0",
+  "toxicity": "50.0",
+  "duration": "1800s",
+  "formula": "Location"
+ },
+ {
+  "id": "a051",
+  "category": "Decoctions",
+  "name": "FIEND DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "1x Fiend mutagen",
+   "1x Hellebore petals",
+   "1x Fool's parsley leaves",
+   "1x Arenaria"
+  ],
+  "row": 54,
+  "effect": "Increases the amount of weight the witcher can carry without being overburdened. 20 Maximum carry weight",
+  "charges": "1.0",
+  "toxicity": "50.0",
+  "duration": "1800s",
+  "formula": "Location"
+ },
+ {
+  "id": "a052",
+  "category": "Decoctions",
+  "name": "FOGLET DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "1x Foglet mutagen",
+   "1x Fool's parsley leaves",
+   "1x Blowball"
+  ],
+  "row": 59,
+  "effect": "Increases Sign Intensity during cloudy weather. 25% Sign intensity",
+  "charges": "1.0",
+  "toxicity": "50.0",
+  "duration": "1800s",
+  "formula": "Location"
+ },
+ {
+  "id": "a053",
+  "category": "Decoctions",
+  "name": "FORKTAIL DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "1x Forktail mutagen",
+   "1x Moleyarrow",
+   "1x Bryonia"
+  ],
+  "row": 63,
+  "effect": "Combining various attacks (strong strikes, fast strikes, Signs) grants a bonus that increases Attack Power for the next attack mounted or Sign Intensity for the next Sign cast. 50% Attack power 50% Sign intensity",
+  "charges": "1.0",
+  "toxicity": "50.0",
+  "duration": "1800s",
+  "formula": "Location"
+ },
+ {
+  "id": "a054",
+  "category": "Decoctions",
+  "name": "GRAVE HAG DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "1x Grave hag mutagen",
+   "1x Longrube",
+   "1x Cortinarius"
+  ],
+  "row": 70,
+  "effect": "Each foe slain accelerates Vitality regeneration for the duration of the battle. 10 Vitality regeneration during combat",
+  "charges": "1.0",
+  "toxicity": "50.0",
+  "duration": "1800s",
+  "formula": "Location"
+ },
+ {
+  "id": "a055",
+  "category": "Decoctions",
+  "name": "GRIFFIN DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "1x Griffin mutagen",
+   "1x Oil",
+   "1x Bryonia",
+   "1x Wolf's liver"
+  ],
+  "row": 74,
+  "effect": "Taking damage raises damage resistance (up to an upper limit) for the remainder of the fight. 1% Resistance to slashing damage 1% Resistance to piercing damage 1% Resistance to bludgeoning damage 1% Resistance to damage from monsters 1% Resistance to elemental damage",
+  "charges": "1.0",
+  "toxicity": "50.0",
+  "duration": "1800s",
+  "formula": "Location"
+ },
+ {
+  "id": "a056",
+  "category": "Decoctions",
+  "name": "KATAKAN DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "1x Katakan mutagen",
+   "1x Verbena",
+   "1x Arenaria"
+  ],
+  "row": 85,
+  "effect": "Increases critical hit chance. 10% Critical hit chance",
+  "charges": "1.0",
+  "toxicity": "50.0",
+  "duration": "1800s",
+  "formula": "Location"
+ },
+ {
+  "id": "a057",
+  "category": "Decoctions",
+  "name": "LESHEN DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "1x Leshen mutagen",
+   "1x Moleyarrow",
+   "1x Pringrape"
+  ],
+  "row": 89,
+  "effect": "A portion of the damage dealt by enemies is reflected back on the attacker. 10 Damage returned 10% Damage returned",
+  "charges": "1.0",
+  "toxicity": "50.0",
+  "duration": "1800s",
+  "formula": "Location"
+ },
+ {
+  "id": "a058",
+  "category": "Decoctions",
+  "name": "NEKKER WARRIOR DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "1x Nekker warrior mutagen",
+   "1x Fool's parsley leaves",
+   "1x Ranogrin"
+  ],
+  "row": 93,
+  "effect": "Mounts never panic. 50% increase to mounted combat damage. 50% Attack power",
+  "charges": "1.0",
+  "toxicity": "50.0",
+  "duration": "1800s",
+  "formula": "Location"
+ },
+ {
+  "id": "a059",
+  "category": "Decoctions",
+  "name": "NIGHTWRAITH DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "1x Nightwraith mutagen",
+   "1x Mistletoe",
+   "1x Sewant mushrooms"
+  ],
+  "row": 97,
+  "effect": "Geralt's maximum Vitality is increased with each foe killed. This increase lasts until he meditates or fast travels. 50 Vitality",
+  "charges": "1.0",
+  "toxicity": "50.0",
+  "duration": "1800s",
+  "formula": "Location"
+ },
+ {
+  "id": "a060",
+  "category": "Decoctions",
+  "name": "NOONWRAITH DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "1x Noonwraith mutagen",
+   "1x Ginatia petals",
+   "1x Ergot seeds"
+  ],
+  "row": 101,
+  "effect": "Significantly limits the duration of Knockdown, Hypnosis, Stun and Blindness",
+  "charges": "1.0",
+  "toxicity": "50.0",
+  "duration": "1800s",
+  "formula": "Location"
+ },
+ {
+  "id": "a061",
+  "category": "Decoctions",
+  "name": "RELIEVER'S DECOCTION",
+  "known": false,
+  "ingredients": [
+   "5x Dwarven spirit",
+   "4x Lesser red mutagen",
+   "4x Lesser green mutagen",
+   "4x Lesser blue mutagen",
+   "1x Essence of wraith"
+  ],
+  "row": 105,
+  "effect": "Increases damage dealt and decreases damage taken against wraiths. Attacking a specter prevents it from using its abilities and turning immaterial. +10% Attack power versus Specters +15% Resistance to slashing damage +15% Resistance to piercing damage +15% Resistance to bludgeoning damage +15% Resistance to damage from monsters +15% Resistance to elemental damage",
+  "charges": "1.0",
+  "toxicity": "50.0",
+  "duration": "1800s",
+  "formula": "Location"
+ },
+ {
+  "id": "a062",
+  "category": "Decoctions",
+  "name": "SUCCUBUS DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "1x Succubus mutagen",
+   "1x Green mold",
+   "1x Allspice"
+  ],
+  "row": 119,
+  "effect": "Attack Power grows over the course of a fight until reaching a maximum threshold. 1% Attack power",
+  "charges": "1.0",
+  "toxicity": "50.0",
+  "duration": "1800s",
+  "formula": "Location"
+ },
+ {
+  "id": "a063",
+  "category": "Decoctions",
+  "name": "THE DECOCTIONS OF THE GRASSES",
+  "known": false,
+  "ingredients": [
+   "1x Forktail spinal fluid",
+   "1x Manticore poison gland",
+   "1x Albino bruxa tongue",
+   "1x Bryonia",
+   "1x Ribleaf",
+   "1x Mandrake"
+  ],
+  "row": 123,
+  "effect": "Used to begin the process by which a normal human body is mutated into that of a witcher.",
+  "charges": null,
+  "toxicity": null,
+  "duration": null,
+  "formula": "Location"
+ },
+ {
+  "id": "a064",
+  "category": "Decoctions",
+  "name": "TROLL DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "1x Troll mutagen",
+   "1x Crow's eye",
+   "1x Honeysuckle"
+  ],
+  "row": 129,
+  "effect": "Regenerates Vitality during and outside of combat. 100 Vitality regeneration 20 Vitality regeneration during combat",
+  "charges": "1.0",
+  "toxicity": "50.0",
+  "duration": "1800s",
+  "formula": "Location"
+ },
+ {
+  "id": "a065",
+  "category": "Decoctions",
+  "name": "WATER HAG DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "1x Water hag mutagen",
+   "1x Berbercane fruit"
+  ],
+  "row": 133,
+  "effect": "Damage dealt is increased when Vitality is at its maximum. 50% Increased damage",
+  "charges": "1.0",
+  "toxicity": "50.0",
+  "duration": "1800s",
+  "formula": "Location"
+ },
+ {
+  "id": "a066",
+  "category": "Decoctions",
+  "name": "WEREWOLF DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "1x Werewolf mutagen",
+   "1x Beggartick blossoms",
+   "1x Hop umbels"
+  ],
+  "row": 136,
+  "effect": "Running, sprinting and jumping outside combat does not use Stamina. 50% Stamina regeneration in combat. Siginificantly increases Stamina regeneration during a clear, moonlit night",
+  "charges": "1.0",
+  "toxicity": "50.0",
+  "duration": "1800s",
+  "formula": "Location"
+ },
+ {
+  "id": "a067",
+  "category": "Decoctions",
+  "name": "WHITE RAFFORD'S DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "2x Ribleaf",
+   "4x Nekker heart"
+  ],
+  "row": 142,
+  "effect": "Immediately restores a portion of Vitality. 35% Vitality (Non-NG+) 60% Vitality (NG+)",
+  "charges": "2.0",
+  "toxicity": "25.0",
+  "duration": null,
+  "formula": "Location"
+ },
+ {
+  "id": "a068",
+  "category": "Decoctions",
+  "name": "ENHANCED WHITE RAFFORD'S DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x Alcohest",
+   "1x White Raffard's Decoction",
+   "4x Ribleaf",
+   "1x Bryonia",
+   "5x Nekker heart"
+  ],
+  "row": 145,
+  "effect": "Immediately restores a large portion of Vitality. 60% Vitality (Non-NG+) 80% Vitality (NG+)",
+  "charges": "2.0",
+  "toxicity": "25.0",
+  "duration": null,
+  "formula": "Location"
+ },
+ {
+  "id": "a069",
+  "category": "Decoctions",
+  "name": "SUPERIOR WHITE RAFFORD'S DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x White gull",
+   "1x Enhanced White Raffard's Decoction",
+   "4x Ribleaf",
+   "4x Bryonia",
+   "1x Pringrape",
+   "1x Bison grass",
+   "1x Vermilion"
+  ],
+  "row": 150,
+  "effect": "Restores Vitality immediately and fully. Grants immunity to damage for a short duration. 100% Vitality (Both Non-NG+ and NG+)",
+  "charges": "3.0",
+  "toxicity": "25.0",
+  "duration": "3s",
+  "formula": "Location"
+ },
+ {
+  "id": "a070",
+  "category": "Decoctions",
+  "name": "WRAITH DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "1x Wraith mutagen",
+   "1x Blowball",
+   "1x Nostrix"
+  ],
+  "row": 157,
+  "effect": "Whenever a single hit drains more than a third of Vitality, a Quen shield is activated which protects against the next attack",
+  "charges": "1.0",
+  "toxicity": "50.0",
+  "duration": "1800s",
+  "formula": "Location"
+ },
+ {
+  "id": "a071",
+  "category": "Decoctions",
+  "name": "WYVERN DECOCTION",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "1x Wyvern mutagen",
+   "1x Moleyarrow",
+   "1x Celandine"
+  ],
+  "row": 161,
+  "effect": "Each blow landed increases Attack Power until either the fight ends or damage (other than that from Toxicity) is taken. 1% Attack power",
+  "charges": "1.0",
+  "toxicity": "50.0",
+  "duration": "1800s",
+  "formula": "Location"
+ },
+ {
+  "id": "a072",
+  "category": "Oils",
+  "name": "BEAST OIL",
+  "known": false,
+  "ingredients": [
+   "1x Dog Tallow",
+   "1x Wolf's Liver"
+  ],
+  "row": 4,
+  "effect": "10% Attack power versus Beasts",
+  "charges": "20.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a073",
+  "category": "Oils",
+  "name": "ENHANCED BEAST OIL",
+  "known": false,
+  "ingredients": [
+   "5x Bear Fat",
+   "1x Beast Oil",
+   "1x Bear Hide",
+   "1x Celandine",
+   "1x Puffball",
+   "1x Bison Grass"
+  ],
+  "row": 7,
+  "effect": "25% Attack power versus Beasts",
+  "charges": "40.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a074",
+  "category": "Oils",
+  "name": "SUPERIOR BEAST OIL",
+  "known": false,
+  "ingredients": [
+   "1x Alchemy Paste",
+   "1x Enhanced Beast Oil",
+   "1x Cockatrice Stomach",
+   "1x Celandine",
+   "1x Puffball",
+   "1x Bison Grass",
+   "1x Rubedo"
+  ],
+  "row": 13,
+  "effect": "50% Attack power versus Beasts",
+  "charges": "60.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a075",
+  "category": "Oils",
+  "name": "CURSED OIL",
+  "known": false,
+  "ingredients": [
+   "1x Dog Tallow",
+   "4x Wolfsbane"
+  ],
+  "row": 20,
+  "effect": "10% Attack power versus Cursed Ones",
+  "charges": "20.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a076",
+  "category": "Oils",
+  "name": "ENHANCED CURSED OIL",
+  "known": false,
+  "ingredients": [
+   "1x Bear Fat",
+   "1x Cursed Oil",
+   "1x Ekimmara Hide",
+   "1x Puffball",
+   "1x Wolfsbane",
+   "1x Balisse Fruit",
+   "1x Wolf's Liver"
+  ],
+  "row": 23,
+  "effect": "25% Attack power versus Cursed Ones",
+  "charges": "40.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a077",
+  "category": "Oils",
+  "name": "SUPERIOR CURSED OIL",
+  "known": false,
+  "ingredients": [
+   "1x Alchemy Paste",
+   "1x Enhanced Cursed Oil",
+   "1x Ekimmara Hide",
+   "1x Cave Troll Liver",
+   "1x Wolfsbane",
+   "1x Mistletoe",
+   "1x Rubedo"
+  ],
+  "row": 30,
+  "effect": "50% Attack power versus Cursed Ones",
+  "charges": "60.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a078",
+  "category": "Oils",
+  "name": "DRACONID OIL",
+  "known": false,
+  "ingredients": [
+   "1x Dog Tallow",
+   "4x Ergot Seeds"
+  ],
+  "row": 37,
+  "effect": "10% Attack power versus Draconids",
+  "charges": "20.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a079",
+  "category": "Oils",
+  "name": "ENHANCED DRACONID OIL",
+  "known": false,
+  "ingredients": [
+   "1x Bear Fat",
+   "1x Draconid Oil",
+   "1x Cockatrice Stomach",
+   "1x Nekker Warrior's Liver",
+   "1x Moleyarrow",
+   "1x Arenaria",
+   "1x Bryonia"
+  ],
+  "row": 40,
+  "effect": "25% Attack power versus Draconids",
+  "charges": "40.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a080",
+  "category": "Oils",
+  "name": "SUPERIOR DRACONID OIL",
+  "known": false,
+  "ingredients": [
+   "1x Alchemy Paste",
+   "1x Enhanced Draconid Oil",
+   "1x Cockatrice Stomach",
+   "1x Nekker Warrior's Liver",
+   "1x Nostrix",
+   "1x Bryonia",
+   "1x Albedo"
+  ],
+  "row": 47,
+  "effect": "50% Attack power versus Draconids",
+  "charges": "60.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a081",
+  "category": "Oils",
+  "name": "ELEMENTA OIL",
+  "known": false,
+  "ingredients": [
+   "1x Dog Tallow",
+   "4x Puffball"
+  ],
+  "row": 54,
+  "effect": "10% Attack power versus Elementa",
+  "charges": "20.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a082",
+  "category": "Oils",
+  "name": "ENHANCED ELEMENTA OIL",
+  "known": false,
+  "ingredients": [
+   "1x Bear Fat",
+   "1x Elementa Oil",
+   "1x Moleyarrow",
+   "1x Puffball",
+   "1x Allspice",
+   "1x Honeysuckle",
+   "1x Buckthorn"
+  ],
+  "row": 57,
+  "effect": "25% Attack power versus Elementa",
+  "charges": "40.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a083",
+  "category": "Oils",
+  "name": "SUPERIOR ELEMENTA OIL",
+  "known": false,
+  "ingredients": [
+   "1x Alchemy Paste",
+   "1x Enhanced Elementa Oil",
+   "1x Nostrix",
+   "1x Essence of Wraith",
+   "1x Allspice",
+   "1x Honeysuckle",
+   "1x Albedo"
+  ],
+  "row": 64,
+  "effect": "50% Attack power versus Elementa",
+  "charges": "60.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a084",
+  "category": "Oils",
+  "name": "HANGED MAN'S VENOM",
+  "known": false,
+  "ingredients": [
+   "1x Dog Tallow",
+   "4x Arenaria"
+  ],
+  "row": 71,
+  "effect": "10% Attack power versus humans and nonhumans",
+  "charges": "20.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a085",
+  "category": "Oils",
+  "name": "ENHANCED HANGED MAN'S VENOM",
+  "known": false,
+  "ingredients": [
+   "1x Bear Fat",
+   "1x Hanged Man's Venom",
+   "1x Han Fiber",
+   "1x Nekker Eye",
+   "1x Fool's Parsley Leaves",
+   "1x Arenaria",
+   "1x Mandrake Root"
+  ],
+  "row": 74,
+  "effect": "25% Attack power versus humans and nonhumans",
+  "charges": "40.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a086",
+  "category": "Oils",
+  "name": "SUPERIOR HANGED MAN'S VENOM",
+  "known": false,
+  "ingredients": [
+   "1x Alchemy Paste",
+   "1x Enhanced Hanged Man's Venom",
+   "1x Bloodmoss",
+   "1x Devourer's Blood",
+   "1x Fool's Parsley Leaves",
+   "1x Green Mold",
+   "1x Quebrith"
+  ],
+  "row": 81,
+  "effect": "50% Attack power against humans and nonhumans",
+  "charges": "60.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a087",
+  "category": "Oils",
+  "name": "HYBRID OIL",
+  "known": false,
+  "ingredients": [
+   "1x Dog Tallow",
+   "4x White Myrtle Petals"
+  ],
+  "row": 88,
+  "effect": "10% Attack power versus Hybrids",
+  "charges": "20.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a088",
+  "category": "Oils",
+  "name": "ENHANCED HYBRID OIL",
+  "known": false,
+  "ingredients": [
+   "1x Bear Fat",
+   "1x Hybrid Oil",
+   "1x Erynia Eye",
+   "1x Ginatia Petals",
+   "1x White Myrtle Petals",
+   "1x Hornwort",
+   "1x Bryonia"
+  ],
+  "row": 91,
+  "effect": "25% Attack power versus Hybrids",
+  "charges": "40.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a089",
+  "category": "Oils",
+  "name": "SUPERIOR HYBRID OIL",
+  "known": false,
+  "ingredients": [
+   "1x Alchemy Paste",
+   "1x Enhanced hybrid Oil",
+   "1x Erynia Eye",
+   "1x Ginatia Petals",
+   "1x White Myrtle Petals",
+   "1x Bison Grass",
+   "1x Albedo"
+  ],
+  "row": 98,
+  "effect": "50% Attack power versus Hybrids",
+  "charges": "60.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a090",
+  "category": "Oils",
+  "name": "INSECTOID OIL",
+  "known": false,
+  "ingredients": [
+   "1x Dog Tallow",
+   "4x Ranogrin"
+  ],
+  "row": 105,
+  "effect": "10% Attack power versus Insectoids",
+  "charges": "20.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a091",
+  "category": "Oils",
+  "name": "ENHANCED INSECTOID OIL",
+  "known": false,
+  "ingredients": [
+   "1x Bear Fat",
+   "1x Insectoid Oil",
+   "1x Endrega Heart",
+   "1x Puffball",
+   "1x Renogrin",
+   "1x Hornwort",
+   "1x Honeysuckle"
+  ],
+  "row": 108,
+  "effect": "25% Attack power versus Insectoids",
+  "charges": "40.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a092",
+  "category": "Oils",
+  "name": "SUPERIOR INSECTOID OIL",
+  "known": false,
+  "ingredients": [
+   "1x Alchemy Paste",
+   "1x Enhanced Insectoid Oil",
+   "1x Endrega Heart",
+   "1x Puffball",
+   "1x Hornwort",
+   "1x Bloodmoss",
+   "1x Hydragenum"
+  ],
+  "row": 115,
+  "effect": "50% Attack power versus Insectoids",
+  "charges": "60.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a093",
+  "category": "Oils",
+  "name": "NECROPHAGE OIL",
+  "known": false,
+  "ingredients": [
+   "1x Dog Tallow",
+   "4x Blowball"
+  ],
+  "row": 122,
+  "effect": "10% Attack power versus Necrophages",
+  "charges": "20.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a094",
+  "category": "Oils",
+  "name": "ENHANCED NECROPHAGE OIL",
+  "known": false,
+  "ingredients": [
+   "4x Bear Fat",
+   "1x Necrophage Oil",
+   "1x Rotfiend Blood",
+   "1x Blowball",
+   "1x Arenaria",
+   "1x Pringrape",
+   "1x Cortinarius"
+  ],
+  "row": 125,
+  "effect": "25% Attack power versus Necrophages",
+  "charges": "40.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a095",
+  "category": "Oils",
+  "name": "SUPERIOR NECROPHAGE OIL",
+  "known": false,
+  "ingredients": [
+   "5x Alchemy Paste",
+   "1x Enhanced Necrophage Oil",
+   "1x Devourer's Blood",
+   "1x Beggartick Blossoms",
+   "1x Arenaria",
+   "1x Pringrape",
+   "1x Hydragenum"
+  ],
+  "row": 132,
+  "effect": "50% Attack power versus Necrophages",
+  "charges": "60.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a096",
+  "category": "Oils",
+  "name": "OGROID OIL",
+  "known": false,
+  "ingredients": [
+   "1x Bear Fat",
+   "4x Ginatia Petals"
+  ],
+  "row": 139,
+  "effect": "10% Attack power versus Ogroids",
+  "charges": "20.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a097",
+  "category": "Oils",
+  "name": "ENHANCED OGROID OIL",
+  "known": false,
+  "ingredients": [
+   "2x Bear Fat",
+   "1x Ogroid Oil",
+   "1x Cave Troll Liver",
+   "1x Longrube",
+   "1x Ranogrin",
+   "1x Ginatia Petals",
+   "1x Ribleaf"
+  ],
+  "row": 142,
+  "effect": "25% Attack power versus Ogroids",
+  "charges": "40.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a098",
+  "category": "Oils",
+  "name": "SUPERIOR OGROID OIL",
+  "known": false,
+  "ingredients": [
+   "2x Alchemy Paste",
+   "1x Enhanced Ogroid Oil",
+   "1x Cave Troll Liver",
+   "1x Arenaria",
+   "1x Ranogrin",
+   "1x Ribleaf",
+   "1x Aether"
+  ],
+  "row": 149,
+  "effect": "50% Attack power versus Ogroids",
+  "charges": "60.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a099",
+  "category": "Oils",
+  "name": "RELICT OIL",
+  "known": false,
+  "ingredients": [
+   "1x Dog Tallow",
+   "5x Mistletoe"
+  ],
+  "row": 156,
+  "effect": "10% Attack power versus Relicts",
+  "charges": "20.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a100",
+  "category": "Oils",
+  "name": "ENHANCED RELICT OIL",
+  "known": false,
+  "ingredients": [
+   "1x Bear Fat",
+   "1x Relict Oil",
+   "1x Water Hag Tooth",
+   "1x Cave Troll Liver",
+   "1x Beggartick Blossoms",
+   "1x Hop Umbels",
+   "1x Green Mold"
+  ],
+  "row": 159,
+  "effect": "25% Attack power versus Relicts",
+  "charges": "40.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a101",
+  "category": "Oils",
+  "name": "SUPERIOR RELICT OIL",
+  "known": false,
+  "ingredients": [
+   "4x Alchemy Paste",
+   "1x Enhanced Relict Oil",
+   "1x Devourer's Blood",
+   "1x Hop Umbels",
+   "1x Beggartick Blossoms",
+   "1x Green Mold",
+   "1x Nigredo"
+  ],
+  "row": 166,
+  "effect": "50% Attack power versus Relicts",
+  "charges": "60.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a102",
+  "category": "Oils",
+  "name": "SPECTER OIL",
+  "known": false,
+  "ingredients": [
+   "1x Bear Fat",
+   "4x Arenaria"
+  ],
+  "row": 173,
+  "effect": "10% Attack power versus Specters",
+  "charges": "20.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a103",
+  "category": "Oils",
+  "name": "ENHANCED SPECTER OIL",
+  "known": false,
+  "ingredients": [
+   "1x Bear Fat",
+   "1x Specter Oil",
+   "1x Essence of Wraith",
+   "1x Arenaria",
+   "1x Mistletoe",
+   "1x Wolf's Liver"
+  ],
+  "row": 176,
+  "effect": "25% Attack power versus Specters",
+  "charges": "40.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a104",
+  "category": "Oils",
+  "name": "SUPERIOR SPECTER OIL",
+  "known": false,
+  "ingredients": [
+   "1x Alchemy Paste",
+   "1x Enhanced Specter Oil",
+   "1x Essence of Wraith",
+   "1x Longrube",
+   "1x Mistletoe",
+   "1x Ergot Seeds",
+   "1x Rebis"
+  ],
+  "row": 182,
+  "effect": "50% Attack power versus Specters",
+  "charges": "60.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a105",
+  "category": "Oils",
+  "name": "VAMPIRE OIL",
+  "known": false,
+  "ingredients": [
+   "2x Dog Tallow",
+   "4x Ducal Water"
+  ],
+  "row": 189,
+  "effect": "10% Attack power versus Vampires",
+  "charges": "20.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a106",
+  "category": "Oils",
+  "name": "ENHANCED VAMPIRE OIL",
+  "known": false,
+  "ingredients": [
+   "2x Bear Fat",
+   "1x Vampire Oil",
+   "1x Fifth Essence",
+   "1x Wine Stone",
+   "1x Cortinarius",
+   "1x Wolfsbane",
+   "1x Ribleaf"
+  ],
+  "row": 192,
+  "effect": "25% Attack power versus Vampires",
+  "charges": "40.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a107",
+  "category": "Oils",
+  "name": "SUPERIOR VAMPIRE OIL",
+  "known": false,
+  "ingredients": [
+   "2x Alchemy Paste",
+   "1x Enhanced Vampire Oil",
+   "1x Fifth Essence",
+   "1x Wine Stone",
+   "1x Cortinarius",
+   "1x Wolfsbane",
+   "1x Vermilion"
+  ],
+  "row": 199,
+  "effect": "50% Attack power versus Vampires",
+  "charges": "60.0",
+  "formula": "Location"
+ },
+ {
+  "id": "a108",
+  "category": "Potions",
+  "name": "BEAR PHEROMONES  *Only added with console commands *",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven Spirit",
+   "1x Berbercane Fruit",
+   "1x Ergot Seeds",
+   "1x Hellebore Petals"
+  ],
+  "row": 4,
+  "effect": "Bears will not attack the witcher",
+  "charges": null,
+  "toxicity": "15.0",
+  "duration": "90s",
+  "formula": "Location"
+ },
+ {
+  "id": "a109",
+  "category": "Potions",
+  "name": "BLACK BLOOD",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven Spirit",
+   "2x Sewant Mushrooms",
+   "4x Ghoul's Blood"
+  ],
+  "row": 8,
+  "effect": "Witcher's blood injures vampires and necrophages when they wound him. 15% Damage returned",
+  "charges": "3.0",
+  "toxicity": "25.0",
+  "duration": "30s",
+  "formula": "Location"
+ },
+ {
+  "id": "a110",
+  "category": "Potions",
+  "name": "EHANCED BLACK BLOOD",
+  "known": false,
+  "ingredients": [
+   "1x Alcohest",
+   "1x Black Blood",
+   "1x Hellebore Petals",
+   "5x Sewant Mushrooms",
+   "5x Ghoul's Blood"
+  ],
+  "row": 12,
+  "effect": "Witcher's blood injures and knocks back vampires and necrophages when they wound him. 20% Damage returned",
+  "charges": "4.0",
+  "toxicity": "25.0",
+  "duration": "45s",
+  "formula": "Location"
+ },
+ {
+  "id": "a111",
+  "category": "Potions",
+  "name": "SUPERIOR BLACK BLOOD",
+  "known": false,
+  "ingredients": [
+   "1x White Gull",
+   "1x Enhanced Black Blood",
+   "5x Hellebore Petals",
+   "5x Sewant Mushrooms",
+   "1x Han Fiber",
+   "1x Nostrix",
+   "1x Rebis"
+  ],
+  "row": 17,
+  "effect": "Vampires and necrophages start bleeding when near the witcher. In addition, the witcher's blood injures and knocks them back when they wound him. 30% Damage returned",
+  "charges": "5.0",
+  "toxicity": "25.0",
+  "duration": "60s",
+  "formula": "Location"
+ },
+ {
+  "id": "a112",
+  "category": "Potions",
+  "name": "BLIZZARD",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven Spirit",
+   "5x White Myrtle Petals",
+   "1x Golem's Heart"
+  ],
+  "row": 24,
+  "effect": "Whenever you slay an enemy, time slows for a short period. 20% Slowdown",
+  "charges": "2.0",
+  "toxicity": "20.0",
+  "duration": "8s",
+  "formula": "Location"
+ },
+ {
+  "id": "a113",
+  "category": "Potions",
+  "name": "ENHANCED BLIZZARD",
+  "known": false,
+  "ingredients": [
+   "1x Alcohest",
+   "1x Blizzard",
+   "1x Celandine",
+   "5x White Myrtle Petals",
+   "1x Golem's Heart"
+  ],
+  "row": 28,
+  "effect": "Whenever you slay an enemy, time slows for a short period. Extended duration. 30% Slowdown",
+  "charges": "3.0",
+  "toxicity": "20.0",
+  "duration": "10s",
+  "formula": "Location"
+ },
+ {
+  "id": "a114",
+  "category": "Potions",
+  "name": "SUPERIOR BLIZZARD",
+  "known": false,
+  "ingredients": [
+   "1x White Gull",
+   "1x Enhanced Blizzard",
+   "4x Celandine",
+   "4x White Myrtle Petals",
+   "1x Sewant Mushrooms",
+   "1x Buckthorn",
+   "1x Rebis"
+  ],
+  "row": 33,
+  "effect": "Whenever you slay an enemy, time slows for a short period. If 3 Adrenaline Points are available, during this period actions don't deplete Stamina. 40% Slowdown",
+  "charges": "4.0",
+  "toxicity": "20.0",
+  "duration": "12s",
+  "formula": "Location"
+ },
+ {
+  "id": "a115",
+  "category": "Potions",
+  "name": "CAT",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven Spirit",
+   "4x Berbercane Fruit",
+   "2x Water Essence"
+  ],
+  "row": 40,
+  "effect": "Grants sight in total darkness. 25 Range of vision. +5% Critical hit chance",
+  "charges": "3.0",
+  "toxicity": "15.0",
+  "duration": "60s",
+  "formula": "Location"
+ },
+ {
+  "id": "a116",
+  "category": "Potions",
+  "name": "ENHANCED CAT",
+  "known": false,
+  "ingredients": [
+   "1x Alcohest",
+   "1x Cat",
+   "5x Berbercane Fruit",
+   "1x Cortinarius",
+   "3x Water Essence"
+  ],
+  "row": 44,
+  "effect": "Grants sight in total darkness and immunity to hypnosis. Extended duration. 25 Range of vision +7% Critical hit chance",
+  "charges": "4.0",
+  "toxicity": "15.0",
+  "duration": "120s",
+  "formula": "Location"
+ },
+ {
+  "id": "a117",
+  "category": "Potions",
+  "name": "SUPERIOR CAT",
+  "known": false,
+  "ingredients": [
+   "1x White Gull",
+   "1x Enhanced Cat",
+   "4x Berbercane Fruit",
+   "4x Cortinarius",
+   "1x Moleyarrow",
+   "1x Allspice",
+   "1x Aether"
+  ],
+  "row": 49,
+  "effect": "Grants sight in total darkness and immunity to hypnosis. Extended duration. 25 Range of vision +10% Critical hit chance",
+  "charges": "5.0",
+  "toxicity": "15.0",
+  "duration": "180s",
+  "formula": "Location"
+ },
+ {
+  "id": "a118",
+  "category": "Potions",
+  "name": "DROWNER PHEROMONES",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven Spirit",
+   "1x Drowner Brain",
+   "1x Sewant Mushrooms",
+   "1x Puffball"
+  ],
+  "row": 56,
+  "effect": "Drowners will not attack the witcher",
+  "charges": "2.0",
+  "toxicity": "15.0",
+  "duration": "90s",
+  "formula": "Location"
+ },
+ {
+  "id": "a119",
+  "category": "Potions",
+  "name": "FULL MOON",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven Spirit",
+   "2x Wolfsbane",
+   "1x Dark Essence"
+  ],
+  "row": 60,
+  "effect": "Increases maximum Vitality. 300 Vitality",
+  "charges": "3.0",
+  "toxicity": "25.0",
+  "duration": "60s",
+  "formula": "Location"
+ },
+ {
+  "id": "a120",
+  "category": "Potions",
+  "name": "ENHANCED FULL MOON",
+  "known": false,
+  "ingredients": [
+   "1x Alcohest",
+   "1x Full Moon",
+   "2x Crow's Eye",
+   "5x Wolfsbane",
+   "2x Dark Essence"
+  ],
+  "row": 64,
+  "effect": "Increases maximum Vitality. Extended duration. 1100 Vitality (650)",
+  "charges": "4.0",
+  "toxicity": "25.0",
+  "duration": "90s",
+  "formula": "Location"
+ },
+ {
+  "id": "a121",
+  "category": "Potions",
+  "name": "SUPERIOR FULL MOON",
+  "known": false,
+  "ingredients": [
+   "1x White Gull",
+   "1x Enhanced Full Moon",
+   "1x Mistletoe",
+   "1x Verbena",
+   "4x Crow's Eye",
+   "4x Wolfsbane",
+   "1x Quebrith"
+  ],
+  "row": 69,
+  "effect": "Increases maximum Vitality. Extended duration. Heals Vitality by an amount equal to current Toxicity 1500 Vitality (1000)",
+  "charges": "5.0",
+  "toxicity": "25.0",
+  "duration": "180s",
+  "formula": "Location"
+ },
+ {
+  "id": "a122",
+  "category": "Potions",
+  "name": "GOLDEN ORIOLE",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven Spirit",
+   "4x Blowball",
+   "1x Light Essence"
+  ],
+  "row": 76,
+  "effect": "Grants immunity to poisons, neutralizes the effects of poisons already in bloodstream",
+  "charges": "3.0",
+  "toxicity": "25.0",
+  "duration": "60s",
+  "formula": "Location"
+ },
+ {
+  "id": "a123",
+  "category": "Potions",
+  "name": "ENHANCED GOLDEN ORIOLE",
+  "known": false,
+  "ingredients": [
+   "1x Alcohest",
+   "1x Golden Oriole",
+   "6x Blowball",
+   "1x Celandine",
+   "2x Light essence"
+  ],
+  "row": 80,
+  "effect": "Grants immunity to poisons, neutralizes the effects of poisons already in bloodstream. Extended duration",
+  "charges": "4.0",
+  "toxicity": "25.0",
+  "duration": "120s",
+  "formula": "Location"
+ },
+ {
+  "id": "a124",
+  "category": "Potions",
+  "name": "SUPERIOR GOLDEN ORIOLE",
+  "known": false,
+  "ingredients": [
+   "1x White gull",
+   "1x Enhanced Golden Oriole",
+   "4x Blowball",
+   "4x Celandine",
+   "1x Han fiber",
+   "1x Ranogrin",
+   "1x Quebrith"
+  ],
+  "row": 85,
+  "effect": "Extended duration. Poisons now heal instead of doing damage",
+  "charges": "5.0",
+  "toxicity": "25.0",
+  "duration": "180s",
+  "formula": "Location"
+ },
+ {
+  "id": "a125",
+  "category": "Potions",
+  "name": "KILLER WHALE",
+  "known": false,
+  "ingredients": [
+   "2x Dwarven spirit",
+   "5x Balisse fruit",
+   "6x Buckthorn",
+   "5x Drowner tongue"
+  ],
+  "row": 92,
+  "effect": "Increases breath supply while underwater by 50% and improves vision while diving. 50% breath",
+  "charges": "3.0",
+  "toxicity": "15.0",
+  "duration": "180s",
+  "formula": "Location"
+ },
+ {
+  "id": "a126",
+  "category": "Potions",
+  "name": "MARIBOR FOREST",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "3x Berbercane fruit",
+   "1x Alghoul bone marrow",
+   "4x Drowner tongue"
+  ],
+  "row": 96,
+  "effect": "Accelerates the generation of Adrenaline Points. 0.15 Adrenaline Point gain",
+  "charges": "3.0",
+  "toxicity": "20.0",
+  "duration": "30s",
+  "formula": "Location"
+ },
+ {
+  "id": "a127",
+  "category": "Potions",
+  "name": "ENHANCED MARIBOR FOREST",
+  "known": false,
+  "ingredients": [
+   "1x Alcohest",
+   "1x Maribor Forest",
+   "5x Berbercane fruit",
+   "1x Crow's eye",
+   "2x Drowner tongue"
+  ],
+  "row": 100,
+  "effect": "Accelerates the generation of Adrenaline Points. Extended duration. 0.15 Adrenaline Point gain",
+  "charges": "4.0",
+  "toxicity": "20.0",
+  "duration": "60s",
+  "formula": "Location"
+ },
+ {
+  "id": "a128",
+  "category": "Potions",
+  "name": "SUPERIOR MARIBOR FOREST",
+  "known": false,
+  "ingredients": [
+   "1x White gull",
+   "1x Enhanced Maribor Forest",
+   "4x Berbercane fruit",
+   "4x Crow's eye",
+   "1x Hellebore petals",
+   "1x Ribleaf",
+   "1x Vermilion"
+  ],
+  "row": 105,
+  "effect": "Accelerates the generation of Adrenaline Points. Extended duration. Grants 1 Adrenaline Point upon consumption. 0.15 Adrenaline Point gain",
+  "charges": "5.0",
+  "toxicity": "20.0",
+  "duration": "90s",
+  "formula": "Location"
+ },
+ {
+  "id": "a129",
+  "category": "Potions",
+  "name": "NEKKER PHEROMONES  *Only added with console commands *",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "1x Green mold",
+   "1x Drowner brain",
+   "1x Moleyarrow"
+  ],
+  "row": 112,
+  "effect": "Nekkers do not attack",
+  "charges": null,
+  "toxicity": "15.0",
+  "duration": "90s",
+  "formula": "Location"
+ },
+ {
+  "id": "a130",
+  "category": "Potions",
+  "name": "PETRI'S PHILTER",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "5x Arenaria",
+   "1x Specter dust"
+  ],
+  "row": 116,
+  "effect": "Increases Sign intensity. 15% Sign intensity",
+  "charges": "3.0",
+  "toxicity": "25.0",
+  "duration": "30s",
+  "formula": "Location"
+ },
+ {
+  "id": "a131",
+  "category": "Potions",
+  "name": "ENHANCED PETRI'S PHILTER",
+  "known": false,
+  "ingredients": [
+   "1x Alcohest",
+   "1x Petri's Philter",
+   "6x Arenaria",
+   "1x Buckthorn",
+   "2x Specter dust"
+  ],
+  "row": 120,
+  "effect": "Increases Sign intensity. Extended duration. 20% Sign intensity",
+  "charges": "4.0",
+  "toxicity": "25.0",
+  "duration": "60s",
+  "formula": "Location"
+ },
+ {
+  "id": "a132",
+  "category": "Potions",
+  "name": "SUPERIOR PETRI'S PHILTER",
+  "known": false,
+  "ingredients": [
+   "1x White gull",
+   "1x Enhanced Petri's Philter",
+   "4x Arenaria",
+   "4x Buckthorn",
+   "1x Longrube",
+   "1x Ranogrin",
+   "1x Rubedo"
+  ],
+  "row": 125,
+  "effect": "Increases Sign intensity. Extended duration. Signs always apply their special effects. 25% Sign intensity",
+  "charges": "5.0",
+  "toxicity": "25.0",
+  "duration": "90s",
+  "formula": "Location"
+ },
+ {
+  "id": "a133",
+  "category": "Potions",
+  "name": "POPS' MOLD ANTIDOTE",
+  "known": false,
+  "ingredients": [
+   "4x White myrtle petals",
+   "1x Celandine",
+   "1x Hellebore petals"
+  ],
+  "row": 132,
+  "effect": "Grants temporary immunity to pops' mold",
+  "charges": "3.0",
+  "toxicity": "25-30",
+  "duration": "360s",
+  "formula": "Location"
+ },
+ {
+  "id": "a134",
+  "category": "Potions",
+  "name": "POTION OF CLEARANCE",
+  "known": false,
+  "ingredients": [
+   "-"
+  ],
+  "row": 136,
+  "effect": "Returns all Ability Points spent to develop Abilities to the available pool so you can redistribute them",
+  "charges": "1.0",
+  "toxicity": null,
+  "duration": null,
+  "formula": "Location"
+ },
+ {
+  "id": "a135",
+  "category": "Potions",
+  "name": "POTION OF RESTORATION",
+  "known": false,
+  "ingredients": [
+   "-"
+  ],
+  "row": 140,
+  "effect": "Returns all Ability Points spent developing mutations to the pool so you can reallocate them. Mutagens spent developing mutations will not be returned",
+  "charges": "1.0",
+  "toxicity": null,
+  "duration": null,
+  "formula": "Location"
+ },
+ {
+  "id": "a136",
+  "category": "Potions",
+  "name": "SWALLOW",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "5x Celandine",
+   "1x Drowner brain"
+  ],
+  "row": 146,
+  "effect": "Accelerates Vitality regeneration. Vitality regeneration pauses for 2 seconds upon receiving damage. 80 (40) (Patch 4.0)Vitality regeneration 40 Vitality regeneration during combat",
+  "charges": "3.0",
+  "toxicity": "20.0",
+  "duration": "20s",
+  "formula": "Location"
+ },
+ {
+  "id": "a137",
+  "category": "Potions",
+  "name": "ENHANCED SWALLOW",
+  "known": false,
+  "ingredients": [
+   "1x Alcohest",
+   "1x Swallow",
+   "6x Celandine",
+   "4x White myrtle petals",
+   "5x Drowner brain"
+  ],
+  "row": 153,
+  "effect": "Accelerates Vitality regeneration. Vitality regeneration pauses for 2 seconds upon receiving damage. 100 (65) (Patch 4.0) Vitality regeneration 65 Vitality regeneration during combat",
+  "charges": "4.0",
+  "toxicity": "20.0",
+  "duration": "20s",
+  "formula": "Location"
+ },
+ {
+  "id": "a138",
+  "category": "Potions",
+  "name": "SUPERIOR SWALLOW",
+  "known": false,
+  "ingredients": [
+   "1x White gull",
+   "1x Enhanced Swallow",
+   "6x Berbercane fruit",
+   "6x White myrtle petals",
+   "4x Celandine",
+   "4x Crow's eye",
+   "2x Vitriol"
+  ],
+  "row": 160,
+  "effect": "Accelerates Vitality regeneration. Taking damage does not interrupt regeneration. 150 (80)(Patch 4.0) Vitality regeneration 80 Vitality regeneration during combat",
+  "charges": "5.0",
+  "toxicity": "20.0",
+  "duration": "20s",
+  "formula": "Location"
+ },
+ {
+  "id": "a139",
+  "category": "Potions",
+  "name": "TAWNEY OWL",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "2x Verbena",
+   "1x Arachas venom"
+  ],
+  "row": 167,
+  "effect": "Accelerates Stamina regneration. 5% Stamina regeneration in combat",
+  "charges": "3.0",
+  "toxicity": "20.0",
+  "duration": "30s",
+  "formula": "Location"
+ },
+ {
+  "id": "a140",
+  "category": "Potions",
+  "name": "ENHANCED TAWNEY OWL",
+  "known": false,
+  "ingredients": [
+   "1x Alcohest",
+   "1x Tawny Owl",
+   "4x Verbena",
+   "2x Wolfsbane",
+   "1x Arachas venom"
+  ],
+  "row": 171,
+  "effect": "Accelerates Stamina regeneration. Extended duration. 8% Stamina regeneration in combat",
+  "charges": "4.0",
+  "toxicity": "20.0",
+  "duration": "45s",
+  "formula": "Location"
+ },
+ {
+  "id": "a141",
+  "category": "Potions",
+  "name": "SUPERIOR TAWNEY OWL",
+  "known": false,
+  "ingredients": [
+   "1x White gull",
+   "1x Enhanced Tawny Owl",
+   "4x Verbena",
+   "4x Wolfsbane",
+   "1x Fool's parsley leaves",
+   "1x Mandrake root",
+   "1x Sewant mushrooms"
+  ],
+  "row": 176,
+  "effect": "Accelerates Stamina regeneration. Extended duration. Never expires at night. 10% Stamina regeneration in combat",
+  "charges": "5.0",
+  "toxicity": "20.0",
+  "duration": "60s",
+  "formula": "Location"
+ },
+ {
+  "id": "a142",
+  "category": "Potions",
+  "name": "THUNDERBOLT",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "2x Cortinarius",
+   "1x Endrega embryo"
+  ],
+  "row": 183,
+  "effect": "Increases Attack Power. 30% Attack power",
+  "charges": "3.0",
+  "toxicity": "25.0",
+  "duration": "30s",
+  "formula": "Location"
+ },
+ {
+  "id": "a143",
+  "category": "Potions",
+  "name": "ENHANCED THUNDERBOLT",
+  "known": false,
+  "ingredients": [
+   "1x Alcohest",
+   "1x Thunderbolt",
+   "2x Cortinarius",
+   "1x Fool's parsley leaves",
+   "2x Endrega embryo"
+  ],
+  "row": 187,
+  "effect": "Increases Attack Power. Extended duration. 30% Attack power",
+  "charges": "4.0",
+  "toxicity": "25.0",
+  "duration": "60s",
+  "formula": "Location"
+ },
+ {
+  "id": "a144",
+  "category": "Potions",
+  "name": "SUPERIOR THUNDERBOLT",
+  "known": false,
+  "ingredients": [
+   "1x White gull",
+   "1x Enhanced Thunderbolt",
+   "4x Cortinarius",
+   "4x Fool's parsley leaves",
+   "1x Verbena",
+   "1x Bryonia",
+   "1x Quebrith"
+  ],
+  "row": 192,
+  "effect": "Extended duration. Grants 100% critical hit chance during storms. 35% Attack power",
+  "charges": "5.0",
+  "toxicity": "25.0",
+  "duration": "90s",
+  "formula": "Location"
+ },
+ {
+  "id": "a145",
+  "category": "Potions",
+  "name": "WHITE HONEY",
+  "known": false,
+  "ingredients": [
+   "1x Dwarven spirit",
+   "1x Honeysuckle"
+  ],
+  "row": 199,
+  "effect": "Clears Toxicity and cancels all active potion effects",
+  "charges": "1.0",
+  "toxicity": null,
+  "duration": null,
+  "formula": "Location"
+ },
+ {
+  "id": "a146",
+  "category": "Potions",
+  "name": "ENHANCED WHITE HONEY",
+  "known": false,
+  "ingredients": [
+   "1x Alcohest",
+   "1x White Honey",
+   "2x Honeysuckle",
+   "1x White myrtle petals"
+  ],
+  "row": 202,
+  "effect": "Clears Toxicity and cancels all active potion effects",
+  "charges": "2.0",
+  "toxicity": null,
+  "duration": null,
+  "formula": "Location"
+ },
+ {
+  "id": "a147",
+  "category": "Potions",
+  "name": "SUPERIOR WHITE HONEY",
+  "known": false,
+  "ingredients": [
+   "1x White gull",
+   "1x Enhanced White Honey",
+   "4x Honeysuckle",
+   "4x White myrtle petals",
+   "1x Balisse fruit",
+   "1x Hellebore petals",
+   "1x Vitriol"
+  ],
+  "row": 206,
+  "effect": "Clears Toxicity and cancels all active potion effects",
+  "charges": "5.0",
+  "toxicity": null,
+  "duration": null,
+  "formula": "Location"
+ },
+ {
+  "id": "a148",
+  "category": "Potions",
+  "name": "WOLVEN HOUR",
+  "known": false,
+  "ingredients": [
+   "Potion is added automatically"
+  ],
+  "row": 213,
+  "effect": "Temporarily lowers the required level of all items by 2",
+  "charges": "1.0",
+  "toxicity": null,
+  "duration": "1 hour",
+  "formula": "Location"
+ },
+ {
+  "id": "a149",
+  "category": "Substances",
+  "name": "AETHER",
+  "known": false,
+  "ingredients": [
+   "1x Han Fiber",
+   "1x White Gull",
+   "1x Puffball",
+   "1x Longrube",
+   "1x Verbena",
+   "1x Ergot Seeds"
+  ],
+  "row": 4,
+  "effect": "Alchemy Ingredient",
+  "formula": "Location"
+ },
+ {
+  "id": "a150",
+  "category": "Substances",
+  "name": "ALBEDO",
+  "known": false,
+  "ingredients": [
+   "1x White Gull",
+   "1x Crow's Eye",
+   "1x Allspice",
+   "1x Mistletoe",
+   "1x Beggartick Blossoms",
+   "1x Pringrape"
+  ],
+  "row": 10,
+  "effect": "Alchemy Ingredient",
+  "formula": "Location"
+ },
+ {
+  "id": "a151",
+  "category": "Substances",
+  "name": "HYDRAGENUM",
+  "known": false,
+  "ingredients": [
+   "1x White Gull",
+   "1x Verbena",
+   "1x Ergot Seeds",
+   "1x Ranogrin",
+   "1x Green Mold",
+   "1x Nostrix"
+  ],
+  "row": 16,
+  "effect": "Alchemy Ingredient",
+  "formula": "Location"
+ },
+ {
+  "id": "a152",
+  "category": "Substances",
+  "name": "NIGREDO",
+  "known": false,
+  "ingredients": [
+   "1x White Gull",
+   "1x Crow's Eye",
+   "1x Han Fiber",
+   "1x Hellebore Petals",
+   "1x Hornwort",
+   "1x Balisse Fruit"
+  ],
+  "row": 22,
+  "effect": "Alchemy Ingredient",
+  "formula": "Location"
+ },
+ {
+  "id": "a153",
+  "category": "Substances",
+  "name": "QUEBRITH",
+  "known": false,
+  "ingredients": [
+   "1x White Gull",
+   "1x Verbena",
+   "1x Puffball",
+   "1x Longrube",
+   "1x Nostrix",
+   "1x Pringrape"
+  ],
+  "row": 28,
+  "effect": "Alchemy Ingredient",
+  "formula": "Location"
+ },
+ {
+  "id": "a154",
+  "category": "Substances",
+  "name": "REBIS",
+  "known": false,
+  "ingredients": [
+   "1x White Gull",
+   "1x Verbena",
+   "1x Ergot Seeds",
+   "1x Allspice",
+   "1x Mistletoe",
+   "1x Ranogrin"
+  ],
+  "row": 34,
+  "effect": "Alchemy Ingredient",
+  "formula": "Location"
+ },
+ {
+  "id": "a155",
+  "category": "Substances",
+  "name": "RUBEDO",
+  "known": false,
+  "ingredients": [
+   "1x White Gull",
+   "1x Crow's Eye",
+   "1x Han Fiber",
+   "1x Mistletoe",
+   "1x Puffball",
+   "1x Green Mold"
+  ],
+  "row": 40,
+  "effect": "Alchemy Ingredient",
+  "formula": "Location"
+ },
+ {
+  "id": "a156",
+  "category": "Substances",
+  "name": "VERMILION",
+  "known": false,
+  "ingredients": [
+   "1x White Gull",
+   "1x Verbena",
+   "1x Ergot Seeds",
+   "1x Han Fiber",
+   "1x Beggartick Blossoms",
+   "1x Bryonia"
+  ],
+  "row": 46,
+  "effect": "Alchemy Ingredient",
+  "formula": "Location"
+ },
+ {
+  "id": "a157",
+  "category": "Substances",
+  "name": "VITRIOL",
+  "known": false,
+  "ingredients": [
+   "1x White Gull",
+   "1x Bloodmoss",
+   "1x Allspice",
+   "1x Ranogrin",
+   "1x Hellebore Petals",
+   "1x Hornwort"
+  ],
+  "row": 52,
+  "effect": "Alchemy Ingredient",
+  "formula": "Location"
+ },
+ {
+  "id": "a158",
+  "category": "Substances",
+  "name": "LESSER BLUE MUTAGEN",
+  "known": false,
+  "ingredients": [
+   "1x Lesser Green Mutagen",
+   "1x Vitriol",
+   "1x Blue Lotus Flower",
+   "OR",
+   "1x Lesser Red Mutagen",
+   "1x Vitriol",
+   "1x Blue Lotus Flower"
+  ],
+  "row": 58,
+  "effect": "5% Sign intensity (then +5% for every blue ability connected to it for a max of +20%)",
+  "formula": "Lesser Mutagen Transmutator -Red to Blue"
+ },
+ {
+  "id": "a159",
+  "category": "Substances",
+  "name": "LESSER GREEN MUTAGEN",
+  "known": false,
+  "ingredients": [
+   "1x Lesser Blue Mutagen",
+   "1x Rebis",
+   "1x Nazairi Basil",
+   "OR",
+   "1x Lesser Red Mutagen",
+   "1x Rebis",
+   "1x Nazairi Basil"
+  ],
+  "row": 65,
+  "effect": "+50 Vitality (then +50 for every green ability connected to it for a max of +200)",
+  "formula": "Lesser Mutagen Transmutator -Blue to Green"
+ },
+ {
+  "id": "a160",
+  "category": "Substances",
+  "name": "LESSER RED MUTAGEN",
+  "known": false,
+  "ingredients": [
+   "1x Lesser Blue Mutagen",
+   "1x Rubedo",
+   "1x Winter Cherry",
+   "OR",
+   "1x Lesser Green Mutagen",
+   "1x Rubedo",
+   "1x Winter Cherry"
+  ],
+  "row": 72,
+  "effect": "+5% Attack power (then +5% for every red ability connected to it for a max of +20%)",
+  "formula": "Lesser Mutagen Transmutator -Blue to Red"
+ },
+ {
+  "id": "a161",
+  "category": "Substances",
+  "name": "BLUE MUTAGEN",
+  "known": false,
+  "ingredients": [
+   "3x Lesser Blue Mutagen",
+   "OR",
+   "1x Green Mutagen",
+   "1x Vitriol",
+   "1x Blue Lotus Flower",
+   "4x Green Mold",
+   "OR",
+   "1x Red Mutagen",
+   "1x Vitriol",
+   "1x Blue Lotus Flower",
+   "2x Ginatia Petals"
+  ],
+  "row": 79,
+  "effect": "+7% Sign intensity (then +7% for every blue ability connected to it for a max of +28%)",
+  "formula": "Mutagen Transmutator -Green to Blue"
+ },
+ {
+  "id": "a162",
+  "category": "Substances",
+  "name": "GREEN MUTAGEN",
+  "known": false,
+  "ingredients": [
+   "3x Lesser Green Mutagen",
+   "OR",
+   "1x Blue Mutagen",
+   "1x Rebis",
+   "1x Nazairi Basil",
+   "4x Green Mold",
+   "OR",
+   "1x Red Mutagen",
+   "1x Rebis",
+   "1x Nazairi Basil",
+   "4x Celandine"
+  ],
+  "row": 90,
+  "effect": "+100 Vitality (then +100 for every green ability connected to it for a max of +400)",
+  "formula": "Mutagen Transmutator -Blue to Green"
+ },
+ {
+  "id": "a163",
+  "category": "Substances",
+  "name": "RED MUTAGEN",
+  "known": false,
+  "ingredients": [
+   "3x Lesser Red Mutagen",
+   "OR",
+   "1x Blue Mutagen",
+   "1x Rubedo",
+   "1x Winter Cherry",
+   "1x Honeysuckle",
+   "OR",
+   "1x Green Mutagen",
+   "1x Rubedo",
+   "1x Winter Cherry",
+   "8x Blowball"
+  ],
+  "row": 101,
+  "effect": "+7% Attack power (then +7% for every red ability connected to it for a max of +28%)",
+  "formula": "Mutagen Transmutator -Blue to Red"
+ },
+ {
+  "id": "a164",
+  "category": "Substances",
+  "name": "GREATER BLUE MUTAGEN",
+  "known": false,
+  "ingredients": [
+   "3x Blue Mutagen",
+   "OR",
+   "1x Greater Green Mutagen",
+   "1x Vitriol",
+   "1x Blue Lotus Flower",
+   "1x Green Mold",
+   "1x Aether",
+   "OR",
+   "1x Greater Red Mutagen",
+   "1x Vitriol",
+   "1x Blue Lotus Flower",
+   "2x Ginatia Petals",
+   "2x Honeysuckle"
+  ],
+  "row": 112,
+  "effect": "+10% Sign intensity (then +10% for every blue ability connected to it for a max of +40%)",
+  "formula": "Greater Mutagen Transmutator -Red to Blue"
+ },
+ {
+  "id": "a165",
+  "category": "Substances",
+  "name": "GREATER GREEN MUTAGEN",
+  "known": false,
+  "ingredients": [
+   "3x Green Mutagen",
+   "OR",
+   "1x Greater Red Mutagen",
+   "1x Rebis",
+   "1x Nazairi Basil",
+   "3x Celandine",
+   "3x Ranogrin",
+   "OR",
+   "1x Greater Blue Mutagen",
+   "1x Rebis",
+   "1x Nazairi Basil",
+   "5x Green Mold",
+   "5x Ergot Seeds"
+  ],
+  "row": 125,
+  "effect": "+150 Vitality (then +150 for every green ability connected to it for a max of +600)",
+  "formula": "Greater Mutagen Transmutator -Blue to Green"
+ },
+ {
+  "id": "a166",
+  "category": "Substances",
+  "name": "GREATER RED MUTAGEN",
+  "known": false,
+  "ingredients": [
+   "3x Red Mutagen",
+   "OR",
+   "1x Greater Green Mutagen",
+   "1x Rubedo",
+   "1x Winter Cherry",
+   "4x Blowball",
+   "2x Sulfur",
+   "OR",
+   "1x Greater Blue Mutagen",
+   "1x Rubedo",
+   "1x Winter Cherry",
+   "2x Honeysuckle",
+   "2x Hellebore Petals"
+  ],
+  "row": 138,
+  "effect": "+10% Attack power (then +10% for every red ability connected to it for a max of +40%)",
+  "formula": "Greater Mutagen Transmutator -Blue to Red"
+ }
+]

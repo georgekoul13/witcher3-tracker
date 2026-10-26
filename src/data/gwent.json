@@ -1,0 +1,2122 @@
+[
+ {
+  "id": "g001",
+  "faction": "Northern Realms",
+  "name": "Blue Stripes Commando",
+  "location": "Elsa or Bram in White Orchard",
+  "collected": true,
+  "row": 3
+ },
+ {
+  "id": "g002",
+  "faction": "Northern Realms",
+  "name": "Blue Stripes Commando",
+  "location": "Crow's Perch's quartermaster",
+  "collected": true,
+  "row": 4
+ },
+ {
+  "id": "g003",
+  "faction": "Northern Realms",
+  "name": "Blue Stripes Commando",
+  "location": "Midcopse's merchant",
+  "collected": true,
+  "row": 5
+ },
+ {
+  "id": "g004",
+  "faction": "Northern Realms",
+  "name": "Catapult",
+  "location": "Elsa or Bram in White Orchard",
+  "collected": true,
+  "row": 6
+ },
+ {
+  "id": "g005",
+  "faction": "Northern Realms",
+  "name": "Catapult",
+  "location": "Marquise Serenity at the Passiflora OR Hearts of Stone: Circus camp merchant near Carsten. You can only have 2 copies of this card.",
+  "collected": true,
+  "row": 7
+ },
+ {
+  "id": "g006",
+  "faction": "Northern Realms",
+  "name": "Catapult",
+  "location": "Marquise Serenity at the Passiflora OR Hearts of Stone: Circus camp merchant near Carsten. You can only have 2 copies of this card.",
+  "collected": false,
+  "row": 8
+ },
+ {
+  "id": "g007",
+  "faction": "Northern Realms",
+  "name": "Crinfrid Reavers Dragon Hunter",
+  "location": "Elsa or Bram in White Orchard",
+  "collected": true,
+  "row": 9
+ },
+ {
+  "id": "g008",
+  "faction": "Northern Realms",
+  "name": "Crinfrid Reavers Dragon Hunter",
+  "location": "Claywich's merchant",
+  "collected": true,
+  "row": 10
+ },
+ {
+  "id": "g009",
+  "faction": "Northern Realms",
+  "name": "Crinfrid Reavers Dragon Hunter",
+  "location": "Midcopse's merchant",
+  "collected": true,
+  "row": 11
+ },
+ {
+  "id": "g010",
+  "faction": "Northern Realms",
+  "name": "Esterad Thyssen",
+  "location": "Won from Sigismund Dijkstra",
+  "collected": true,
+  "row": 12
+ },
+ {
+  "id": "g011",
+  "faction": "Northern Realms",
+  "name": "Foltest: Lord Commander of the North",
+  "location": "Elsa or Bram in White Orchard",
+  "collected": true,
+  "row": 13
+ },
+ {
+  "id": "g012",
+  "faction": "Northern Realms",
+  "name": "Foltest: Son of Medell",
+  "location": "Hearts of Stone: Circus camp merchant near Carsten",
+  "collected": true,
+  "row": 14
+ },
+ {
+  "id": "g013",
+  "faction": "Northern Realms",
+  "name": "Foltest: The Siegemaster",
+  "location": "Nilfgaardian nobleman in Vizima",
+  "collected": true,
+  "row": 15
+ },
+ {
+  "id": "g014",
+  "faction": "Northern Realms",
+  "name": "Foltest: The Steel-Forged",
+  "location": "Won during High Stakes after defeating Bernard Tulle, the halfling.",
+  "collected": true,
+  "row": 16
+ },
+ {
+  "id": "g015",
+  "faction": "Northern Realms",
+  "name": "John Natalis",
+  "location": "From Dangerous Game from Earl",
+  "collected": true,
+  "row": 17
+ },
+ {
+  "id": "g016",
+  "faction": "Northern Realms",
+  "name": "Poor Fucking Infantry",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 18
+ },
+ {
+  "id": "g017",
+  "faction": "Northern Realms",
+  "name": "Poor Fucking Infantry",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 19
+ },
+ {
+  "id": "g018",
+  "faction": "Northern Realms",
+  "name": "Poor Fucking Infantry",
+  "location": "Lindenvale's merchant",
+  "collected": true,
+  "row": 20
+ },
+ {
+  "id": "g019",
+  "faction": "Northern Realms",
+  "name": "Poor Fucking Infantry",
+  "location": "Midcopse's merchant",
+  "collected": true,
+  "row": 21
+ },
+ {
+  "id": "g020",
+  "faction": "Northern Realms",
+  "name": "Sigismund Dijkstra",
+  "location": "Won from Phillip Strenger during Gwent: Velen Players",
+  "collected": true,
+  "row": 22
+ },
+ {
+  "id": "g021",
+  "faction": "Northern Realms",
+  "name": "Thaler",
+  "location": "Innkeep in Arinbjorn, Skellige",
+  "collected": true,
+  "row": 23
+ },
+ {
+  "id": "g022",
+  "faction": "Northern Realms",
+  "name": "Vernon Roche",
+  "location": "Won from Haddy during Gwent: Velen Players",
+  "collected": true,
+  "row": 24
+ },
+ {
+  "id": "g023",
+  "faction": "Northern Realms",
+  "name": "Philippa Eilhart",
+  "location": "Random",
+  "collected": true,
+  "row": 25
+ },
+ {
+  "id": "g024",
+  "faction": "Northern Realms",
+  "name": "Siege Tower",
+  "location": "Random",
+  "collected": true,
+  "row": 26
+ },
+ {
+  "id": "g025",
+  "faction": "Northern Realms",
+  "name": "Ballista",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 27
+ },
+ {
+  "id": "g026",
+  "faction": "Northern Realms",
+  "name": "Ballista",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 28
+ },
+ {
+  "id": "g027",
+  "faction": "Northern Realms",
+  "name": "Dethmold",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 29
+ },
+ {
+  "id": "g028",
+  "faction": "Northern Realms",
+  "name": "Dun Banner Medic",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 30
+ },
+ {
+  "id": "g029",
+  "faction": "Northern Realms",
+  "name": "Foltest: King of Temeria",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 31
+ },
+ {
+  "id": "g030",
+  "faction": "Northern Realms",
+  "name": "Kaedweni Siege Expert",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 32
+ },
+ {
+  "id": "g031",
+  "faction": "Northern Realms",
+  "name": "Kaedweni Siege Expert",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 33
+ },
+ {
+  "id": "g032",
+  "faction": "Northern Realms",
+  "name": "Kaedweni Siege Expert",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 34
+ },
+ {
+  "id": "g033",
+  "faction": "Northern Realms",
+  "name": "Keira Metz",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 35
+ },
+ {
+  "id": "g034",
+  "faction": "Northern Realms",
+  "name": "Prince Stennis",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 36
+ },
+ {
+  "id": "g035",
+  "faction": "Northern Realms",
+  "name": "Redanian Foot Soldier",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 37
+ },
+ {
+  "id": "g036",
+  "faction": "Northern Realms",
+  "name": "Redanian Foot Soldier",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 38
+ },
+ {
+  "id": "g037",
+  "faction": "Northern Realms",
+  "name": "Sabrina Glevissig",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 39
+ },
+ {
+  "id": "g038",
+  "faction": "Northern Realms",
+  "name": "Sheldon Skaggs",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 40
+ },
+ {
+  "id": "g039",
+  "faction": "Northern Realms",
+  "name": "Siegfried of Denesle",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 41
+ },
+ {
+  "id": "g040",
+  "faction": "Northern Realms",
+  "name": "Síle de Tansarville",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 42
+ },
+ {
+  "id": "g041",
+  "faction": "Northern Realms",
+  "name": "Trebuchet",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 43
+ },
+ {
+  "id": "g042",
+  "faction": "Northern Realms",
+  "name": "Trebuchet",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 44
+ },
+ {
+  "id": "g043",
+  "faction": "Northern Realms",
+  "name": "Ves",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 45
+ },
+ {
+  "id": "g044",
+  "faction": "Northern Realms",
+  "name": "Yarpen Zigrin",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 46
+ },
+ {
+  "id": "g045",
+  "faction": "Northern Realms",
+  "name": "MONSTERS Ability: Keep a random unit card out after each round.",
+  "location": "MONSTERS Ability: Keep a random unit card out after each round.",
+  "collected": false,
+  "row": 48
+ },
+ {
+  "id": "g046",
+  "faction": "Northern Realms",
+  "name": "Card",
+  "location": "Location, Player",
+  "collected": false,
+  "row": 49
+ },
+ {
+  "id": "g047",
+  "faction": "Northern Realms",
+  "name": "Ghoul",
+  "location": "Random",
+  "collected": true,
+  "row": 50
+ },
+ {
+  "id": "g048",
+  "faction": "Northern Realms",
+  "name": "Ghoul",
+  "location": "Random",
+  "collected": true,
+  "row": 51
+ },
+ {
+  "id": "g049",
+  "faction": "Northern Realms",
+  "name": "Ghoul",
+  "location": "Harviken's innkeep in Skellige",
+  "collected": true,
+  "row": 52
+ },
+ {
+  "id": "g050",
+  "faction": "Northern Realms",
+  "name": "Nekker",
+  "location": "Random",
+  "collected": true,
+  "row": 53
+ },
+ {
+  "id": "g051",
+  "faction": "Northern Realms",
+  "name": "Nekker",
+  "location": "Harviken's innkeep in Skellige",
+  "collected": true,
+  "row": 54
+ },
+ {
+  "id": "g052",
+  "faction": "Northern Realms",
+  "name": "Nekker",
+  "location": "Following the Thread off Hammond's corpse",
+  "collected": true,
+  "row": 55
+ },
+ {
+  "id": "g053",
+  "faction": "Northern Realms",
+  "name": "Arachas",
+  "location": "Arinbjorn's innkeep in Skellige",
+  "collected": true,
+  "row": 56
+ },
+ {
+  "id": "g054",
+  "faction": "Northern Realms",
+  "name": "Arachas",
+  "location": "Urialla Harbor's innkeep in Skellige",
+  "collected": true,
+  "row": 57
+ },
+ {
+  "id": "g055",
+  "faction": "Northern Realms",
+  "name": "Arachas",
+  "location": "Svorlag's innkeep in Skellige",
+  "collected": true,
+  "row": 58
+ },
+ {
+  "id": "g056",
+  "faction": "Northern Realms",
+  "name": "Botchling",
+  "location": "Jonas at The New Port Inn in Skellige",
+  "collected": true,
+  "row": 59
+ },
+ {
+  "id": "g057",
+  "faction": "Northern Realms",
+  "name": "Crone: Weavess",
+  "location": "Old Sage during Gwent: Velen Players",
+  "collected": true,
+  "row": 60
+ },
+ {
+  "id": "g058",
+  "faction": "Northern Realms",
+  "name": "Crone: Whispess",
+  "location": "Arinbjorn's innkeep",
+  "collected": true,
+  "row": 61
+ },
+ {
+  "id": "g059",
+  "faction": "Northern Realms",
+  "name": "Draug",
+  "location": "Crach an Craite during Gwent: Skellige Style",
+  "collected": true,
+  "row": 62
+ },
+ {
+  "id": "g060",
+  "faction": "Northern Realms",
+  "name": "Earth Elemental",
+  "location": "Jonas at The New Port",
+  "collected": true,
+  "row": 63
+ },
+ {
+  "id": "g061",
+  "faction": "Northern Realms",
+  "name": "Eredin Bréacc Glas: The Treacherous",
+  "location": "Hearts of Stone: Dulla kh'Amanni at Upper Mill",
+  "collected": true,
+  "row": 64
+ },
+ {
+  "id": "g062",
+  "faction": "Northern Realms",
+  "name": "Eredin: Bringer of Death",
+  "location": "Count Tybalt during High Stakes",
+  "collected": true,
+  "row": 65
+ },
+ {
+  "id": "g063",
+  "faction": "Northern Realms",
+  "name": "Eredin: Commander of the Red Riders",
+  "location": "Jonas at The New Port",
+  "collected": true,
+  "row": 66
+ },
+ {
+  "id": "g064",
+  "faction": "Northern Realms",
+  "name": "Eredin: Destroyer of Worlds",
+  "location": "Final reward for Gwent: Velen Players (can be in any order)",
+  "collected": true,
+  "row": 67
+ },
+ {
+  "id": "g065",
+  "faction": "Northern Realms",
+  "name": "Fiend",
+  "location": "Arinbjorn's innkeep",
+  "collected": true,
+  "row": 68
+ },
+ {
+  "id": "g066",
+  "faction": "Northern Realms",
+  "name": "Foglet",
+  "location": "Svorlag's innkeep",
+  "collected": true,
+  "row": 69
+ },
+ {
+  "id": "g067",
+  "faction": "Northern Realms",
+  "name": "Harpy",
+  "location": "Harviken's innkeep",
+  "collected": true,
+  "row": 70
+ },
+ {
+  "id": "g068",
+  "faction": "Northern Realms",
+  "name": "Ice Giant",
+  "location": "Svorlag's innkeep in Skellige",
+  "collected": true,
+  "row": 71
+ },
+ {
+  "id": "g069",
+  "faction": "Northern Realms",
+  "name": "Leshen",
+  "location": "Ermion during Gwent: Skellige Style",
+  "collected": true,
+  "row": 72
+ },
+ {
+  "id": "g070",
+  "faction": "Northern Realms",
+  "name": "Toad",
+  "location": "Hearts of Stone: Won from Olgierd von Everec",
+  "collected": true,
+  "row": 73
+ },
+ {
+  "id": "g071",
+  "faction": "Northern Realms",
+  "name": "Vampire: Bruxa",
+  "location": "Won during A Matter of Life and Death OR Blood and Wine: Rewarded for removing Louis' urn in Till Death Do You Part (NOT FROM BOTH).",
+  "collected": true,
+  "row": 74
+ },
+ {
+  "id": "g072",
+  "faction": "Northern Realms",
+  "name": "Vampire: Bruxa",
+  "location": "Won during A Matter of Life and Death OR Blood and Wine: Rewarded for removing Louis' urn in Till Death Do You Part (NOT FROM BOTH).",
+  "collected": false,
+  "row": 75
+ },
+ {
+  "id": "g073",
+  "faction": "Northern Realms",
+  "name": "Vampire: Ekimmara",
+  "location": "Svorlag's innkeep in Skellige",
+  "collected": true,
+  "row": 76
+ },
+ {
+  "id": "g074",
+  "faction": "Northern Realms",
+  "name": "Vampire: Fleder",
+  "location": "Harviken's innkeep",
+  "collected": true,
+  "row": 77
+ },
+ {
+  "id": "g075",
+  "faction": "Northern Realms",
+  "name": "Vampire: Katakan",
+  "location": "Won from Madman Lugos during Gwent: Skellige Style",
+  "collected": true,
+  "row": 78
+ },
+ {
+  "id": "g076",
+  "faction": "Northern Realms",
+  "name": "Werewolf",
+  "location": "Urialla Harbor's innkeep in Skellige",
+  "collected": true,
+  "row": 79
+ },
+ {
+  "id": "g077",
+  "faction": "Northern Realms",
+  "name": "Arachas Behemoth",
+  "location": "Random",
+  "collected": true,
+  "row": 80
+ },
+ {
+  "id": "g078",
+  "faction": "Northern Realms",
+  "name": "Celaeno Harpy",
+  "location": "Random",
+  "collected": true,
+  "row": 81
+ },
+ {
+  "id": "g079",
+  "faction": "Northern Realms",
+  "name": "Cockatrice",
+  "location": "Random",
+  "collected": true,
+  "row": 82
+ },
+ {
+  "id": "g080",
+  "faction": "Northern Realms",
+  "name": "Crone: Brewess",
+  "location": "Random",
+  "collected": true,
+  "row": 83
+ },
+ {
+  "id": "g081",
+  "faction": "Northern Realms",
+  "name": "Endrega",
+  "location": "Random",
+  "collected": true,
+  "row": 84
+ },
+ {
+  "id": "g082",
+  "faction": "Northern Realms",
+  "name": "Fire Elemental",
+  "location": "Random",
+  "collected": true,
+  "row": 85
+ },
+ {
+  "id": "g083",
+  "faction": "Northern Realms",
+  "name": "Forktail",
+  "location": "Random",
+  "collected": true,
+  "row": 86
+ },
+ {
+  "id": "g084",
+  "faction": "Northern Realms",
+  "name": "Frightener",
+  "location": "Random",
+  "collected": true,
+  "row": 87
+ },
+ {
+  "id": "g085",
+  "faction": "Northern Realms",
+  "name": "Gargoyle",
+  "location": "Random",
+  "collected": true,
+  "row": 88
+ },
+ {
+  "id": "g086",
+  "faction": "Northern Realms",
+  "name": "Imlerith",
+  "location": "Random",
+  "collected": true,
+  "row": 89
+ },
+ {
+  "id": "g087",
+  "faction": "Northern Realms",
+  "name": "Kayran",
+  "location": "Random",
+  "collected": true,
+  "row": 90
+ },
+ {
+  "id": "g088",
+  "faction": "Northern Realms",
+  "name": "Vampire: Garkain",
+  "location": "Random",
+  "collected": true,
+  "row": 91
+ },
+ {
+  "id": "g089",
+  "faction": "Northern Realms",
+  "name": "Wyvern",
+  "location": "Random",
+  "collected": true,
+  "row": 92
+ },
+ {
+  "id": "g090",
+  "faction": "Northern Realms",
+  "name": "Grave Hag",
+  "location": "Random",
+  "collected": true,
+  "row": 93
+ },
+ {
+  "id": "g091",
+  "faction": "Northern Realms",
+  "name": "Griffin",
+  "location": "Random",
+  "collected": true,
+  "row": 94
+ },
+ {
+  "id": "g092",
+  "faction": "Northern Realms",
+  "name": "Plague Maiden",
+  "location": "Random",
+  "collected": true,
+  "row": 95
+ },
+ {
+  "id": "g093",
+  "faction": "Northern Realms",
+  "name": "Eredin: King of the Wild Hunt",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 96
+ },
+ {
+  "id": "g094",
+  "faction": "Nilfgaard",
+  "name": "Albrich",
+  "location": "Purchased from Crow's Perch's trader",
+  "collected": true,
+  "row": 3
+ },
+ {
+  "id": "g095",
+  "faction": "Nilfgaard",
+  "name": "Black Infantry Archer",
+  "location": "Claywich's merchant",
+  "collected": true,
+  "row": 4
+ },
+ {
+  "id": "g096",
+  "faction": "Nilfgaard",
+  "name": "Black Infantry Archer",
+  "location": "Lindenvale's merchant",
+  "collected": true,
+  "row": 5
+ },
+ {
+  "id": "g097",
+  "faction": "Nilfgaard",
+  "name": "Cynthia",
+  "location": "Crow's Perch's Quartermaster",
+  "collected": true,
+  "row": 6
+ },
+ {
+  "id": "g098",
+  "faction": "Nilfgaard",
+  "name": "Emhyr var Emreis: Emperor of Nilfgaard",
+  "location": "Inn at the Crossroads or Lindenvale's innkeep",
+  "collected": true,
+  "row": 7
+ },
+ {
+  "id": "g099",
+  "faction": "Nilfgaard",
+  "name": "Emhyr var Emreis: Invader of the North",
+  "location": "Hearts of Stone: Circus camp merchant near Carsten",
+  "collected": true,
+  "row": 8
+ },
+ {
+  "id": "g100",
+  "faction": "Nilfgaard",
+  "name": "Emhyr var Emreis: The Relentless",
+  "location": "Sasha during High Stakes",
+  "collected": true,
+  "row": 9
+ },
+ {
+  "id": "g101",
+  "faction": "Nilfgaard",
+  "name": "Emhyr var Emreis: The White Flame",
+  "location": "Final reward of Gwent: Skellige Style",
+  "collected": true,
+  "row": 10
+ },
+ {
+  "id": "g102",
+  "faction": "Nilfgaard",
+  "name": "Etolian Auxiliary Archers",
+  "location": "Claywich's merchant",
+  "collected": true,
+  "row": 11
+ },
+ {
+  "id": "g103",
+  "faction": "Nilfgaard",
+  "name": "Etolian Auxiliary Archers",
+  "location": "Lindenvale's merchant",
+  "collected": true,
+  "row": 12
+ },
+ {
+  "id": "g104",
+  "faction": "Nilfgaard",
+  "name": "Fringilla Vigo",
+  "location": "A Dangerous Game in Caesar Bilzen's house",
+  "collected": true,
+  "row": 13
+ },
+ {
+  "id": "g105",
+  "faction": "Nilfgaard",
+  "name": "Heavy Zerrikanian Fire Scorpion",
+  "location": "Lindenvale's merchant",
+  "collected": true,
+  "row": 14
+ },
+ {
+  "id": "g106",
+  "faction": "Nilfgaard",
+  "name": "Impera Brigade Guard",
+  "location": "Cunny of the Goose's innkeep",
+  "collected": true,
+  "row": 15
+ },
+ {
+  "id": "g107",
+  "faction": "Nilfgaard",
+  "name": "Impera Brigade Guard",
+  "location": "Seven Cats Inn's innkeep",
+  "collected": true,
+  "row": 16
+ },
+ {
+  "id": "g108",
+  "faction": "Nilfgaard",
+  "name": "Impera Brigade Guard",
+  "location": "Crow's Perch's trader",
+  "collected": true,
+  "row": 17
+ },
+ {
+  "id": "g109",
+  "faction": "Nilfgaard",
+  "name": "Impera Brigade Guard",
+  "location": "Inn at the Crossroads' innkeep",
+  "collected": true,
+  "row": 18
+ },
+ {
+  "id": "g110",
+  "faction": "Nilfgaard",
+  "name": "Letho of Gulet",
+  "location": "Boatwright during Gwent: Velen Players",
+  "collected": true,
+  "row": 19
+ },
+ {
+  "id": "g111",
+  "faction": "Nilfgaard",
+  "name": "Menno Coehoorn",
+  "location": "Inn at the Crossroads' innkeep during Gwent: Playing Innkeeps",
+  "collected": true,
+  "row": 20
+ },
+ {
+  "id": "g112",
+  "faction": "Nilfgaard",
+  "name": "Morteisen",
+  "location": "Midcopse's merchant",
+  "collected": true,
+  "row": 21
+ },
+ {
+  "id": "g113",
+  "faction": "Nilfgaard",
+  "name": "Morvran Voorhis",
+  "location": "Marquise Serenity during Gwent: Big City Players",
+  "collected": true,
+  "row": 22
+ },
+ {
+  "id": "g114",
+  "faction": "Nilfgaard",
+  "name": "Nausicaa Cavalry Rider",
+  "location": "Crow's Perch's quartermaster",
+  "collected": true,
+  "row": 23
+ },
+ {
+  "id": "g115",
+  "faction": "Nilfgaard",
+  "name": "Nausicaa Cavalry Rider",
+  "location": "Crow's Perch's trader",
+  "collected": true,
+  "row": 24
+ },
+ {
+  "id": "g116",
+  "faction": "Nilfgaard",
+  "name": "Nausicaa Cavalry Rider",
+  "location": "Inn at the Crossroads' innkeep",
+  "collected": true,
+  "row": 25
+ },
+ {
+  "id": "g117",
+  "faction": "Nilfgaard",
+  "name": "Puttkammer",
+  "location": "Claywich's merchant",
+  "collected": true,
+  "row": 26
+ },
+ {
+  "id": "g118",
+  "faction": "Nilfgaard",
+  "name": "Rainfarn",
+  "location": "Lindenvale's merchant",
+  "collected": true,
+  "row": 27
+ },
+ {
+  "id": "g119",
+  "faction": "Nilfgaard",
+  "name": "Siege Engineer",
+  "location": "Purchased from Inn at the Crossroads' innkeep",
+  "collected": true,
+  "row": 28
+ },
+ {
+  "id": "g120",
+  "faction": "Nilfgaard",
+  "name": "Siege Technician",
+  "location": "Purchased from The Golden Sturgeon's innkeep OR Hearts of Stone: Circus camp merchant near Carsten (NOT FROM BOTH)",
+  "collected": true,
+  "row": 29
+ },
+ {
+  "id": "g121",
+  "faction": "Nilfgaard",
+  "name": "Siege Technician",
+  "location": "Purchased from The Golden Sturgeon's innkeep OR Hearts of Stone: Circus camp merchant near Carsten (NOT FROM BOTH)",
+  "collected": false,
+  "row": 30
+ },
+ {
+  "id": "g122",
+  "faction": "Nilfgaard",
+  "name": "Sweers",
+  "location": "Claywich's merchant",
+  "collected": true,
+  "row": 31
+ },
+ {
+  "id": "g123",
+  "faction": "Nilfgaard",
+  "name": "Tibor Eggebracht",
+  "location": "Won from Olivier during Gwent: Playing Innkeeps",
+  "collected": true,
+  "row": 32
+ },
+ {
+  "id": "g124",
+  "faction": "Nilfgaard",
+  "name": "Young Emissary",
+  "location": "Cunny of the Goose's innkeep",
+  "collected": true,
+  "row": 33
+ },
+ {
+  "id": "g125",
+  "faction": "Nilfgaard",
+  "name": "Young Emissary",
+  "location": "Seven Cats Inn's innkeep",
+  "collected": true,
+  "row": 34
+ },
+ {
+  "id": "g126",
+  "faction": "Nilfgaard",
+  "name": "Zerrikanian Fire Scorpion",
+  "location": "Crow's Perch's trader",
+  "collected": true,
+  "row": 35
+ },
+ {
+  "id": "g127",
+  "faction": "Nilfgaard",
+  "name": "Assire var Anahid",
+  "location": "Random",
+  "collected": true,
+  "row": 36
+ },
+ {
+  "id": "g128",
+  "faction": "Nilfgaard",
+  "name": "Cahir Mawr Dyffryn aep Ceallach",
+  "location": "Random",
+  "collected": true,
+  "row": 37
+ },
+ {
+  "id": "g129",
+  "faction": "Nilfgaard",
+  "name": "Renuald aep Matsen",
+  "location": "Random",
+  "collected": true,
+  "row": 38
+ },
+ {
+  "id": "g130",
+  "faction": "Nilfgaard",
+  "name": "Rotten Mangonel",
+  "location": "Random",
+  "collected": true,
+  "row": 39
+ },
+ {
+  "id": "g131",
+  "faction": "Nilfgaard",
+  "name": "Shilard Fitz-Oesterlen",
+  "location": "Random",
+  "collected": true,
+  "row": 40
+ },
+ {
+  "id": "g132",
+  "faction": "Nilfgaard",
+  "name": "Vanhemar",
+  "location": "Random",
+  "collected": true,
+  "row": 41
+ },
+ {
+  "id": "g133",
+  "faction": "Nilfgaard",
+  "name": "Vattier de Rideaux",
+  "location": "Random",
+  "collected": true,
+  "row": 42
+ },
+ {
+  "id": "g134",
+  "faction": "Nilfgaard",
+  "name": "Vreemde",
+  "location": "Random",
+  "collected": true,
+  "row": 43
+ },
+ {
+  "id": "g135",
+  "faction": "Nilfgaard",
+  "name": "Stefan Skellen",
+  "location": "Random",
+  "collected": true,
+  "row": 44
+ },
+ {
+  "id": "g136",
+  "faction": "Nilfgaard",
+  "name": "Emhyr var Emreis: His Imperial Majesty",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 45
+ },
+ {
+  "id": "g137",
+  "faction": "Nilfgaard",
+  "name": "SKELLIGE Ability: 2 random unit cards from the graveyard are placed on the battlefield at the start of the third round.",
+  "location": "SKELLIGE Ability: 2 random unit cards from the graveyard are placed on the battlefield at the start of the third round.",
+  "collected": false,
+  "row": 48
+ },
+ {
+  "id": "g138",
+  "faction": "Nilfgaard",
+  "name": "Card",
+  "location": "Location Player",
+  "collected": false,
+  "row": 49
+ },
+ {
+  "id": "g139",
+  "faction": "Nilfgaard",
+  "name": "Cerys",
+  "location": "The Barrel and Bung Inn's Innkeep",
+  "collected": true,
+  "row": 50
+ },
+ {
+  "id": "g140",
+  "faction": "Nilfgaard",
+  "name": "Clan Brokvar Archer",
+  "location": "Castel Ravello Vineyard's Herbalist",
+  "collected": true,
+  "row": 51
+ },
+ {
+  "id": "g141",
+  "faction": "Nilfgaard",
+  "name": "Clan Brokvar Archer",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 52
+ },
+ {
+  "id": "g142",
+  "faction": "Nilfgaard",
+  "name": "Clan Brokvar Archer",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 53
+ },
+ {
+  "id": "g143",
+  "faction": "Nilfgaard",
+  "name": "Clan Dimun Pirate",
+  "location": "Dupont & Sons' merchant",
+  "collected": true,
+  "row": 54
+ },
+ {
+  "id": "g144",
+  "faction": "Nilfgaard",
+  "name": "Clan Drummond Shield Maiden",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 55
+ },
+ {
+  "id": "g145",
+  "faction": "Nilfgaard",
+  "name": "Clan Drummond Shield Maiden",
+  "location": "Francollarts's armorer",
+  "collected": true,
+  "row": 56
+ },
+ {
+  "id": "g146",
+  "faction": "Nilfgaard",
+  "name": "Clan Drummond Shield Maiden",
+  "location": "The Cockatrice Inn's Innkeep in Sansretour Marsh",
+  "collected": true,
+  "row": 57
+ },
+ {
+  "id": "g147",
+  "faction": "Nilfgaard",
+  "name": "Draig Bon-Dhu",
+  "location": "The Pheasantry's Innkeep",
+  "collected": true,
+  "row": 58
+ },
+ {
+  "id": "g148",
+  "faction": "Nilfgaard",
+  "name": "Ermion",
+  "location": "The Scarlet Cardinal Inn's innkeep in Francollarts",
+  "collected": true,
+  "row": 59
+ },
+ {
+  "id": "g149",
+  "faction": "Nilfgaard",
+  "name": "Kambi",
+  "location": "Beauclair's armorer",
+  "collected": true,
+  "row": 60
+ },
+ {
+  "id": "g150",
+  "faction": "Nilfgaard",
+  "name": "King Bran",
+  "location": "Ducal Camerlengo in Beauclair or Quest: Gwent: To Everything - Turn, Turn, Tournament!",
+  "collected": true,
+  "row": 61
+ },
+ {
+  "id": "g151",
+  "faction": "Nilfgaard",
+  "name": "Light Longship",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 62
+ },
+ {
+  "id": "g152",
+  "faction": "Nilfgaard",
+  "name": "Light Longship",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 63
+ },
+ {
+  "id": "g153",
+  "faction": "Nilfgaard",
+  "name": "Light Longship",
+  "location": "The Perfumery's merchant in Beauclair",
+  "collected": true,
+  "row": 64
+ },
+ {
+  "id": "g154",
+  "faction": "Nilfgaard",
+  "name": "Mardroeme",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 65
+ },
+ {
+  "id": "g155",
+  "faction": "Nilfgaard",
+  "name": "Mardroeme",
+  "location": "Herbalist at Herb Store in Beauclair",
+  "collected": true,
+  "row": 66
+ },
+ {
+  "id": "g156",
+  "faction": "Nilfgaard",
+  "name": "Mardroeme",
+  "location": "Beauclair Port's Madame Isabelle",
+  "collected": true,
+  "row": 67
+ },
+ {
+  "id": "g157",
+  "faction": "Nilfgaard",
+  "name": "Olaf",
+  "location": "The Adder and Jewels Winery's sommelier",
+  "collected": true,
+  "row": 68
+ },
+ {
+  "id": "g158",
+  "faction": "Nilfgaard",
+  "name": "War Longship",
+  "location": "Tourney Ground's Innkeep",
+  "collected": true,
+  "row": 69
+ },
+ {
+  "id": "g159",
+  "faction": "Nilfgaard",
+  "name": "War Longship",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 70
+ },
+ {
+  "id": "g160",
+  "faction": "Nilfgaard",
+  "name": "War Longship",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 71
+ },
+ {
+  "id": "g161",
+  "faction": "Nilfgaard",
+  "name": "Young Berserker",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 72
+ },
+ {
+  "id": "g162",
+  "faction": "Nilfgaard",
+  "name": "Young Berserker",
+  "location": "Tourney Ground's Blacksmith",
+  "collected": true,
+  "row": 73
+ },
+ {
+  "id": "g163",
+  "faction": "Nilfgaard",
+  "name": "Young Berserker",
+  "location": "Pierre at Tailor's Workshop",
+  "collected": true,
+  "row": 74
+ },
+ {
+  "id": "g164",
+  "faction": "Nilfgaard",
+  "name": "Berserker",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 75
+ },
+ {
+  "id": "g165",
+  "faction": "Nilfgaard",
+  "name": "Birna Bran",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 76
+ },
+ {
+  "id": "g166",
+  "faction": "Nilfgaard",
+  "name": "Blueboy Lugos",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 77
+ },
+ {
+  "id": "g167",
+  "faction": "Nilfgaard",
+  "name": "Clan Heymaey Skald",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 78
+ },
+ {
+  "id": "g168",
+  "faction": "Nilfgaard",
+  "name": "Clan Tordarroch Armorsmith",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 79
+ },
+ {
+  "id": "g169",
+  "faction": "Nilfgaard",
+  "name": "Clan an Craite Warrior",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 80
+ },
+ {
+  "id": "g170",
+  "faction": "Nilfgaard",
+  "name": "Clan an Craite Warrior",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 81
+ },
+ {
+  "id": "g171",
+  "faction": "Nilfgaard",
+  "name": "Clan an Craite Warrior",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 82
+ },
+ {
+  "id": "g172",
+  "faction": "Nilfgaard",
+  "name": "Crach an Craite",
+  "location": "Base Deck (Leader card)",
+  "collected": true,
+  "row": 83
+ },
+ {
+  "id": "g173",
+  "faction": "Nilfgaard",
+  "name": "Donar an Hindar",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 84
+ },
+ {
+  "id": "g174",
+  "faction": "Nilfgaard",
+  "name": "Hjarmar",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 85
+ },
+ {
+  "id": "g175",
+  "faction": "Nilfgaard",
+  "name": "Holger Blackhand",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 86
+ },
+ {
+  "id": "g176",
+  "faction": "Nilfgaard",
+  "name": "Madman Lugos",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 87
+ },
+ {
+  "id": "g177",
+  "faction": "Nilfgaard",
+  "name": "Svanrige",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 88
+ },
+ {
+  "id": "g178",
+  "faction": "Nilfgaard",
+  "name": "Udalryk",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 89
+ },
+ {
+  "id": "g179",
+  "faction": "Scoia'tael",
+  "name": "Dol Blathanna Scout",
+  "location": "Random",
+  "collected": true,
+  "row": 3
+ },
+ {
+  "id": "g180",
+  "faction": "Scoia'tael",
+  "name": "Dol Blathanna Scout",
+  "location": "Random",
+  "collected": true,
+  "row": 4
+ },
+ {
+  "id": "g181",
+  "faction": "Scoia'tael",
+  "name": "Dol Blathanna Scout",
+  "location": "Innkeep of The Golden Sturgeon in Novigrad",
+  "collected": true,
+  "row": 5
+ },
+ {
+  "id": "g182",
+  "faction": "Scoia'tael",
+  "name": "Dwarven Skirmisher",
+  "location": "Random",
+  "collected": true,
+  "row": 6
+ },
+ {
+  "id": "g183",
+  "faction": "Scoia'tael",
+  "name": "Dwarven Skirmisher",
+  "location": "Random",
+  "collected": true,
+  "row": 7
+ },
+ {
+  "id": "g184",
+  "faction": "Scoia'tael",
+  "name": "Dwarven Skirmisher",
+  "location": "Stjepan at The Alchemy",
+  "collected": true,
+  "row": 8
+ },
+ {
+  "id": "g185",
+  "faction": "Scoia'tael",
+  "name": "Elven Skirmisher",
+  "location": "Random",
+  "collected": true,
+  "row": 9
+ },
+ {
+  "id": "g186",
+  "faction": "Scoia'tael",
+  "name": "Elven Skirmisher",
+  "location": "Random",
+  "collected": true,
+  "row": 10
+ },
+ {
+  "id": "g187",
+  "faction": "Scoia'tael",
+  "name": "Elven Skirmisher",
+  "location": "Urialla Harbor's Innkeep in Skellige",
+  "collected": true,
+  "row": 11
+ },
+ {
+  "id": "g188",
+  "faction": "Scoia'tael",
+  "name": "Havekar Healer",
+  "location": "Random",
+  "collected": true,
+  "row": 12
+ },
+ {
+  "id": "g189",
+  "faction": "Scoia'tael",
+  "name": "Havekar Healer",
+  "location": "The Kingfisher Inn's Innkeep",
+  "collected": true,
+  "row": 13
+ },
+ {
+  "id": "g190",
+  "faction": "Scoia'tael",
+  "name": "Havekar Healer",
+  "location": "Cunny of the Goose's Innkeep",
+  "collected": true,
+  "row": 14
+ },
+ {
+  "id": "g191",
+  "faction": "Scoia'tael",
+  "name": "Havekar Smuggler",
+  "location": "Random",
+  "collected": true,
+  "row": 15
+ },
+ {
+  "id": "g192",
+  "faction": "Scoia'tael",
+  "name": "Havekar Smuggler",
+  "location": "The Kingfisher Inn's Innkeep",
+  "collected": true,
+  "row": 16
+ },
+ {
+  "id": "g193",
+  "faction": "Scoia'tael",
+  "name": "Havekar Smuggler",
+  "location": "Seven Cats Inn's Innkeep",
+  "collected": true,
+  "row": 17
+ },
+ {
+  "id": "g194",
+  "faction": "Scoia'tael",
+  "name": "Barclay Els",
+  "location": "Innkeep of The Golden Sturgeon in Novigrad",
+  "collected": true,
+  "row": 18
+ },
+ {
+  "id": "g195",
+  "faction": "Scoia'tael",
+  "name": "Dol Blathanna Archer",
+  "location": "Marquise Serenity at the Passiflora and possibly the merchant at the circus northwest of Carsten",
+  "collected": true,
+  "row": 19
+ },
+ {
+  "id": "g196",
+  "faction": "Scoia'tael",
+  "name": "Eithné",
+  "location": "Zoltan during Gwent: Old Pals",
+  "collected": true,
+  "row": 20
+ },
+ {
+  "id": "g197",
+  "faction": "Scoia'tael",
+  "name": "Francesca Findabair: Daisy of the Valley",
+  "location": "Cunny of the Goose's Innkeep",
+  "collected": true,
+  "row": 21
+ },
+ {
+  "id": "g198",
+  "faction": "Scoia'tael",
+  "name": "Francesca Findabair: Hope of the Aen Seidhe",
+  "location": "Hearts of Stone: Dulla kh'Amanni at Upper Mill",
+  "collected": true,
+  "row": 22
+ },
+ {
+  "id": "g199",
+  "faction": "Scoia'tael",
+  "name": "Francesca Findabair: Queen of Dol Blathanna",
+  "location": "Finneas during High Stakes",
+  "collected": true,
+  "row": 23
+ },
+ {
+  "id": "g200",
+  "faction": "Scoia'tael",
+  "name": "Francesca Findabair: The Beautiful",
+  "location": "Reward for completing Gwent: Big City Players.",
+  "collected": true,
+  "row": 24
+ },
+ {
+  "id": "g201",
+  "faction": "Scoia'tael",
+  "name": "Iorveth",
+  "location": "Reward for completing Shock Therapy",
+  "collected": true,
+  "row": 25
+ },
+ {
+  "id": "g202",
+  "faction": "Scoia'tael",
+  "name": "Isengrim Faoiltiarna",
+  "location": "A Dangerous Game, off one of the bandits in Zed's house",
+  "collected": true,
+  "row": 26
+ },
+ {
+  "id": "g203",
+  "faction": "Scoia'tael",
+  "name": "Mahakaman Defender",
+  "location": "The Kingfisher Inn's Innkeep",
+  "collected": true,
+  "row": 27
+ },
+ {
+  "id": "g204",
+  "faction": "Scoia'tael",
+  "name": "Mahakaman Defender",
+  "location": "Seven Cats Inn's Innkeep",
+  "collected": true,
+  "row": 28
+ },
+ {
+  "id": "g205",
+  "faction": "Scoia'tael",
+  "name": "Mahakaman Defender",
+  "location": "The Golden Sturgeon's Innkeep",
+  "collected": true,
+  "row": 29
+ },
+ {
+  "id": "g206",
+  "faction": "Scoia'tael",
+  "name": "Mahakaman Defender",
+  "location": "Marquise Serenity at the Passiflora and possibly the merchant at the circus northwest of Carsten",
+  "collected": true,
+  "row": 30
+ },
+ {
+  "id": "g207",
+  "faction": "Scoia'tael",
+  "name": "Mahakaman Defender",
+  "location": "Stjepan at The Alchemy",
+  "collected": true,
+  "row": 31
+ },
+ {
+  "id": "g208",
+  "faction": "Scoia'tael",
+  "name": "Milva",
+  "location": "Won during A Matter of Life and Death",
+  "collected": true,
+  "row": 32
+ },
+ {
+  "id": "g209",
+  "faction": "Scoia'tael",
+  "name": "Saesenthessis",
+  "location": "Won from Vernon Roche during Gwent: Old Pals",
+  "collected": true,
+  "row": 33
+ },
+ {
+  "id": "g210",
+  "faction": "Scoia'tael",
+  "name": "Schirrú",
+  "location": "Hearts of Stone: Won from the merchant at the circus northwest of Carsten",
+  "collected": true,
+  "row": 34
+ },
+ {
+  "id": "g211",
+  "faction": "Scoia'tael",
+  "name": "Vrihedd Brigade Veteran",
+  "location": "Stjepan at The Alchemy",
+  "collected": true,
+  "row": 35
+ },
+ {
+  "id": "g212",
+  "faction": "Scoia'tael",
+  "name": "Vrihedd Brigade Veteran",
+  "location": "The Kingfisher Inn's Innkeep OR Hearts of Stone: Circus camp merchant near Carsten (NOT FROM BOTH)",
+  "collected": true,
+  "row": 36
+ },
+ {
+  "id": "g213",
+  "faction": "Scoia'tael",
+  "name": "Vrihedd Brigade Veteran",
+  "location": "The Kingfisher Inn's Innkeep OR Hearts of Stone: Circus camp merchant near Carsten (NOT FROM BOTH)",
+  "collected": false,
+  "row": 37
+ },
+ {
+  "id": "g214",
+  "faction": "Scoia'tael",
+  "name": "Yaevinn",
+  "location": "Sjusta during Gwent: Skellige Style",
+  "collected": true,
+  "row": 38
+ },
+ {
+  "id": "g215",
+  "faction": "Scoia'tael",
+  "name": "Ciaran aep Easnillien",
+  "location": "Random",
+  "collected": true,
+  "row": 39
+ },
+ {
+  "id": "g216",
+  "faction": "Scoia'tael",
+  "name": "Dennis Cranmer",
+  "location": "Random",
+  "collected": true,
+  "row": 40
+ },
+ {
+  "id": "g217",
+  "faction": "Scoia'tael",
+  "name": "Ida Emean aep Sivney",
+  "location": "Random",
+  "collected": true,
+  "row": 41
+ },
+ {
+  "id": "g218",
+  "faction": "Scoia'tael",
+  "name": "Riordain",
+  "location": "Random",
+  "collected": true,
+  "row": 42
+ },
+ {
+  "id": "g219",
+  "faction": "Scoia'tael",
+  "name": "Toruviel",
+  "location": "Random",
+  "collected": true,
+  "row": 43
+ },
+ {
+  "id": "g220",
+  "faction": "Scoia'tael",
+  "name": "Vrihedd Brigade Recruit",
+  "location": "Random",
+  "collected": true,
+  "row": 44
+ },
+ {
+  "id": "g221",
+  "faction": "Scoia'tael",
+  "name": "Filavandrel aen Fidhail",
+  "location": "Random",
+  "collected": true,
+  "row": 45
+ },
+ {
+  "id": "g222",
+  "faction": "Scoia'tael",
+  "name": "Francesca Findabair: Pureblood Elf",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 46
+ },
+ {
+  "id": "g223",
+  "faction": "Scoia'tael",
+  "name": "NEUTRALS Can be played in any deck.",
+  "location": "NEUTRALS Can be played in any deck.",
+  "collected": false,
+  "row": 48
+ },
+ {
+  "id": "g224",
+  "faction": "Scoia'tael",
+  "name": "Card",
+  "location": "Location, Player",
+  "collected": false,
+  "row": 49
+ },
+ {
+  "id": "g225",
+  "faction": "Scoia'tael",
+  "name": "Cirilla Fiona Elen Riannon",
+  "location": "Won from the Scoia'tael merchant during Gwent: Big City Players",
+  "collected": true,
+  "row": 50
+ },
+ {
+  "id": "g226",
+  "faction": "Scoia'tael",
+  "name": "Commander's Horn",
+  "location": "Inn at the Crossroads's Innkeep OR Lindenvale's innkeep OR Marquise Serenity at the Passiflora OR Stjepan at The Alchemy OR the merchant at the circus camp near Carsten. (ONLY 3 OF THESE 5 OPTIONS)",
+  "collected": true,
+  "row": 51
+ },
+ {
+  "id": "g227",
+  "faction": "Scoia'tael",
+  "name": "Commander's Horn",
+  "location": "Inn at the Crossroads's Innkeep OR Lindenvale's innkeep OR Marquise Serenity at the Passiflora OR Stjepan at The Alchemy OR the merchant at the circus camp near Carsten. (ONLY 3 OF THESE 5 OPTIONS)",
+  "collected": true,
+  "row": 52
+ },
+ {
+  "id": "g228",
+  "faction": "Scoia'tael",
+  "name": "Commander's Horn",
+  "location": "Inn at the Crossroads's Innkeep OR Lindenvale's innkeep OR Marquise Serenity at the Passiflora OR Stjepan at The Alchemy OR the merchant at the circus camp near Carsten. (ONLY 3 OF THESE 5 OPTIONS)",
+  "collected": true,
+  "row": 53
+ },
+ {
+  "id": "g229",
+  "faction": "Scoia'tael",
+  "name": "Dandelion",
+  "location": "Won during A Matter of Life and Death",
+  "collected": true,
+  "row": 54
+ },
+ {
+  "id": "g230",
+  "faction": "Scoia'tael",
+  "name": "Decoy",
+  "location": "Elsa or Bram in White Orchard",
+  "collected": true,
+  "row": 55
+ },
+ {
+  "id": "g231",
+  "faction": "Scoia'tael",
+  "name": "Decoy",
+  "location": "Crow's Perch's Quartermaster",
+  "collected": true,
+  "row": 56
+ },
+ {
+  "id": "g232",
+  "faction": "Scoia'tael",
+  "name": "Decoy",
+  "location": "Seven Cats Inn's Innkeep",
+  "collected": true,
+  "row": 57
+ },
+ {
+  "id": "g233",
+  "faction": "Scoia'tael",
+  "name": "Triss Merigold",
+  "location": "Lambert during Gwent: Old Pals",
+  "collected": true,
+  "row": 58
+ },
+ {
+  "id": "g234",
+  "faction": "Scoia'tael",
+  "name": "Vesemir",
+  "location": "Vimme Vivaldi during Gwent: Big City Players",
+  "collected": true,
+  "row": 59
+ },
+ {
+  "id": "g235",
+  "faction": "Scoia'tael",
+  "name": "Yennefer of Vengerberg",
+  "location": "Stjepan during Gwent: Playing Innkeeps",
+  "collected": true,
+  "row": 60
+ },
+ {
+  "id": "g236",
+  "faction": "Scoia'tael",
+  "name": "Zoltan Chivay",
+  "location": "Aldert Geert in White Orchard or found under the Hanged Man's Tree",
+  "collected": true,
+  "row": 61
+ },
+ {
+  "id": "g237",
+  "faction": "Scoia'tael",
+  "name": "Geralt of Rivia",
+  "location": "Thaler during Gwent: Playing Thaler",
+  "collected": true,
+  "row": 62
+ },
+ {
+  "id": "g238",
+  "faction": "Scoia'tael",
+  "name": "Mysterious Elf",
+  "location": "Gremist during Gwent: Skellige Style",
+  "collected": true,
+  "row": 63
+ },
+ {
+  "id": "g239",
+  "faction": "Scoia'tael",
+  "name": "Scorch",
+  "location": "Cunny of the Goose's Innkeep",
+  "collected": true,
+  "row": 64
+ },
+ {
+  "id": "g240",
+  "faction": "Scoia'tael",
+  "name": "Scorch",
+  "location": "Jonas at the New Port Inn in Skellige",
+  "collected": true,
+  "row": 65
+ },
+ {
+  "id": "g241",
+  "faction": "Scoia'tael",
+  "name": "Scorch",
+  "location": "Urialla Harbor's Innkeep in Skellige",
+  "collected": true,
+  "row": 66
+ },
+ {
+  "id": "g242",
+  "faction": "Scoia'tael",
+  "name": "Cow",
+  "location": "Hearts of Stone: inside a barn in Brunwich",
+  "collected": true,
+  "row": 67
+ },
+ {
+  "id": "g243",
+  "faction": "Scoia'tael",
+  "name": "Gaunter O'Dimm",
+  "location": "Hearts of Stone: Won from Hilbert during Open Sesame!",
+  "collected": true,
+  "row": 68
+ },
+ {
+  "id": "g244",
+  "faction": "Scoia'tael",
+  "name": "Gaunter O'Dimm: Darkness",
+  "location": "Hearts of Stone: Dulla kh'Amanni at Upper Mill",
+  "collected": true,
+  "row": 69
+ },
+ {
+  "id": "g245",
+  "faction": "Scoia'tael",
+  "name": "Gaunter O'Dimm: Darkness",
+  "location": "Hearts of Stone: Circus camp merchant near Carsten",
+  "collected": true,
+  "row": 70
+ },
+ {
+  "id": "g246",
+  "faction": "Scoia'tael",
+  "name": "Gaunter O'Dimm: Darkness",
+  "location": "Hearts of Stone: Circus camp merchant near Carsten",
+  "collected": true,
+  "row": 71
+ },
+ {
+  "id": "g247",
+  "faction": "Scoia'tael",
+  "name": "Olgierd von Everec",
+  "location": "Hearts of Stone: Won from Shani",
+  "collected": true,
+  "row": 72
+ },
+ {
+  "id": "g248",
+  "faction": "Scoia'tael",
+  "name": "Skellige Storm",
+  "location": "Blood and Wine: Tourney Grounds' armorer",
+  "collected": true,
+  "row": 73
+ },
+ {
+  "id": "g249",
+  "faction": "Scoia'tael",
+  "name": "Skellige Storm",
+  "location": "Blood and Wine: Tourney Grounds' barber",
+  "collected": true,
+  "row": 74
+ },
+ {
+  "id": "g250",
+  "faction": "Scoia'tael",
+  "name": "Skellige Storm",
+  "location": "Blood and Wine: Won Beauclair Port's butcher",
+  "collected": true,
+  "row": 75
+ },
+ {
+  "id": "g251",
+  "faction": "Scoia'tael",
+  "name": "Emiel Regis Rohellec Terzieff",
+  "location": "Random",
+  "collected": true,
+  "row": 76
+ },
+ {
+  "id": "g252",
+  "faction": "Scoia'tael",
+  "name": "Villentretenmerth",
+  "location": "Random",
+  "collected": true,
+  "row": 77
+ },
+ {
+  "id": "g253",
+  "faction": "Scoia'tael",
+  "name": "Biting Frost",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 78
+ },
+ {
+  "id": "g254",
+  "faction": "Scoia'tael",
+  "name": "Biting Frost",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 79
+ },
+ {
+  "id": "g255",
+  "faction": "Scoia'tael",
+  "name": "Biting Frost",
+  "location": "Random",
+  "collected": true,
+  "row": 80
+ },
+ {
+  "id": "g256",
+  "faction": "Scoia'tael",
+  "name": "Clear Weather",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 81
+ },
+ {
+  "id": "g257",
+  "faction": "Scoia'tael",
+  "name": "Clear Weather",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 82
+ },
+ {
+  "id": "g258",
+  "faction": "Scoia'tael",
+  "name": "Clear Weather",
+  "location": "Random",
+  "collected": true,
+  "row": 83
+ },
+ {
+  "id": "g259",
+  "faction": "Scoia'tael",
+  "name": "Impenetrable Fog",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 84
+ },
+ {
+  "id": "g260",
+  "faction": "Scoia'tael",
+  "name": "Impenetrable Fog",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 85
+ },
+ {
+  "id": "g261",
+  "faction": "Scoia'tael",
+  "name": "Impenetrable Fog",
+  "location": "Random",
+  "collected": true,
+  "row": 86
+ },
+ {
+  "id": "g262",
+  "faction": "Scoia'tael",
+  "name": "Torrential Rain",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 87
+ },
+ {
+  "id": "g263",
+  "faction": "Scoia'tael",
+  "name": "Torrential Rain",
+  "location": "Random",
+  "collected": true,
+  "row": 88
+ },
+ {
+  "id": "g264",
+  "faction": "Scoia'tael",
+  "name": "Torrential Rain",
+  "location": "Random",
+  "collected": true,
+  "row": 89
+ },
+ {
+  "id": "g265",
+  "faction": "Scoia'tael",
+  "name": "Roach",
+  "location": "Base Deck",
+  "collected": true,
+  "row": 90
+ }
+]

@@ -1,0 +1,792 @@
+[
+ {
+  "id": "t001",
+  "name": "A Friend in Need",
+  "requirement": "Find and free Dandelion.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": true,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/A_Friend_in_Need"
+ },
+ {
+  "id": "t002",
+  "name": "All In",
+  "requirement": "Play three hero cards in one round of gwent and win the match.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/All_In?so=search"
+ },
+ {
+  "id": "t003",
+  "name": "Armed and Dangerous",
+  "requirement": "Find and equip all the elements of one set of witcher gear.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Armed_and_Dangerous?so=search"
+ },
+ {
+  "id": "t004",
+  "name": "Ashes to Ashes",
+  "requirement": "Complete the contract on Therazane.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Ashes_to_Ashes?so=search"
+ },
+ {
+  "id": "t005",
+  "name": "Assassin of Kings",
+  "requirement": "Take part in the assassination of King Radovid.",
+  "dlc": "BASE GAME",
+  "missable": true,
+  "spoiler": true,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Assassin_of_Kings"
+ },
+ {
+  "id": "t006",
+  "name": "Bombardier",
+  "requirement": "Collect the formulae for 6 different bomb types.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Bombardier?so=search"
+ },
+ {
+  "id": "t007",
+  "name": "Bookworm",
+  "requirement": "Read 30 books, journals or other documents.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Bookworm?so=search"
+ },
+ {
+  "id": "t008",
+  "name": "Brawl Master",
+  "requirement": "Complete all fistfighting quests in Velen, Skellige and Novigrad.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Brawl_Master?so=search"
+ },
+ {
+  "id": "t009",
+  "name": "Brawler",
+  "requirement": "Defeat Olaf, the Skellige champion of unarmed combat.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Brawler?so=search"
+ },
+ {
+  "id": "t010",
+  "name": "Butcher of Blaviken",
+  "requirement": "Kill at least 5 opponents in under 10 seconds.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Butcher_of_Blaviken_(achievement)"
+ },
+ {
+  "id": "t011",
+  "name": "Can't Touch This!",
+  "requirement": "Kill 5 foes in a fight without taking damage (except for Toxicity) and without using the Quen Sign.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Can%27t_Touch_This!"
+ },
+ {
+  "id": "t012",
+  "name": "Card Collector",
+  "requirement": "Acquire all gwent cards available in the base version of the game.",
+  "dlc": "BASE GAME",
+  "missable": true,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Card_Collector"
+ },
+ {
+  "id": "t013",
+  "name": "Dendrologist",
+  "requirement": "Acquire all the Abilities in one tree.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Dendrologist?so=search"
+ },
+ {
+  "id": "t014",
+  "name": "Environmentally Unfriendly",
+  "requirement": "Kill 50 opponents using the environment (e.g. swamp gas, insects or objects).",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Environmentally_Unfriendly"
+ },
+ {
+  "id": "t015",
+  "name": "Even Odds",
+  "requirement": "Kill 2 monsters you have a contract on without using Signs, potions, mutagens, oils or bombs.",
+  "dlc": "BASE GAME",
+  "missable": true,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Even_Odds?so=search"
+ },
+ {
+  "id": "t016",
+  "name": "Family Counselor",
+  "requirement": "Find the baron's wife and daughter.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": true,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Family_Counselor"
+ },
+ {
+  "id": "t017",
+  "name": "Fast and Furious",
+  "requirement": "Win all the horse races in the game.",
+  "dlc": "BASE GAME",
+  "missable": true,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Fast_and_Furious?so=search"
+ },
+ {
+  "id": "t018",
+  "name": "Fearless Vampire Slayer",
+  "requirement": "Complete the contract on Sarasti.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Fearless_Vampire_Slayer?so=search"
+ },
+ {
+  "id": "t019",
+  "name": "Fiend or Foe?",
+  "requirement": "Complete the contract on Morvudd.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Fiend_or_Foe%3F?so=search"
+ },
+ {
+  "id": "t020",
+  "name": "Fire in the Hole",
+  "requirement": "Destroy 10 monster nests using bombs.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Fire_in_the_Hole?so=search"
+ },
+ {
+  "id": "t021",
+  "name": "Fist of the South Star",
+  "requirement": "Defeat an opponent in a fistfight without taking any damage.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Fist_of_the_South_Star?so=search"
+ },
+ {
+  "id": "t022",
+  "name": "Friends With Benefits",
+  "requirement": "Complete the subplot involving Keira Metz.",
+  "dlc": "BASE GAME",
+  "missable": true,
+  "spoiler": true,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Friends_With_Benefits?so=search"
+ },
+ {
+  "id": "t023",
+  "name": "Full Crew",
+  "requirement": "Bring all possible allies to Kaer Morhen for the battle against the Hunt.",
+  "dlc": "BASE GAME",
+  "missable": true,
+  "spoiler": true,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Full_Crew"
+ },
+ {
+  "id": "t024",
+  "name": "Geralt and Friends",
+  "requirement": "Win a round of gwent using only neutral cards.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Geralt_and_Friends?so=search"
+ },
+ {
+  "id": "t025",
+  "name": "Geralt: The Professional",
+  "requirement": "Complete all witcher contracts.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Geralt:_The_Professional?so=search"
+ },
+ {
+  "id": "t026",
+  "name": "Globetrotter",
+  "requirement": "Discover 100 fast travel points.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Globetrotter?so=search"
+ },
+ {
+  "id": "t027",
+  "name": "Gwent Master",
+  "requirement": "Defeat Tybalt and win the gwent tournament held at the Passiflora.",
+  "dlc": "BASE GAME",
+  "missable": true,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Gwent_Master"
+ },
+ {
+  "id": "t028",
+  "name": "Humpty Dumpty",
+  "requirement": "Kill 10 opponents by knocking them off somewhere high with the Aard Sign.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Humpty_Dumpty"
+ },
+ {
+  "id": "t029",
+  "name": "Kaer Morhen Trained",
+  "requirement": "Perform 10 effective counterattacks in a row without getting hit or parrying.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Kaer_Morhen_Trained?so=search"
+ },
+ {
+  "id": "t030",
+  "name": "Kingmaker",
+  "requirement": "Complete the subplot about choosing Skellige's ruler.",
+  "dlc": "BASE GAME",
+  "missable": true,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Kingmaker?so=search"
+ },
+ {
+  "id": "t031",
+  "name": "Let's Cook!",
+  "requirement": "Learn 12 potion formulae.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Let's_Cook!?so=search"
+ },
+ {
+  "id": "t032",
+  "name": "Lilac and Gooseberries",
+  "requirement": "Find Yennefer of Vengerberg.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": true,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Lilac_and_Gooseberries_(achievement)?so=search"
+ },
+ {
+  "id": "t033",
+  "name": "Master Marksman",
+  "requirement": "Kill 50 human and nonhuman opponents by striking them in the head with a crossbow bolt.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://youtu.be/0CTt6wdopHU?t=22031"
+ },
+ {
+  "id": "t034",
+  "name": "Munchkin",
+  "requirement": "Reach character development level 35.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Munchkin?so=search"
+ },
+ {
+  "id": "t035",
+  "name": "Mutant",
+  "requirement": "Fill all mutagen slots.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Mutant_(achievement)?so=search"
+ },
+ {
+  "id": "t036",
+  "name": "Necromancer",
+  "requirement": "Help Yennefer extract information from Skjall's body.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": true,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Necromancer?so=search"
+ },
+ {
+  "id": "t037",
+  "name": "Overkill",
+  "requirement": "Make an opponent suffer from bleeding, poisoning and burning simultaneously. Do this 10 times.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Overkill"
+ },
+ {
+  "id": "t038",
+  "name": "Passed the Trial",
+  "requirement": "Finish the game on any difficulty.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Passed_the_Trial?so=search"
+ },
+ {
+  "id": "t039",
+  "name": "Pest Control",
+  "requirement": "Destroy all monster nests in the Velen / Novigrad region, or in Skellige.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Pest_Control?so=search"
+ },
+ {
+  "id": "t040",
+  "name": "Power Overwhelming",
+  "requirement": "Have all possible Place of Power bonuses active at the same time.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Power_Overwhelming"
+ },
+ {
+  "id": "t041",
+  "name": "Ran the Gauntlet",
+  "requirement": "Finish the game on the \"Blood and Broken Bones!\" or \"Death March!\" difficulty levels.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Ran_the_Gauntlet?so=search"
+ },
+ {
+  "id": "t042",
+  "name": "Shrieker",
+  "requirement": "Complete the contract on the shrieker.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Shrieker_(achievement)?so=search"
+ },
+ {
+  "id": "t043",
+  "name": "Something More",
+  "requirement": "Find Ciri.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": true,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Something_More_(achievement)?so=search"
+ },
+ {
+  "id": "t044",
+  "name": "That Is the Evilest Thing",
+  "requirement": "Ignite the gas produced by a Dragon's Dream bomb using a burning opponent. Do this 10 times.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/That_Is_the_Evilest_Thing"
+ },
+ {
+  "id": "t045",
+  "name": "The Doppler Effect",
+  "requirement": "Resolve the doppler problem in Novigrad.",
+  "dlc": "BASE GAME",
+  "missable": true,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/The_Doppler_Effect?so=search"
+ },
+ {
+  "id": "t046",
+  "name": "The Enemy of My Enemy",
+  "requirement": "Use the Axii Sign to force one opponent to kill another. Do this 20 times.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/The_Enemy_of_My_Enemy"
+ },
+ {
+  "id": "t047",
+  "name": "The King is Dead",
+  "requirement": "Defeat Eredin.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": true,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/The_King_is_Dead?so=search"
+ },
+ {
+  "id": "t048",
+  "name": "The Limits of the Possible",
+  "requirement": "Collect all trophies. Note: This is a PlayStation exclusive achievement.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/The_Limits_of_the_Possible?so=search"
+ },
+ {
+  "id": "t049",
+  "name": "Triple Threat",
+  "requirement": "Kill 3 opponents in one fight using 3 different methods (sword, bombs, crossbow, Signs, etc.)",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Triple_Threat"
+ },
+ {
+  "id": "t050",
+  "name": "Walked the Path",
+  "requirement": "Finish the game on the \"Death March!\" difficulty level.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Walked_the_Path?so=search"
+ },
+ {
+  "id": "t051",
+  "name": "What Was That?",
+  "requirement": "Attack, counter, cast a Sign and throw a bomb (in any order) in under 4 seconds.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/What_Was_That%3F"
+ },
+ {
+  "id": "t052",
+  "name": "Woodland Spirit",
+  "requirement": "Complete the contract on the Woodland Spirit.",
+  "dlc": "BASE GAME",
+  "missable": true,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Woodland_Spirit_(achievement)?so=search"
+ },
+ {
+  "id": "t053",
+  "name": "Xenonaut",
+  "requirement": "Visit Tir ná Lia and convince Ge'els to betray Eredin.",
+  "dlc": "BASE GAME",
+  "missable": false,
+  "spoiler": true,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Xenonaut?so=search"
+ },
+ {
+  "id": "t054",
+  "name": "Can Quit Anytime I Want",
+  "requirement": "Be under the influence of seven potions or decoctions at the same time.",
+  "dlc": "HEARTS OF STONE",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Can_Quit_Anytime_I_Want"
+ },
+ {
+  "id": "t055",
+  "name": "Curator of Nightmares",
+  "requirement": "Recreate all of Iris' nightmares in the Painted World.",
+  "dlc": "HEARTS OF STONE",
+  "missable": true,
+  "spoiler": true,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Curator_of_Nightmares"
+ },
+ {
+  "id": "t056",
+  "name": "I Wore Ofieri Before It Was Cool",
+  "requirement": "Collect all available Ofieri armor and horse gear, and at least one Ofieri sword.",
+  "dlc": "HEARTS OF STONE",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/I_Wore_Ofieri_Before_It_Was_Cool"
+ },
+ {
+  "id": "t057",
+  "name": "I'm Not Kissing That",
+  "requirement": "Kill the prince cursed into a toad.",
+  "dlc": "HEARTS OF STONE",
+  "missable": false,
+  "spoiler": true,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/I'm_Not_Kissing_That?so=search"
+ },
+ {
+  "id": "t058",
+  "name": "Killed It",
+  "requirement": "Win a round of gwent with a total strength of at least 187.",
+  "dlc": "HEARTS OF STONE",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Killed_It"
+ },
+ {
+  "id": "t059",
+  "name": "Let the Good Times Roll!",
+  "requirement": "Participate in all the activities at the wedding.",
+  "dlc": "HEARTS OF STONE",
+  "missable": true,
+  "spoiler": true,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Let_the_Good_Times_Roll!?so=search"
+ },
+ {
+  "id": "t060",
+  "name": "Moo-rderer",
+  "requirement": "Kill 20 cows.",
+  "dlc": "HEARTS OF STONE",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Moo-rderer"
+ },
+ {
+  "id": "t061",
+  "name": "Pacta Sunt Servanda",
+  "requirement": "Finish the \"Hearts of Stone\" expansion.",
+  "dlc": "HEARTS OF STONE",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Pacta_Sunt_Servanda_(achievement)?so=search"
+ },
+ {
+  "id": "t062",
+  "name": "Rad Steez, Bro!",
+  "requirement": "Slide downhill uninterrupted for at least 10 seconds.",
+  "dlc": "HEARTS OF STONE",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Rad_Steez,_Bro!"
+ },
+ {
+  "id": "t063",
+  "name": "Return to Sender",
+  "requirement": "Kill 3 opponents with their own arrows.",
+  "dlc": "HEARTS OF STONE",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Return_to_Sender"
+ },
+ {
+  "id": "t064",
+  "name": "Shopaholic",
+  "requirement": "Buy all the items put on the block at the Borsodis' Auction House.",
+  "dlc": "HEARTS OF STONE",
+  "missable": true,
+  "spoiler": true,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Shopaholic?so=search"
+ },
+ {
+  "id": "t065",
+  "name": "When It's Many Against One...",
+  "requirement": "_ Provoke all Iris von Everec's Nightmares into fighting you at the same time and defeat them.",
+  "dlc": "HEARTS OF STONE",
+  "missable": true,
+  "spoiler": true,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/When_It%27s_Many_Against_One..."
+ },
+ {
+  "id": "t066",
+  "name": "Wild Rose Dethorned",
+  "requirement": "Destroy all the fallen knights of the Order of the Flaming Rose's campsites.",
+  "dlc": "HEARTS OF STONE",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Wild_Rose_Dethorned?so=search"
+ },
+ {
+  "id": "t067",
+  "name": "A Knight to Remember",
+  "requirement": "Obtain a flawless victory in all the competitions during the knights' tourney.",
+  "dlc": "BLOOD AND WINE",
+  "missable": true,
+  "spoiler": true,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/A_Knight_to_Remember?so=search"
+ },
+ {
+  "id": "t068",
+  "name": "David and Golyat",
+  "requirement": "Kill Golyat with a crossbow bolt to his eye.",
+  "dlc": "BLOOD AND WINE",
+  "missable": true,
+  "spoiler": true,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/David_and_Golyat"
+ },
+ {
+  "id": "t069",
+  "name": "Dressed to Kill",
+  "requirement": "Unlock the bonus for equipping all the witcher gear elements from one School.",
+  "dlc": "BLOOD AND WINE",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Dressed_to_Kill"
+ },
+ {
+  "id": "t070",
+  "name": "Embodiment of the Five Virtues",
+  "requirement": "Be given Aerondight by the Lady of the Lake.",
+  "dlc": "BLOOD AND WINE",
+  "missable": true,
+  "spoiler": true,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Embodiment_of_the_Five_Virtues"
+ },
+ {
+  "id": "t071",
+  "name": "Hasta la Vista™",
+  "requirement": "Kill a frozen opponent with a crossbow bolt.",
+  "dlc": "BLOOD AND WINE",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Hasta_la_Vista%E2%84%A2"
+ },
+ {
+  "id": "t072",
+  "name": "I Have a Gwent Problem",
+  "requirement": "Collect all the cards in the Skellige deck.",
+  "dlc": "BLOOD AND WINE",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/I_Have_a_Gwent_Problem?so=search"
+ },
+ {
+  "id": "t073",
+  "name": "Kling of the Clink",
+  "requirement": "Serve time in Toussaint.",
+  "dlc": "BLOOD AND WINE",
+  "missable": true,
+  "spoiler": true,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Kling_of_the_Clink"
+ },
+ {
+  "id": "t074",
+  "name": "Last Action Hero",
+  "requirement": "Be decorated with the Order of Vitis Vinifera.",
+  "dlc": "BLOOD AND WINE",
+  "missable": true,
+  "spoiler": true,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Last_Action_Hero"
+ },
+ {
+  "id": "t075",
+  "name": "Playing House",
+  "requirement": "Use all available options for developing Corvo Bianco.",
+  "dlc": "BLOOD AND WINE",
+  "missable": false,
+  "spoiler": true,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Playing_House?so=search"
+ },
+ {
+  "id": "t076",
+  "name": "The Grapes of Wrath Stomped",
+  "requirement": "Help unite the warring vineyards and have wine named in your honor.",
+  "dlc": "BLOOD AND WINE",
+  "missable": true,
+  "spoiler": true,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/The_Grapes_of_Wrath_Stomped"
+ },
+ {
+  "id": "t077",
+  "name": "The Witcher's Gone South",
+  "requirement": "Travel to the Duchy of Toussaint.",
+  "dlc": "BLOOD AND WINE",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/The_Witcher's_Gone_South?so=search"
+ },
+ {
+  "id": "t078",
+  "name": "Turned Every Stone",
+  "requirement": "Find all grandmaster diagrams for each witcher school.",
+  "dlc": "BLOOD AND WINE",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Turned_Every_Stone?so=search"
+ },
+ {
+  "id": "t079",
+  "name": "Weapon \"W\"",
+  "requirement": "Develop a mutation.",
+  "dlc": "BLOOD AND WINE",
+  "missable": false,
+  "spoiler": false,
+  "done": false,
+  "url": "https://witcher.fandom.com/wiki/Weapon_%22W%22"
+ }
+]

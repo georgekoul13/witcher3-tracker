@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="896" viewBox="0 0 1024 896">
+  <defs>
+    <pattern id="g" width="64" height="56" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0v56" fill="none" stroke="#221d18" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1024" height="896" fill="#14110d"/>
+  <rect width="1024" height="896" fill="url(#g)"/>
+  <text x="512" y="56" fill="#3a3329" font-family="Georgia, serif" font-size="19"
+        letter-spacing="5" text-anchor="middle">NO MAP IMAGE — MARKER POSITIONS ARE REAL</text>
+</svg>

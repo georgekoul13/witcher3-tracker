@@ -1,0 +1,1315 @@
+{
+ "note": "Quest-to-marker links derived by matching witcher3map marker labels against quest names. Categories contracts/sidequests/event only; signpost, poi and entrance are excluded because their place names can coincide with quest titles. Region must agree.",
+ "generated": "2026-10-26",
+ "links": [
+  {
+   "questId": "q0189",
+   "markerId": "m00132",
+   "name": "An Elusive Thief",
+   "category": "contracts",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0224",
+   "markerId": "m00133",
+   "name": "Deadly Delights",
+   "category": "contracts",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0191",
+   "markerId": "m00134",
+   "name": "Doors Slamming Shut",
+   "category": "contracts",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0086",
+   "markerId": "m00135",
+   "name": "Jenny o' the Woods",
+   "category": "contracts",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0192",
+   "markerId": "m00136",
+   "name": "Lord of the Wood",
+   "category": "contracts",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0091",
+   "markerId": "m00137",
+   "name": "Missing Brother",
+   "category": "contracts",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0088",
+   "markerId": "m00138",
+   "name": "Mysterious Tracks",
+   "category": "contracts",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0084",
+   "markerId": "m00139",
+   "name": "Patrol Gone Missing",
+   "category": "contracts",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0090",
+   "markerId": "m00140",
+   "name": "Phantom of the Trade Route",
+   "category": "contracts",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0085",
+   "markerId": "m00141",
+   "name": "Shrieker",
+   "category": "contracts",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0087",
+   "markerId": "m00142",
+   "name": "Swamp Thing",
+   "category": "contracts",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0087",
+   "markerId": "m00143",
+   "name": "Swamp Thing",
+   "category": "contracts",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0150",
+   "markerId": "m00144",
+   "name": "The Apiarian Phantom",
+   "category": "contracts",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0150",
+   "markerId": "m00145",
+   "name": "The Apiarian Phantom",
+   "category": "contracts",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0318",
+   "markerId": "m00146",
+   "name": "The Beast of Honorton",
+   "category": "contracts",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0316",
+   "markerId": "m00148",
+   "name": "The Griffin from the Highlands",
+   "category": "contracts",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0073",
+   "markerId": "m00149",
+   "name": "The Merry Widow",
+   "category": "contracts",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0089",
+   "markerId": "m00150",
+   "name": "The Mystery of the Byways Murders",
+   "category": "contracts",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0324",
+   "markerId": "m00151",
+   "name": "The Oxenfurt Drunk",
+   "category": "contracts",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0190",
+   "markerId": "m00152",
+   "name": "The White Lady",
+   "category": "contracts",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0083",
+   "markerId": "m00153",
+   "name": "Woodland Beast",
+   "category": "contracts",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0023",
+   "markerId": "m00221",
+   "name": "A Man's Best Friend",
+   "category": "event",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0151",
+   "markerId": "m00222",
+   "name": "A Warm Welcome",
+   "category": "event",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0026",
+   "markerId": "m00225",
+   "name": "Caravan Attack",
+   "category": "event",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0040",
+   "markerId": "m00226",
+   "name": "Crow's Perch Fight",
+   "category": "event",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0035",
+   "markerId": "m00227",
+   "name": "Deadly Crossing I",
+   "category": "event",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0126",
+   "markerId": "m00231",
+   "name": "Drunken Rabble",
+   "category": "event",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0029",
+   "markerId": "m00232",
+   "name": "Face Me if You Dare! I",
+   "category": "event",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0125",
+   "markerId": "m00233",
+   "name": "Face Me if You Dare! II",
+   "category": "event",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0164",
+   "markerId": "m00234",
+   "name": "Face Me if You Dare! III",
+   "category": "event",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0027",
+   "markerId": "m00235",
+   "name": "Harassing A Troll",
+   "category": "event",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0037",
+   "markerId": "m00236",
+   "name": "Highway Robbery",
+   "category": "event",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0124",
+   "markerId": "m00237",
+   "name": "Karmic Justice",
+   "category": "event",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0152",
+   "markerId": "m00246",
+   "name": "Strangers in the Night",
+   "category": "event",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0122",
+   "markerId": "m00247",
+   "name": "Strumpet in Distress",
+   "category": "event",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0128",
+   "markerId": "m00248",
+   "name": "Suspicious Shakedown",
+   "category": "event",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0177",
+   "markerId": "m00251",
+   "name": "The Most Truest of Basilisks",
+   "category": "event",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0129",
+   "markerId": "m00255",
+   "name": "Witch Hunter Raids I",
+   "category": "event",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0327",
+   "markerId": "m00256",
+   "name": "Rough Neighborhood",
+   "category": "event",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0169",
+   "markerId": "m00260",
+   "name": "Witch Hunter Raids II",
+   "category": "event",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0153",
+   "markerId": "m00763",
+   "name": "A Barnful of Trouble",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0161",
+   "markerId": "m00764",
+   "name": "A Dangerous Game",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0210",
+   "markerId": "m00765",
+   "name": "Redania´s Most Wanted",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0056",
+   "markerId": "m00766",
+   "name": "A Dog's Life",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0048",
+   "markerId": "m00767",
+   "name": "Magic Lamp",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0050",
+   "markerId": "m00768",
+   "name": "An Invitation from Keira Metz",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0051",
+   "markerId": "m00769",
+   "name": "A Towerful of Mice",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0052",
+   "markerId": "m00770",
+   "name": "A Favor for a Friend",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0330",
+   "markerId": "m00771",
+   "name": "Reason of State",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0186",
+   "markerId": "m00772",
+   "name": "A Feast for Crows",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0079",
+   "markerId": "m00773",
+   "name": "A Greedy God",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0162",
+   "markerId": "m00774",
+   "name": "A Tome Entombed",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0120",
+   "markerId": "m00775",
+   "name": "A Walk on the Waterfront",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0154",
+   "markerId": "m00776",
+   "name": "An Eye for an Eye",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0356",
+   "markerId": "m00777",
+   "name": "Avid Collector",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0070",
+   "markerId": "m00778",
+   "name": "Bitter Harvest",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0184",
+   "markerId": "m00779",
+   "name": "Black Pearl",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0081",
+   "markerId": "m00780",
+   "name": "Blood Ties",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0163",
+   "markerId": "m00781",
+   "name": "Cabaret",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0172",
+   "markerId": "m00782",
+   "name": "Carnal Sins",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0033",
+   "markerId": "m00783",
+   "name": "Ciri's Room",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0042",
+   "markerId": "m00784",
+   "name": "Death By Fire",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0179",
+   "markerId": "m00786",
+   "name": "Empty Coop",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0071",
+   "markerId": "m00787",
+   "name": "Fake Papers",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0141",
+   "markerId": "m00788",
+   "name": "Fencing Lessons",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0144",
+   "markerId": "m00789",
+   "name": "Following the Thread",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0078",
+   "markerId": "m00791",
+   "name": "Forefathers' Eve",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0078",
+   "markerId": "m00792",
+   "name": "Forefathers' Eve",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0020",
+   "markerId": "m00794",
+   "name": "Funeral Pyres",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0058",
+   "markerId": "m00795",
+   "name": "Ghosts of the Past",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0135",
+   "markerId": "m00796",
+   "name": "Haunted House",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0180",
+   "markerId": "m00798",
+   "name": "Hey, You Wanna Look at my Stuff?",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0132",
+   "markerId": "m00799",
+   "name": "Hidden Messages of the Nilfgaardian Kind",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0149",
+   "markerId": "m00801",
+   "name": "Honor Among Thieves",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0080",
+   "markerId": "m00802",
+   "name": "Last Rites",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0185",
+   "markerId": "m00803",
+   "name": "Little Red",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0072",
+   "markerId": "m00804",
+   "name": "Love's Cruel Snares",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0044",
+   "markerId": "m00805",
+   "name": "Lynch Mob",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0315",
+   "markerId": "m00806",
+   "name": "Master Armorers",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0178",
+   "markerId": "m00807",
+   "name": "Message from an Old Friend",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0181",
+   "markerId": "m00808",
+   "name": "Novigrad Hospitality",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0182",
+   "markerId": "m00811",
+   "name": "Of Dairy and Darkness",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0187",
+   "markerId": "m00812",
+   "name": "Of Swords and Dumplings",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0225",
+   "markerId": "m00813",
+   "name": "Out On Your Arse!",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0168",
+   "markerId": "m00814",
+   "name": "A Matter of Life and Death",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0347",
+   "markerId": "m00815",
+   "name": "A Midnight Clear",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0067",
+   "markerId": "m00816",
+   "name": "Return to Crookback Bog",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0327",
+   "markerId": "m00818",
+   "name": "Rough Neighborhood",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0183",
+   "markerId": "m00819",
+   "name": "Spooked Mare",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0320",
+   "markerId": "m00820",
+   "name": "Take What You Want",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0142",
+   "markerId": "m00821",
+   "name": "The Dwarven Document Dilemma",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0057",
+   "markerId": "m00822",
+   "name": "The Fall of the House of Reardon",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0362",
+   "markerId": "m00823",
+   "name": "The Taxman Cometh",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0075",
+   "markerId": "m00824",
+   "name": "The Truth is in the Stars",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0082",
+   "markerId": "m00825",
+   "name": "The Volunteer",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0062",
+   "markerId": "m00826",
+   "name": "The Whispering Hillock",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0041",
+   "markerId": "m00827",
+   "name": "Thou Shalt Not Pass",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0121",
+   "markerId": "m00828",
+   "name": "Warehouse of Woe",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0077",
+   "markerId": "m00829",
+   "name": "Wild at Heart",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0077",
+   "markerId": "m00830",
+   "name": "Wild at Heart",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0074",
+   "markerId": "m00831",
+   "name": "Witcher Wannabe",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0165",
+   "markerId": "m00849",
+   "name": "The Nobleman Statuette",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0166",
+   "markerId": "m00850",
+   "name": "The Soldier Statuette",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0173",
+   "markerId": "m00851",
+   "name": "In The Eternal Fire's Shadow",
+   "category": "sidequests",
+   "region": "Velen & Novigrad"
+  },
+  {
+   "questId": "q0294",
+   "markerId": "m02763",
+   "name": "Trail of Echoes",
+   "category": "event",
+   "region": "Kaer Morhen"
+  },
+  {
+   "questId": "q0293",
+   "markerId": "m02780",
+   "name": "Berengar's Blade",
+   "category": "sidequests",
+   "region": "Kaer Morhen"
+  },
+  {
+   "questId": "q0299",
+   "markerId": "m02781",
+   "name": "Greenhouse Effect",
+   "category": "sidequests",
+   "region": "Kaer Morhen"
+  },
+  {
+   "questId": "q0298",
+   "markerId": "m02782",
+   "name": "Monster Slayer",
+   "category": "sidequests",
+   "region": "Kaer Morhen"
+  },
+  {
+   "questId": "q0297",
+   "markerId": "m02783",
+   "name": "The Bastion",
+   "category": "sidequests",
+   "region": "Kaer Morhen"
+  },
+  {
+   "questId": "q0256",
+   "markerId": "m01558",
+   "name": "Dragon",
+   "category": "contracts",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0253",
+   "markerId": "m01559",
+   "name": "Here Comes the Groom",
+   "category": "contracts",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0255",
+   "markerId": "m01560",
+   "name": "Missing Miners",
+   "category": "contracts",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0257",
+   "markerId": "m01561",
+   "name": "Missing Son",
+   "category": "contracts",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0252",
+   "markerId": "m01562",
+   "name": "Muire D'yaeblen",
+   "category": "contracts",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0329",
+   "markerId": "m01563",
+   "name": "Skellige's Most Wanted",
+   "category": "contracts",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0251",
+   "markerId": "m01564",
+   "name": "Strange Beast",
+   "category": "contracts",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0217",
+   "markerId": "m01565",
+   "name": "The Phantom of Eldberg",
+   "category": "contracts",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0254",
+   "markerId": "m01566",
+   "name": "In the Heart of the Woods",
+   "category": "contracts",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0214",
+   "markerId": "m01630",
+   "name": "Call of the Wild",
+   "category": "event",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0221",
+   "markerId": "m01631",
+   "name": "Farting Trolls",
+   "category": "event",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0215",
+   "markerId": "m01633",
+   "name": "Siren’s Call",
+   "category": "event",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0229",
+   "markerId": "m01634",
+   "name": "The Four Faces of Hemdall",
+   "category": "event",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0226",
+   "markerId": "m01635",
+   "name": "Woe is Me",
+   "category": "event",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0212",
+   "markerId": "m01637",
+   "name": "Yustianna Disturbed",
+   "category": "event",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0244",
+   "markerId": "m01905",
+   "name": "A Bard´s Beloved",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0235",
+   "markerId": "m01906",
+   "name": "A Hallowed Horn",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0235",
+   "markerId": "m01907",
+   "name": "A Hallowed Horn",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0034",
+   "markerId": "m01908",
+   "name": "A Mysterious Passenger",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0248",
+   "markerId": "m01909",
+   "name": "Abandoned Sawmill",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0220",
+   "markerId": "m01910",
+   "name": "An Unpaid Debt",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0243",
+   "markerId": "m01911",
+   "name": "Armed Assault",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0230",
+   "markerId": "m01912",
+   "name": "Brave Fools Die Young",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0228",
+   "markerId": "m01913",
+   "name": "Coronation",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0213",
+   "markerId": "m01916",
+   "name": "Finders Keepers",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0139",
+   "markerId": "m01917",
+   "name": "Flesh for Sale",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0242",
+   "markerId": "m01918",
+   "name": "For Fame and Glory",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0237",
+   "markerId": "m01919",
+   "name": "Free Spirit",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0137",
+   "markerId": "m01921",
+   "name": "Hard Times",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0209",
+   "markerId": "m01922",
+   "name": "In Wolf's Clothing",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0231",
+   "markerId": "m01923",
+   "name": "Iron Maiden",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0227",
+   "markerId": "m01924",
+   "name": "King's Gambit",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0239",
+   "markerId": "m01925",
+   "name": "Master of the Arena",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0249",
+   "markerId": "m01926",
+   "name": "Peace Disturbed",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0222",
+   "markerId": "m01927",
+   "name": "Possession",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0247",
+   "markerId": "m01928",
+   "name": "Practicum in Advanced Alchemy",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0246",
+   "markerId": "m01929",
+   "name": "Shock Therapy",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0218",
+   "markerId": "m01930",
+   "name": "Stranger in a Strange Land",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0219",
+   "markerId": "m01933",
+   "name": "The Cave of Dreams",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0241",
+   "markerId": "m01934",
+   "name": "The Family Blade",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0211",
+   "markerId": "m01935",
+   "name": "The Last Wish",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0223",
+   "markerId": "m01936",
+   "name": "The Lord of Undvik",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0238",
+   "markerId": "m01937",
+   "name": "The Nithing",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0238",
+   "markerId": "m01938",
+   "name": "The Nithing",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0234",
+   "markerId": "m01939",
+   "name": "The Path of Warriors",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0234",
+   "markerId": "m01940",
+   "name": "The Path of Warriors",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0240",
+   "markerId": "m01941",
+   "name": "The Price of Honor",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0250",
+   "markerId": "m01942",
+   "name": "The Sad Tale of the Grossbart Brothers",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0233",
+   "markerId": "m01943",
+   "name": "The Tower Outta Nowheres",
+   "category": "sidequests",
+   "region": "Skellige"
+  },
+  {
+   "questId": "q0430",
+   "markerId": "m02361",
+   "name": "Big Game Hunter",
+   "category": "contracts",
+   "region": "Toussaint"
+  },
+  {
+   "questId": "q0437",
+   "markerId": "m02362",
+   "name": "Feet as Cold as Ice",
+   "category": "contracts",
+   "region": "Toussaint"
+  },
+  {
+   "questId": "q0390",
+   "markerId": "m02363",
+   "name": "Bovine Blues",
+   "category": "contracts",
+   "region": "Toussaint"
+  },
+  {
+   "questId": "q0438",
+   "markerId": "m02364",
+   "name": "The Tufo Monster",
+   "category": "contracts",
+   "region": "Toussaint"
+  },
+  {
+   "questId": "q0436",
+   "markerId": "m02365",
+   "name": "Equine Phantoms",
+   "category": "contracts",
+   "region": "Toussaint"
+  },
+  {
+   "questId": "q0378",
+   "markerId": "m02587",
+   "name": "There Can Be Only One",
+   "category": "sidequests",
+   "region": "Toussaint"
+  },
+  {
+   "questId": "q0428",
+   "markerId": "m02588",
+   "name": "Mutual of Beauclair's Wild Kingdom",
+   "category": "sidequests",
+   "region": "Toussaint"
+  },
+  {
+   "questId": "q0429",
+   "markerId": "m02589",
+   "name": "Knight for Hire",
+   "category": "sidequests",
+   "region": "Toussaint"
+  },
+  {
+   "questId": "q0377",
+   "markerId": "m02590",
+   "name": "Turn and Face the Strange",
+   "category": "sidequests",
+   "region": "Toussaint"
+  },
+  {
+   "questId": "q0389",
+   "markerId": "m02593",
+   "name": "Till Death Do You Part",
+   "category": "sidequests",
+   "region": "Toussaint"
+  },
+  {
+   "questId": "q0426",
+   "markerId": "m02594",
+   "name": "Master Master Master Master!",
+   "category": "sidequests",
+   "region": "Toussaint"
+  },
+  {
+   "questId": "q0417",
+   "markerId": "m02595",
+   "name": "Goodness, Gracious, Great Balls of Granite!",
+   "category": "sidequests",
+   "region": "Toussaint"
+  },
+  {
+   "questId": "q0387",
+   "markerId": "m02596",
+   "name": "The Warble of a Smitten Knight",
+   "category": "sidequests",
+   "region": "Toussaint"
+  },
+  {
+   "questId": "q0376",
+   "markerId": "m02597",
+   "name": "No Place Like Home",
+   "category": "sidequests",
+   "region": "Toussaint"
+  },
+  {
+   "questId": "q0416",
+   "markerId": "m02598",
+   "name": "Paperchase",
+   "category": "sidequests",
+   "region": "Toussaint"
+  },
+  {
+   "questId": "q0398",
+   "markerId": "m02599",
+   "name": "A Portrait of the Witcher as an Old Man",
+   "category": "sidequests",
+   "region": "Toussaint"
+  },
+  {
+   "questId": "q0391",
+   "markerId": "m02600",
+   "name": "Extreme Cosplay",
+   "category": "sidequests",
+   "region": "Toussaint"
+  },
+  {
+   "questId": "q0394",
+   "markerId": "m02601",
+   "name": "Amidst the Mill's Grist",
+   "category": "sidequests",
+   "region": "Toussaint"
+  },
+  {
+   "questId": "q0418",
+   "markerId": "m02602",
+   "name": "Father Knows Worst",
+   "category": "sidequests",
+   "region": "Toussaint"
+  },
+  {
+   "questId": "q0399",
+   "markerId": "m02603",
+   "name": "Of Sheers and a Witcher I Sing",
+   "category": "sidequests",
+   "region": "Toussaint"
+  },
+  {
+   "questId": "q0376",
+   "markerId": "m02604",
+   "name": "No Place Like Home",
+   "category": "sidequests",
+   "region": "Toussaint"
+  },
+  {
+   "questId": "q0395",
+   "markerId": "m02605",
+   "name": "The Hunger Game",
+   "category": "sidequests",
+   "region": "Toussaint"
+  },
+  {
+   "questId": "q0408",
+   "markerId": "m02606",
+   "name": "The Perks of Being a Jailbird",
+   "category": "sidequests",
+   "region": "Toussaint"
+  },
+  {
+   "questId": "q0007",
+   "markerId": "m01313",
+   "name": "Devil by the Well",
+   "category": "contracts",
+   "region": "White Orchard"
+  },
+  {
+   "questId": "q0004",
+   "markerId": "m01417",
+   "name": "A Frying Pan, Spick and Span",
+   "category": "sidequests",
+   "region": "White Orchard"
+  },
+  {
+   "questId": "q0003",
+   "markerId": "m01418",
+   "name": "Twisted Firestarter",
+   "category": "sidequests",
+   "region": "White Orchard"
+  },
+  {
+   "questId": "q0342",
+   "markerId": "m01419",
+   "name": "Faithful Friend",
+   "category": "sidequests",
+   "region": "White Orchard"
+  },
+  {
+   "questId": "q0006",
+   "markerId": "m01420",
+   "name": "Missing in Action",
+   "category": "sidequests",
+   "region": "White Orchard"
+  },
+  {
+   "questId": "q0005",
+   "markerId": "m01422",
+   "name": "Precious Cargo",
+   "category": "sidequests",
+   "region": "White Orchard"
+  }
+ ]
+}
