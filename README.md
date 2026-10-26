@@ -5,19 +5,12 @@ No accounts, no 50-item cap, no ads. Everything stored on your own device.
 
 ## Put it on your phone
 
-It's an installable PWA. **Installing needs HTTPS**, so it has to be deployed —
-a phone on your wifi hitting `http://192.168.1.46:5173` can use the app, but Chrome
-won't offer to install it.
-
-```bash
-npm run build
-```
-
-Drag the `dist/` folder onto https://app.netlify.com/drop. You get a URL in
-seconds. Open it in Chrome on the phone and take **⋮ → Add to Home screen**
-(Chrome usually prompts by itself). Android builds a real app from it: launcher
-icon, its own window, no browser chrome, and it works with no signal at all
-once installed. Redeploying updates the installed app on next launch.
+Live at **https://georgekoul13.github.io/witcher3-tracker/** — open that in
+Chrome on the phone and take **⋮ → Add to Home screen** (Chrome usually offers
+by itself). Android builds a real app from it: launcher icon, its own window,
+no browser chrome, and it keeps working with no signal once the regions you've
+looked at are cached. Every push to `main` rebuilds and redeploys it, and the
+installed app picks the update up on next launch.
 
 ## Run it locally
 
@@ -37,14 +30,17 @@ One headline completion figure; tap it for the per-category breakdown.
 pieces = 877 items.** Alchemy recipes and the guide's trivia lines are
 reference, deliberately left out of the figure.
 
-Five pages, bottom nav:
+Two screens.
 
-- **Now** — where you are, what to do next, what's closing soon, what you're
-  already behind on, and quick wins at your level.
-- **Map** — markers, filters, level filter, marker detail sheet.
-- **Quests** — zone first, split into *order matters* and *any time*.
-- **Collect** — gear, Gwent and trophies in one place.
-- **Settings** — player state, backup, fixes.
+**Home** is the glance: where you left off, what you got through last session,
+anything order-critical you've already walked past, the headline figure and the
+per-category breakdown. The avatar holds Export and Import.
+
+**Map** is where the tracking happens. Pins for every marker, a pin for the
+active quest with the map centred on it, and pushed lists behind the header for
+the quests, everything else, and switching region. Tap a pin once to see what it
+is, twice to open it. Swipe a row right to mark it done, left from the done list
+to undo.
 
 The lists behind them:
 
@@ -58,12 +54,13 @@ The lists behind them:
 - **Trophies** — 79, with MISSABLE flags and spoilers blurred until asked for.
 - **Alchemy** — 166 recipes with ingredients. Reference only.
 
-**Player state** (level, zone, story stage) is what makes Now work. Zone is
-where you're standing; stage is how far the main story has taken you, and can be
-ahead of it. Anything order-critical in a zone behind your stage is flagged as
-*already behind*; anything order-critical in your current zone is *closing
-soon*. These come from the guide's ordering, not from hard game rules — treat
-them as a prompt to check, not as certainty.
+**Where you are is inferred, not declared.** Your position is the furthest
+main quest you've completed. Anything order-critical sitting behind that point
+and still unticked is flagged as *behind you*; the next few ahead of it are
+what's closing soon. Zones can't serve as stages — Velen alone spans positions
+20 to 320, so treating a zone as a stage flagged 137 quests behind for a
+perfect player. These come from the guide's ordering, not from hard game rules
+— treat them as a prompt to check, not as certainty.
 
 **Zone is the join** between quests and markers: `VELEN`, `NOVIGRAD/OXENFURT`
 and `HEARTS OF STONE` all map to the *Velen & Novigrad* map, and so on. It needs
@@ -166,3 +163,12 @@ comes from the cell fill colour in the sheet; the import is validated against
 the sheet's own `TOTAL QUEST COMPLETION` figure (4.8%).
 
 Guide data by ChrisRi, with extra details by xLetalis. Personal use.
+
+
+## Licence
+
+CC BY-NC-SA 4.0 — see [LICENSE](LICENSE). Non-commercial, attribution
+required, share-alike. The project takes that licence from the marker data it
+embeds; the credit line on the map is part of satisfying it, so leave it there.
+
+Unofficial and fan-made. Not affiliated with CD PROJEKT RED.

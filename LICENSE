@@ -1,0 +1,44 @@
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+(CC BY-NC-SA 4.0)
+
+Copyright (c) 2026 George Koulouris
+
+Full licence text: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+Summary:          https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+The whole of this project is offered under CC BY-NC-SA 4.0 rather than a
+permissive software licence, because it embeds map marker data that carries
+that licence and its share-alike term reaches any work built from it.
+
+You are free to share and adapt this project, provided that you:
+
+  - give appropriate credit (see "Credits" below and the attribution that
+    appears on the map inside the app),
+  - do not use it for commercial purposes, and
+  - distribute anything you build from it under this same licence.
+
+
+Credits
+-------
+
+Map marker coordinates, and the map tiles served through jsDelivr, come from
+the witcher3map project by untamed0, under CC BY-NC-SA 4.0:
+
+  https://github.com/witcher3map/witcher3map
+  https://github.com/psychodracon/witcher3map  (the fork the tiles are served from)
+
+The credit line rendered on the map in this app is part of satisfying that
+attribution requirement. Do not remove it.
+
+Quest ordering and guide data by ChrisRi, with additional detail by xLetalis.
+
+Interface icons are Lucide (https://lucide.dev), ISC licensed.
+
+
+Not covered by this licence
+---------------------------
+
+The Witcher 3: Wild Hunt, its names, places, characters and artwork are the
+property of CD PROJEKT RED. This is an unofficial fan-made tracker, not
+affiliated with or endorsed by CD PROJEKT RED. No game assets are
+redistributed here: every icon in the app is drawn or comes from Lucide.
