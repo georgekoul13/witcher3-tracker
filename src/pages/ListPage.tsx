@@ -45,8 +45,10 @@ const THRESHOLD = 88;
  * finger. The axis is locked on the first few pixels of movement — without
  * that, every attempt to scroll the list would nudge rows sideways.
  */
-function SwipeRow({ row, innerRef }: {
+function SwipeRow({ row, index, innerRef }: {
   row: ListRow;
+  /** position in the list, so the rows can stagger in rather than all at once */
+  index: number;
   innerRef?: (el: HTMLLIElement | null) => void;
 }) {
   const [dx, setDx] = useState(0);
@@ -100,7 +102,10 @@ function SwipeRow({ row, innerRef }: {
   const state = row.active ? "active" : row.done ? "done" : "";
 
   return (
-    <li className={`rowcard-wrap ${state}`} ref={innerRef}>
+    <li className={`rowcard-wrap ${state}`} ref={innerRef}
+      /* only the first screenful staggers; past that it would just be a delay
+         before anything appears */
+      style={index < 10 ? { "--i": index } as React.CSSProperties : undefined}>
       {canSwipe && (
         <span className={`rowcard-bg ${row.done ? "undo" : ""} ${armed ? "armed" : ""}`}>
           <Icon name={row.done ? "close" : "check"} size={18} />
@@ -202,16 +207,20 @@ export default function ListPage({ title, tabs, onBack, search = true }: Props) 
       )}
 
       {search && (
-      <label className="searchbox">
-        <Icon name="search" size={20} />
-        <input value={q} onChange={(e) => setQ(e.target.value)}
-          placeholder="Search anything" aria-label={`Search ${title}`} />
-      </label>
+        /* the dock is what sticks: the field itself is inset 24px, and a bare
+           sticky field would let rows scroll through the gutters beside it */
+        <div className="search-dock">
+          <label className="searchbox">
+            <Icon name="search" size={20} />
+            <input value={q} onChange={(e) => setQ(e.target.value)}
+              placeholder="Search anything" aria-label={`Search ${title}`} />
+          </label>
+        </div>
       )}
 
       <ul className="rowcards">
-        {shown.map((r) => (
-          <SwipeRow key={r.id} row={r}
+        {shown.map((r, i) => (
+          <SwipeRow key={r.id} row={r} index={i}
             innerRef={r.active ? (el) => { activeRef.current = el; } : undefined} />
         ))}
         {shown.length === 0 && (

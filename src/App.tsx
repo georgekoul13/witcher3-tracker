@@ -97,9 +97,51 @@ export default function App() {
     keepStorage().then(() => storageState().then(setStorage));
   }, []);
   const [linking, setLinking] = useState<{ questId: string; questName: string } | null>(null);
-  /** the tracking screen's pushed panels, opened from its header */
+  /** the pushed panels, opened from the map's header or from Home */
   const [panel, setPanel] =
     useState<"quests" | "other" | "info" | "regions" | "recent" | null>(null);
+  /** the screen a panel was pushed from, so closing it goes back there */
+  const panelFrom = useRef<Page>("map");
+  /** which way the last move went, so the page animation slides to match */
+  const [dir, setDir] = useState<"fwd" | "back">("fwd");
+
+  /*
+   * Android's back button arrives as a popstate, so navigation runs through
+   * history: a forward step pushes an entry, and every back step — the
+   * hardware button or the chevron in a header — is history.back(). That keeps
+   * one unwind order for both, instead of two that can disagree.
+   *
+   * Back at Home pushes nothing, so the history we own is spent and Android
+   * closes the app, which is what every other app on the phone does.
+   */
+  const view = useRef({ page, panel, detail });
+  view.current = { page, panel, detail };
+
+  const push = useCallback((apply: () => void) => {
+    setDir("fwd");
+    history.pushState(null, "");
+    apply();
+  }, []);
+  const goBack = useCallback(() => history.back(), []);
+
+  useEffect(() => {
+    const onPop = () => {
+      const v = view.current;
+      setDir("back");
+      if (v.detail) { setDetail(null); return; }
+      if (v.panel) { setPanel(null); setPage(panelFrom.current); return; }
+      if (v.page !== "home") setPage("home");
+    };
+    window.addEventListener("popstate", onPop);
+    return () => window.removeEventListener("popstate", onPop);
+  }, []);
+
+  /** push a panel, remembering the screen it was opened from */
+  const openPanel = useCallback(
+    (which: NonNullable<typeof panel>, from: Page) => push(() => {
+      panelFrom.current = from;
+      setPanel(which);
+    }), [push]);
 
   const questDone = useMemo(
     () => overlay(quests, (q) => q.done, progress.quests), [progress.quests]);
@@ -235,16 +277,19 @@ export default function App() {
   const openQuest = useCallback((q: Quest) => setDetail({ kind: "quest", quest: q }), []);
   const fileRef = useRef<HTMLInputElement>(null);
 
-  if (page === "home") {
-    return (
-      <div className="app" data-page="home">
-        <main className="pagewrap">
+  return (
+    <div className="app" data-page={page} data-dir={dir}>
+
+      <main className="pagewrap">
+
+        {!panel && page === "home" && (
+          <>
           <Home totals={totals} markerStats={markerStats}
             lastPlace={progress.lastPlace} fallbackPlace={currentZone}
             lastSessionCount={recent.length} behind={here.behind.length}
-            onStart={() => setPage("map")}
-            onOpenRecent={() => { setPage("map"); setPanel("recent"); }}
-            onOpenQuests={() => { setPage("map"); setPanel("quests"); }}
+            onStart={() => push(() => setPage("map"))}
+            onOpenRecent={() => openPanel("recent", "home")}
+            onOpenQuests={() => openPanel("quests", "home")}
             menu={[
               {
                 label: "Export backup", icon: "export",
@@ -265,18 +310,11 @@ export default function App() {
               if (f) setProgress(await importProgress(f));
               e.target.value = "";
             }} />
-        </main>
-      </div>
-    );
-  }
+          </>
+        )}
 
-  return (
-    <div className="app" data-page={page}>
-
-      <main className="pagewrap">
-
-        {page === "map" && panel === "quests" && (
-          <ListPage title="Quests" onBack={() => setPanel(null)}
+        {panel === "quests" && (
+          <ListPage title="Quests" onBack={goBack}
             tabs={[{
               key: "all", label: "Quests",
               // the guide's order is the product; it is deliberately not sortable
@@ -291,14 +329,14 @@ export default function App() {
                   ...(q.level !== null ? [`lvl ${q.level}`] : []),
                   ...(q.anytime ? [] : ["order matters"]),
                 ],
-                onOpen: () => { setPanel(null); openQuest(q); },
+                onOpen: () => push(() => openQuest(q)),
                 onSetDone: () => toggle("quests", q.id),
               })),
             }]} />
         )}
 
-        {page === "map" && panel === "other" && (
-          <ListPage title="Everything else" onBack={() => setPanel(null)}
+        {panel === "other" && (
+          <ListPage title="Everything else" onBack={goBack}
             tabs={[
               {
                 key: "gear", label: "Gear",
@@ -344,22 +382,21 @@ export default function App() {
                 rows: regionMarkers.map((m): ListRow => ({
                   id: m.id, title: m.name ?? m.category, done: !!progress.markers[m.id],
                   chips: [m.category, m.region],
-                  onOpen: () => {
-                    setPanel(null);
+                  onOpen: () => push(() => {
                     setDetail({ kind: "marker", marker: m });
                     setLastPlace({
                       name: m.name ?? m.category, region: m.region, at: Date.now(),
                       lat: m.lat, lng: m.lng,
                     });
-                  },
+                  }),
                   onSetDone: () => toggle("markers", m.id),
                 })),
               },
             ]} />
         )}
 
-        {page === "map" && panel === "regions" && (
-          <ListPage title="Switch map" search={false} onBack={() => setPanel(null)}
+        {panel === "regions" && (
+          <ListPage title="Switch map" search={false} onBack={goBack}
             tabs={[{
               key: "regions", label: "Maps",
               rows: REGIONS.map((r): ListRow => {
@@ -373,14 +410,15 @@ export default function App() {
                     `${all.length} markers`,
                     `${found} found`,
                   ],
-                  onOpen: () => { setRegion(r); setPanel(null); },
+                  // picking a map is finishing with this panel, not going deeper
+                  onOpen: () => { setRegion(r); goBack(); },
                 };
               }),
             }]} />
         )}
 
-        {page === "map" && panel === "recent" && (
-          <ListPage title="Last session" search={false} onBack={() => setPanel(null)}
+        {panel === "recent" && (
+          <ListPage title="Last session" search={false} onBack={goBack}
             tabs={[{
               key: "recent", label: "Last session",
               rows: recent.map((e): ListRow => ({
@@ -394,31 +432,31 @@ export default function App() {
             }]} />
         )}
 
-        {page === "map" && panel === "info" && (
-          <Legend categories={categories} onBack={() => setPanel(null)} />
+        {panel === "info" && (
+          <Legend categories={categories} onBack={goBack} />
         )}
 
-        {page === "map" && panel === null && (
+        {!panel && page === "map" && (
           <div className="page track">
             <header className="track-head">
-              <button className="icon-btn" onClick={() => setPage("home")}
+              <button className="icon-btn" onClick={goBack}
                 aria-label="Back to home">
                 <Icon name="chevron-right" size={22} className="flip" />
               </button>
               <div className="track-actions">
-                <button className="icon-btn" onClick={() => setPanel("regions")}
+                <button className="icon-btn" onClick={() => openPanel("regions", "map")}
                   aria-label="Switch map">
                   <Icon name="switch-map" size={21} />
                 </button>
-                <button className="icon-btn" onClick={() => setPanel("quests")}
+                <button className="icon-btn" onClick={() => openPanel("quests", "map")}
                   aria-label="All quests">
                   <Icon name="nav-quests" size={21} />
                 </button>
-                <button className="icon-btn" onClick={() => setPanel("other")}
+                <button className="icon-btn" onClick={() => openPanel("other", "map")}
                   aria-label="Everything else">
                   <Icon name="nav-collect" size={21} />
                 </button>
-                <button className="icon-btn" onClick={() => setPanel("info")}
+                <button className="icon-btn" onClick={() => openPanel("info", "map")}
                   aria-label="What the pins mean">
                   <Icon name="info" size={21} />
                 </button>
@@ -432,13 +470,14 @@ export default function App() {
               onToggleFound={t("markers")}
               selected={detail?.kind === "marker" ? detail.marker : null}
               onSelect={(m) => {
-                setDetail(m ? { kind: "marker", marker: m } : null);
-                if (m) {
+                if (!m) { setDetail(null); return; }
+                push(() => {
+                  setDetail({ kind: "marker", marker: m });
                   setLastPlace({
                     name: m.name ?? m.category, region: m.region, at: Date.now(),
                     lat: m.lat, lng: m.lng,
                   });
-                }
+                });
               }}
               hiddenCategories={EMPTY_SET} hideFound={false}
               activeMarker={activeMarker}
@@ -461,7 +500,8 @@ export default function App() {
             </div>
 
             {activeQuest && (
-              <button className="active-quest" onClick={() => openQuest(activeQuest)}>
+              <button className="active-quest"
+                onClick={() => push(() => openQuest(activeQuest))}>
                 <span className="active-quest-label">
                   <Icon name={TYPE_ICON[activeQuest.type] ?? "quest-side"} size={17} />
                   Active Quest
@@ -482,7 +522,7 @@ export default function App() {
       </main>
 
 
-      <Sheet open={!!detail} onClose={() => setDetail(null)}>
+      <Sheet open={!!detail} onClose={goBack}>
         {detail?.kind === "marker" && (
           <MarkerDetail marker={detail.marker}
             found={!!progress.markers[detail.marker.id]}

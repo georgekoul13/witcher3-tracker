@@ -113,6 +113,59 @@ interface Props {
   editable: boolean;
 }
 
+/*
+ * Hold a pin to tick it off without opening anything.
+ *
+ * 550ms is Android's own long-press timeout. A longer hold reads as a frozen
+ * app rather than a gesture, and the pin's own flash is what tells you it
+ * fired, so there is nothing to wait out.
+ */
+const LONG_PRESS_MS = 550;
+/** a press that wanders this far was a drag of the map, not a hold */
+const LONG_PRESS_SLOP = 10;
+
+function onLongPress(el: HTMLElement, fire: () => void) {
+  let timer: number | undefined;
+  let from: { x: number; y: number } | null = null;
+  /** set while the hold is firing, so the tap that follows it is swallowed */
+  let fired = false;
+
+  const cancel = () => {
+    window.clearTimeout(timer);
+    timer = undefined;
+    from = null;
+  };
+
+  el.addEventListener("pointerdown", (e) => {
+    fired = false;
+    from = { x: e.clientX, y: e.clientY };
+    timer = window.setTimeout(() => {
+      fired = true;
+      el.classList.add("held");
+      // the one bit of haptics the web gives us; absent on iOS, harmless there
+      navigator.vibrate?.(18);
+      fire();
+      window.setTimeout(() => el.classList.remove("held"), 260);
+    }, LONG_PRESS_MS);
+  });
+
+  el.addEventListener("pointermove", (e) => {
+    if (!from) return;
+    if (Math.abs(e.clientX - from.x) > LONG_PRESS_SLOP
+      || Math.abs(e.clientY - from.y) > LONG_PRESS_SLOP) cancel();
+  });
+
+  el.addEventListener("pointerup", cancel);
+  el.addEventListener("pointercancel", cancel);
+  el.addEventListener("click", (e) => {
+    if (!fired) return;
+    // Leaflet's own click handler is on the same element, so stop it here
+    e.stopPropagation();
+    e.preventDefault();
+    fired = false;
+  }, true);
+}
+
 export default function MapView({
   region, config, markers, found, onToggleFound, selected, onSelect,
   linkedIds, linking, onPick, onCancelPick, activeMarker,
@@ -146,6 +199,8 @@ export default function MapView({
   };
   const onPickRef = useRef(onPick);
   onPickRef.current = onPick;
+  const onToggleFoundRef = useRef(onToggleFound);
+  onToggleFoundRef.current = onToggleFound;
   const [draft, setDraft] = useState<{ lat: number; lng: number } | null>(null);
   const [label, setLabel] = useState("");
   const [tilesFailed, setTilesFailed] = useState(false);
@@ -321,7 +376,6 @@ export default function MapView({
       routeRef.current = null;
     };
   }, [region, config]);
-  void onToggleFound;
 
   const routeRef = useRef<L.LayerGroup | null>(null);
   const centredOn = useRef<string | null>(null);
@@ -379,6 +433,15 @@ export default function MapView({
       // Leaflet opens tooltips on hover; a phone has none, so drive it from the
       // tap instead and keep both platforms on the same two-tap behaviour
       marker.off("mouseover").off("mouseout");
+      // hold the pin to tick it off, without the preview-then-drawer detour
+      const el = marker.getElement();
+      if (el) {
+        onLongPress(el, () => {
+          if (linkingRef.current) return;   // the map is being used to pick a spot
+          clearPreview();
+          onToggleFoundRef.current(m.id);
+        });
+      }
       markerRefs.current.set(m.id, marker);
     }
 

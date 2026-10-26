@@ -405,8 +405,11 @@ a.btn:hover { background: var(--surface-3); color: var(--text); }
 .avatar {
   display: grid; place-items: center; width: 48px; height: 48px;
   border-radius: var(--pill); background: var(--surface);
-  color: var(--text-dim); margin-bottom: 72px;
+  color: var(--text-dim);
 }
+/* the gap below belongs to the wrapper, not the button: the menu hangs off
+   the wrapper's bottom edge, and a margin on the button pushed it 72px adrift */
+.avatar-wrap { margin-bottom: 72px; }
 .home-last {
   display: flex; align-items: center; gap: 6px; margin: 0 0 6px;
   color: var(--accent); font: 600 15px/1 Manrope, sans-serif;
@@ -649,7 +652,7 @@ a.btn:hover { background: var(--surface-3); color: var(--text); }
 
 /* ---------- swipe to complete ---------- */
 .rowcard-wrap .rowcard {
-  position: relative; z-index: 2;
+  position: relative; z-index: 3;
   /* a drag must not turn into a text selection */
   user-select: none; -webkit-user-select: none;
   /* vertical scrolling stays the browser's job; we only take the x axis */
@@ -658,13 +661,19 @@ a.btn:hover { background: var(--surface-3); color: var(--text); }
 }
 .rowcard-wrap .rowcard:not(.sliding) { transition: transform .22s cubic-bezier(.2,.8,.3,1); }
 
+/* Above the state panel, not under it — at z-index 0 the panel covered it and
+   the swipe revealed a blank colour with no label. Inset by the card's own
+   6px margins so the state stripe still shows down both edges while dragging. */
 .rowcard-bg {
-  position: absolute; inset: 0; z-index: 0;
+  position: absolute; inset: 0 6px; z-index: 2;
   display: flex; align-items: center; gap: 8px;
-  padding: 0 22px;
+  padding: 0 22px; border-radius: var(--r-md);
   font: 600 15px/1 Manrope, sans-serif;
   color: var(--accent); background: var(--accent-dim);
+  transition: background .16s ease, color .16s ease;
 }
+.rowcard-bg svg { transition: transform .18s cubic-bezier(.2,1.5,.4,1); }
+.rowcard-bg.armed svg { transform: scale(1.25); }
 .rowcard-bg.undo { justify-content: flex-end; color: var(--danger); background: #3A2222; }
 /* past the threshold it fills, so you can feel the commit without looking */
 .rowcard-bg.armed { background: var(--accent); color: var(--on-accent); }
@@ -741,4 +750,115 @@ a.btn:hover { background: var(--surface-3); color: var(--text); }
 .route-dot span {
   display: block; width: 14px; height: 14px; border-radius: 50%;
   background: var(--accent); box-shadow: 0 2px 6px rgba(0,0,0,.5);
+}
+
+/* ======================================================================
+   Sticky chrome on the pushed lists
+   The list scrolls inside .listpage, so the header and the search field
+   stay put while 458 rows move under them. The tab strip between them is
+   allowed to leave: three stacked bars would eat a third of the screen.
+   ====================================================================== */
+.listpage .track-head {
+  position: sticky; top: 0; z-index: 20;
+  background: var(--bg);
+}
+.listpage > .search-dock {
+  position: sticky; top: 64px; z-index: 19;   /* 48px button + 8px padding each side */
+  margin: 0; padding: 0 24px;
+  background: var(--bg);
+}
+.listpage > .search-dock .searchbox { margin-top: 4px; margin-bottom: 12px; }
+
+/* a soft edge under the sticky chrome, so rows pass beneath it rather than
+   appearing to collide with it */
+.listpage > .search-dock::after,
+.listpage .track-head:last-of-type::after {
+  content: ""; position: absolute; left: 0; right: 0; top: 100%;
+  height: 14px; pointer-events: none;
+  background: linear-gradient(var(--bg), transparent);
+}
+
+/* ======================================================================
+   Motion
+   Everything here is decoration: it must never be the only thing that
+   tells you what happened, and it all switches off for anyone who has
+   asked their phone to stop animating.
+   ====================================================================== */
+@keyframes page-fwd {
+  from { opacity: 0; transform: translateX(22px); }
+  to   { opacity: 1; transform: none; }
+}
+@keyframes page-back {
+  from { opacity: 0; transform: translateX(-22px); }
+  to   { opacity: 1; transform: none; }
+}
+.app[data-dir="fwd"] .page  { animation: page-fwd .26s cubic-bezier(.2,.8,.3,1) both; }
+.app[data-dir="back"] .page { animation: page-back .26s cubic-bezier(.2,.8,.3,1) both; }
+
+/* rows and stat cards arrive just behind their screen, a few ms apart */
+@keyframes rise {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: none; }
+}
+/* Only what is on screen when the list opens. Animating all 458 quest rows
+   means 458 compositor layers for a third of a second, which stutters the
+   very scroll the animation is meant to decorate. */
+.rowcards > .rowcard-wrap:nth-child(-n+12),
+.stat-card, .total-card, .warn-pill {
+  animation: rise .3s cubic-bezier(.2,.8,.3,1) both;
+  animation-delay: calc(var(--i, 0) * 28ms + 60ms);
+}
+.stat-grid .stat-card:nth-child(1) { --i: 1; }
+.stat-grid .stat-card:nth-child(2) { --i: 2; }
+.stat-grid .stat-card:nth-child(3) { --i: 3; }
+.stat-grid .stat-card:nth-child(4) { --i: 4; }
+.stat-grid .stat-card:nth-child(5) { --i: 5; }
+.stat-grid .stat-card:nth-child(6) { --i: 6; }
+.stat-grid .stat-card:nth-child(7) { --i: 7; }
+
+/* anything you can press gives a little under the finger */
+button, .btn, .rowcard, .stat-card, .tab, .menu-item {
+  transition: transform .13s cubic-bezier(.2,.8,.3,1), background .16s ease,
+              color .16s ease, filter .16s ease;
+}
+button:active, .btn:active, .tab:active, .menu-item:active { transform: scale(.97); }
+.rowcard-wrap .rowcard:active { transform: scale(.985); }
+/* …except while it is being dragged, where the transform is the gesture */
+.rowcard-wrap .rowcard.sliding:active { transform: none; }
+.icon-btn:active, .avatar:active { transform: scale(.92); }
+.start-btn:active { transform: scale(.98); }
+
+/* the menu unfolds from the avatar rather than appearing on top of it */
+@keyframes menu-in {
+  from { opacity: 0; transform: translateY(-6px) scale(.96); }
+  to   { opacity: 1; transform: none; }
+}
+.menu { animation: menu-in .17s cubic-bezier(.2,.8,.3,1) both; transform-origin: 18px 0; }
+
+/* the total figure counts up by growing its bar; the number beside it should
+   not jump a frame ahead of it */
+.total-card-head strong { transition: color .2s ease; }
+
+/* a pin being held down acknowledges the hold before it fires */
+@keyframes pin-held {
+  0%   { transform: scale(1); }
+  45%  { transform: scale(1.35); }
+  100% { transform: scale(1); }
+}
+.pin-marker.held .pin-dot { animation: pin-held .26s ease-out; }
+.pin-marker .pin-dot { transition: transform .14s ease; }
+
+/* the active-quest card is the one thing on the map that should draw the eye */
+@keyframes quest-in {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: none; }
+}
+.track > .active-quest { animation: quest-in .32s cubic-bezier(.2,.8,.3,1) both; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .001ms !important;
+    animation-delay: 0ms !important;
+    transition-duration: .001ms !important;
+  }
 }
