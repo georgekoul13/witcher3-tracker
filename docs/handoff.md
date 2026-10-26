@@ -734,6 +734,33 @@ Git repo as of 26 Oct 2026, `main`, `.gitignore` covering `node_modules/`,
 `dist/` and `*.tsbuildinfo`. Remote is `origin` →
 github.com/georgekoul13/witcher3-tracker (public). Pushing deploys.
 
+## Navigation, now that it is an installed app
+
+All navigation goes through `history`. A forward step calls `push()` in
+App.tsx, which does `history.pushState` and then applies the state change;
+every back step — Android's hardware button and the chevron in a header
+alike — is `history.back()`. A single `popstate` listener unwinds one level
+using `view.current` (a ref mirroring page/panel/detail), in the order:
+drawer, pushed panel, map, home.
+
+**Back at Home deliberately pushes nothing**, so the history the app owns is
+spent and Android closes it. Double-back-to-quit was asked for and is **not
+implementable** in a WebAPK: intercepting the first press needs a spare
+history entry, and consuming it on the second press still leaves the base
+entry, so the app would only close on the third press. Single-press exit is
+also what every other Android app does.
+
+Lateral jumps (open this marker's region, show a quest on the map) set state
+directly without touching history. The depth can therefore drift one entry
+deep; the popstate handler is state-driven, so the worst case is one back
+press that does nothing visible.
+
+**Long-press on a pin marks it found** at 550ms — Android's own long-press
+timeout. George asked for 3s; that reads as a frozen app, and the pin's
+flash already confirms the hold. The click that follows a hold is swallowed
+in a capture-phase listener, or Leaflet's own click handler opens the drawer
+on top of it.
+
 ## The app icon
 
 Replaced 26 Oct 2026. The old one was a gold-on-brown imitation of the School
