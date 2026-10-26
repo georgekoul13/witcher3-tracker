@@ -530,6 +530,9 @@ a.btn:hover { background: var(--surface-3); color: var(--text); }
   font-style: normal; font-size: 13px; color: var(--text);
   background: var(--bg); border-radius: 8px; padding: 5px 9px;
 }
+/* the list's own chips sit a little larger and rounder than the map card's */
+.rowcard-chips { gap: 8px; }
+.rowcard-chips i { font-size: 14px; border-radius: 10px; padding: 7px 12px; }
 
 /* ---------- pushed list screen ---------- */
 .listpage { padding: 0 0 18px; gap: 0; overflow-y: auto; }
@@ -565,7 +568,6 @@ a.btn:hover { background: var(--surface-3); color: var(--text); }
 .rowcards { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
 .rowcard-wrap {
   position: relative; border-radius: var(--r-md); overflow: hidden;
-  background: var(--accent-dim);
 }
 .rowcard {
   display: flex; flex-direction: column; align-items: flex-start; gap: 8px;
@@ -661,11 +663,10 @@ a.btn:hover { background: var(--surface-3); color: var(--text); }
 }
 .rowcard-wrap .rowcard:not(.sliding) { transition: transform .22s cubic-bezier(.2,.8,.3,1); }
 
-/* Above the state panel, not under it — at z-index 0 the panel covered it and
-   the swipe revealed a blank colour with no label. Inset by the card's own
-   6px margins so the state stripe still shows down both edges while dragging. */
+/* Above the card's own background, not under it — at z-index 0 it was covered
+   and the swipe revealed a blank colour with no label. */
 .rowcard-bg {
-  position: absolute; inset: 0 6px; z-index: 2;
+  position: absolute; inset: 0; z-index: 2;
   display: flex; align-items: center; gap: 8px;
   padding: 0 22px; border-radius: var(--r-md);
   font: 600 15px/1 Manrope, sans-serif;
@@ -695,23 +696,17 @@ a.btn:hover { background: var(--surface-3); color: var(--text); }
 }
 
 /* Three row states: the next thing, the ones behind you, and the rest.
-   Every row sits on a rounded panel and is inset on both sides, so what shows
-   down each edge follows the card's own curve. Neutral rows get a grey one
-   rather than nothing, so all three read as the same component. The panel is
-   its own layer because the swipe backdrop fills the wrapper. */
-.rowcard-wrap::before {
-  content: ""; position: absolute; inset: 0; z-index: 1;
-  border-radius: var(--r-md); background: var(--surface-3);
-}
-.rowcard-wrap.done::before { background: var(--danger); }
-.rowcard-wrap.active::before { background: var(--accent); }
-.rowcard-wrap .rowcard {
-  /* auto, not 100%: the margins have to come out of the width or the card
-     hangs 6px past the panel on the right */
-  width: auto; margin: 0 6px; border-radius: var(--r-md);
-}
+   State is carried by a chip at the head of the chip row and by the title's
+   own colour — no stripe down the edges, so every row is one flat card and
+   the states differ in what they say rather than in their silhouette. */
+.rowcard-wrap .rowcard { width: 100%; margin: 0; border-radius: var(--r-md); }
+.rowcard-wrap.active .rowcard { background: var(--surface-2); }
 .rowcard.active > .rowcard-main { color: var(--accent); }
 .rowcard.done > .rowcard-main { color: var(--text-dim); text-decoration: line-through; }
+
+.chip-state { font-weight: 600; }
+.rowcard-chips .chip-state.active { background: var(--accent); color: var(--on-accent); }
+.rowcard-chips .chip-state.done { background: #F0A0A0; color: var(--bg); }
 
 /* ---------- avatar menu ---------- */
 .avatar-wrap { position: relative; display: inline-block; }
@@ -763,18 +758,23 @@ a.btn:hover { background: var(--surface-3); color: var(--text); }
   background: var(--bg);
 }
 .listpage > .search-dock {
-  position: sticky; top: 64px; z-index: 19;   /* 48px button + 8px padding each side */
+  /* 8px top padding + 48px button + 16px bottom padding */
+  position: sticky; top: 72px; z-index: 19;
   margin: 0; padding: 0 24px;
   background: var(--bg);
 }
-.listpage > .search-dock .searchbox { margin-top: 4px; margin-bottom: 12px; }
+.listpage > .search-dock .searchbox { margin-top: 4px; margin-bottom: 24px; }
+/* lists with no search field still need air under the header */
+.listpage .track-head { padding-bottom: 16px; }
 
 /* a soft edge under the sticky chrome, so rows pass beneath it rather than
    appearing to collide with it */
+/* whichever bar is the lowest one carries the fade; the header only when
+   there is no search field docked beneath it */
 .listpage > .search-dock::after,
-.listpage .track-head:last-of-type::after {
+.listpage:not(:has(.search-dock)) .track-head::after {
   content: ""; position: absolute; left: 0; right: 0; top: 100%;
-  height: 14px; pointer-events: none;
+  height: 22px; pointer-events: none;
   background: linear-gradient(var(--bg), transparent);
 }
 

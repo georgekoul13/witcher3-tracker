@@ -56,6 +56,34 @@ type Detail =
   | { kind: "quest"; quest: Quest }
   | null;
 
+type Panel = "quests" | "other" | "info" | "regions" | "recent" | null;
+
+/**
+ * Where you were, kept across a relaunch.
+ *
+ * Android is free to kill a backgrounded app, and coming back to the Home
+ * screen having lost the list you were halfway down is the single most
+ * irritating thing a tracker can do. Only the route is stored — the drawer
+ * keeps an id and looks the thing up again, so stale data can't be resurrected.
+ */
+const NAV_KEY = "w3tracker.nav.v1";
+
+interface SavedNav {
+  page: Page;
+  panel: Panel;
+  region: string;
+  detail: { kind: "quest" | "marker"; id: string } | null;
+}
+
+function readNav(): SavedNav | null {
+  try {
+    const raw = localStorage.getItem(NAV_KEY);
+    return raw ? (JSON.parse(raw) as SavedNav) : null;
+  } catch {
+    return null;   // private mode, or someone else's JSON in our key
+  }
+}
+
 /** how each progress bucket reads in the last-session list */
 const BUCKET_LABEL: Record<string, string> = {
   quests: "Quest", trophies: "Trophy", gwent: "Gwent card",
@@ -85,9 +113,21 @@ function overlay<T extends { id: string }>(
 
 export default function App() {
   const { progress, setProgress, toggle, setBucket, setLink, setLastPlace } = useProgress();
-  const [page, setPage] = useState<Page>("home");
-  const [detail, setDetail] = useState<Detail>(null);
-  const [region, setRegion] = useState(REGIONS[0]);
+  /** read once, on the way in: later writes must not re-seed the screen */
+  const saved = useRef(readNav()).current;
+  const [page, setPage] = useState<Page>(saved?.page ?? "home");
+  const [detail, setDetail] = useState<Detail>(() => {
+    const d = saved?.detail;
+    if (!d) return null;
+    if (d.kind === "quest") {
+      const q = quests.find((x) => x.id === d.id);
+      return q ? { kind: "quest", quest: q } : null;
+    }
+    const m = markerFile.markers.find((x) => x.id === d.id);
+    return m ? { kind: "marker", marker: m } : null;
+  });
+  const [region, setRegion] = useState(
+    saved?.region && REGIONS.includes(saved.region) ? saved.region : REGIONS[0]);
   const [exportedAt, setExportedAt] = useState<number | null>(lastExportAt);
   const [storage, setStorage] = useState<{ persisted: boolean; usedKb: number | null }>(
     { persisted: false, usedKb: null });
@@ -98,10 +138,10 @@ export default function App() {
   }, []);
   const [linking, setLinking] = useState<{ questId: string; questName: string } | null>(null);
   /** the pushed panels, opened from the map's header or from Home */
-  const [panel, setPanel] =
-    useState<"quests" | "other" | "info" | "regions" | "recent" | null>(null);
-  /** the screen a panel was pushed from, so closing it goes back there */
-  const panelFrom = useRef<Page>("map");
+  const [panel, setPanel] = useState<Panel>(saved?.panel ?? null);
+  /* the screen a panel was pushed from, so closing it goes back there. A
+     restored panel was opened from whatever screen was saved underneath it. */
+  const panelFrom = useRef<Page>(saved?.page ?? "map");
   /** which way the last move went, so the page animation slides to match */
   const [dir, setDir] = useState<"fwd" | "back">("fwd");
 
@@ -135,6 +175,33 @@ export default function App() {
     window.addEventListener("popstate", onPop);
     return () => window.removeEventListener("popstate", onPop);
   }, []);
+
+  /*
+   * A restored route needs the history to match it, or the first back press
+   * would find nothing to unwind and close the app from halfway down a list.
+   */
+  const seeded = useRef(false);
+  useEffect(() => {
+    if (seeded.current) return;   // StrictMode runs this twice in development
+    seeded.current = true;
+    const deep = (saved?.page === "map" ? 1 : 0)
+      + (saved?.panel ? 1 : 0) + (saved?.detail ? 1 : 0);
+    for (let i = 0; i < deep; i++) history.pushState(null, "");
+  }, [saved]);
+
+  /** and keep it current, so the next cold start lands back here */
+  useEffect(() => {
+    const nav: SavedNav = {
+      page, panel, region,
+      detail: detail
+        ? {
+          kind: detail.kind,
+          id: detail.kind === "quest" ? detail.quest.id : detail.marker.id,
+        }
+        : null,
+    };
+    try { localStorage.setItem(NAV_KEY, JSON.stringify(nav)); } catch { /* full or blocked */ }
+  }, [page, panel, region, detail]);
 
   /** push a panel, remembering the screen it was opened from */
   const openPanel = useCallback(
@@ -192,8 +259,21 @@ export default function App() {
    * pushing a panel closes it. Closing a panel must not: opening a quest from
    * the list sets panel to null and the drawer in the same tick.
    */
-  useEffect(() => { setDetail(null); }, [page]);
-  useEffect(() => { if (panel) setDetail(null); }, [panel]);
+  /* Guarded on the value rather than on "is this the first run": StrictMode
+     runs effects twice in development, so a run-once flag is spent before the
+     real render and the restored drawer gets closed on the way in. */
+  const lastPage = useRef(page);
+  const lastPanel = useRef(panel);
+  useEffect(() => {
+    if (lastPage.current === page) return;
+    lastPage.current = page;
+    setDetail(null);
+  }, [page]);
+  useEffect(() => {
+    if (lastPanel.current === panel) return;
+    lastPanel.current = panel;
+    if (panel) setDetail(null);
+  }, [panel]);
 
   /** what you ticked off the last time you played, newest first */
   const recent = useMemo(() => lastSession(progress.doneAt), [progress.doneAt]);

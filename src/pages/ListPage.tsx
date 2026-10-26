@@ -130,7 +130,11 @@ function SwipeRow({ row, index, innerRef }: {
           )
           : <strong className="rowcard-main">{row.title}</strong>}
 
+        {/* state rides at the front of the chip row now, rather than as a
+            stripe down the card's edges */}
         <span className="rowcard-chips">
+          {row.active && <i className="chip-state active">Active</i>}
+          {row.done && <i className="chip-state done">Done</i>}
           {row.chips.map((c, i) => <i key={i}>{c}</i>)}
         </span>
 
