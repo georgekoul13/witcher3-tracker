@@ -36,6 +36,35 @@ export interface ListTab {
 /** how far you have to drag before it counts */
 const THRESHOLD = 88;
 
+/*
+ * Chips past the third are dropped rather than wrapped, so every card is the
+ * same height and a list of 458 can be scanned at all. The ones that matter
+ * are ordered first by whoever builds the row.
+ *
+ * Three do not always fit: zone names run as long as "NOVIGRAD/OXENFURT", and
+ * three of those want 400px inside a 327px card, which truncates all three
+ * into unreadable stubs. So the row is also given a rough character budget
+ * and drops a chip rather than cutting every one of them.
+ *
+ * The budget is estimated rather than measured: measuring means a layout pass
+ * per row, and there are 458 of them. Manrope at 13px averages about 7px a
+ * character, and each chip costs 20px of padding plus a 7px gap, leaving
+ * roughly 31 characters across three chips and 35 across two. CSS still
+ * ellipsises as a backstop, so a bad estimate squeezes a chip rather than
+ * spilling one past the card.
+ */
+const MAX_CHIPS = 3;
+const CHIP_BUDGET: Record<number, number> = { 3: 31, 2: 35 };
+
+function fitChips(chips: string[]) {
+  const room = chips.slice(0, MAX_CHIPS);
+  for (let n = room.length; n > 1; n--) {
+    const text = room.slice(0, n).reduce((sum, c) => sum + c.length, 0);
+    if (text <= (CHIP_BUDGET[n] ?? Infinity)) return room.slice(0, n);
+  }
+  return room.slice(0, 1);
+}
+
 /**
  * A row you can drag horizontally to tick it off: right to complete, left to
  * undo one that is already done. Dragging the other way does nothing, so the
@@ -121,22 +150,26 @@ function SwipeRow({ row, index, innerRef }: {
         onPointerUp={finish}
         onPointerCancel={finish}
       >
-        {row.onOpen
-          ? (
-            <button className="rowcard-main"
-              onClick={() => { if (axis.current !== "x") row.onOpen?.(); }}>
-              <strong>{row.title}</strong>
-            </button>
-          )
-          : <strong className="rowcard-main">{row.title}</strong>}
-
-        {/* state rides at the front of the chip row now, rather than as a
-            stripe down the card's edges */}
-        <span className="rowcard-chips">
+        {/* title and state share the top line: the title takes what is left
+            and truncates, the chip keeps its width */}
+        <span className="rowcard-top">
+          {row.onOpen
+            ? (
+              <button className="rowcard-main"
+                onClick={() => { if (axis.current !== "x") row.onOpen?.(); }}>
+                <strong>{row.title}</strong>
+              </button>
+            )
+            : <strong className="rowcard-main">{row.title}</strong>}
           {row.active && <i className="chip-state active">Active</i>}
           {row.done && <i className="chip-state done">Done</i>}
-          {row.chips.map((c, i) => <i key={i}>{c}</i>)}
         </span>
+
+        {row.chips.length > 0 && (
+          <span className="rowcard-chips">
+            {fitChips(row.chips).map((c, i) => <i key={i}>{c}</i>)}
+          </span>
+        )}
 
         {row.toggles && row.toggles.length > 0 && (
           <span className="rowcard-toggles">
