@@ -707,8 +707,42 @@ A search page ("Search anything") with tabs sits behind the *other* button.
 2. **`dist/` was rebuilt during this handoff**, so it carries the 2,804-marker
    data including the missing levels — relevant if it gets deployed as-is.
 3. **Progress is localStorage only**, export manual. Audit item 2.7.
-4. **Not deployed**, so the phone can't install it. Netlify Drop with `dist/`,
-   needs the user's account.
+4. **Deployed as a private Claude Artifact** — https://claude.ai/artifact/J91xNk5aaNESXMKZCjHr9z
+   Re-publish by passing that URL plus `dist/index.html` with `root: dist` and
+   every other `dist` file in `files`. The artifact wraps the page in its own
+   document skeleton, so the built `index.html` ends up nested inside another
+   `<html>`; that parses correctly — verified by serving the published bytes
+   back (dark `#131313` ground, Manrope, app mounted, viewport 375, all icons
+   and the manifest resolving, zero failed requests). **Service worker
+   registration could not be verified** — the in-app browser refuses to
+   register one from any origin, so offline caching and the Android install
+   prompt are still unproven.
+5. **A real static host is still worth doing.** `gh` is authenticated as
+   `georgekoul13` with `repo` scope, but the push was blocked by the auto-mode
+   classifier, and GitHub Pages on a free account would mean a *public* repo —
+   which also commits the project to CC BY-NC-SA share-alike, the user's call
+   to make, not ours.
+
+## Version control
+
+The project is a git repo as of 26 Oct 2026, `main`, with a `.gitignore` for
+`node_modules/`, `dist/` and `*.tsbuildinfo`. **No remote** — see item 5.
+
+## The app icon
+
+Replaced 26 Oct 2026. The old one was a gold-on-brown imitation of the School
+of the Wolf medallion: off-brand against the near-black and lime shell, and not
+ours to ship. The mark is now the product's own — the lime map pin that already
+marks the active quest, carrying a check.
+
+Sources are `public/icon.svg` and `public/icon-maskable.svg`; the PNGs are
+rendered from them with headless Chrome (`--screenshot --window-size=N,N`),
+since no rsvg/ImageMagick is installed on this Mac.
+
+The maskable one is separate on purpose. The manifest used to offer the rounded
+square for both `any` and `maskable`, so Android would round its corners a
+second time; the maskable file bleeds the ground to the edges and keeps the
+mark inside the 80% safe circle.
 
 ## Settled — don't reopen
 
