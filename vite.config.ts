@@ -9,7 +9,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: "autoUpdate",
-      includeAssets: ["icon.svg", "maps/*.svg"],
+      includeAssets: ["icon.svg", "apple-touch-icon.png", "maps/*.svg"],
       manifest: {
         name: "Witcher 3 — 100% Tracker",
         short_name: "W3 Tracker",
@@ -21,9 +21,11 @@ export default defineConfig({
         start_url: "./",
         scope: "./",
         icons: [
-          { src: "icon-192.png", sizes: "192x192", type: "image/png" },
-          { src: "icon-512.png", sizes: "512x512", type: "image/png" },
-          { src: "icon-512.png", sizes: "512x512", type: "image/png", purpose: "maskable" },
+          { src: "icon-192.png", sizes: "192x192", type: "image/png", purpose: "any" },
+          { src: "icon-512.png", sizes: "512x512", type: "image/png", purpose: "any" },
+          // its own drawing, bled to the edges: Android crops this one to the
+          // launcher's shape, and the rounded square above would be clipped twice
+          { src: "icon-maskable-512.png", sizes: "512x512", type: "image/png", purpose: "maskable" },
         ],
       },
       workbox: {

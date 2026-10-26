@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!--
+    Android crops a maskable icon to its own shape, so this one bleeds the
+    ground to the edges and keeps the mark inside the 80% safe circle. Without
+    it the rounded square above gets its corners rounded a second time.
+  -->
+  <rect width="512" height="512" fill="#131313"/>
+  <g transform="translate(256 256) scale(0.68) translate(-256 -256)">
+    <path d="M152 222a104 104 0 1 1 208 0c0 69-56 112-104 190-48-78-104-121-104-190Z"
+          fill="#E9FF69"/>
+    <path d="M214 221l30 31 54-58" fill="none" stroke="#131313"
+          stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

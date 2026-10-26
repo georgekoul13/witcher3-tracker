@@ -1,12 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="96" fill="#15120f"/>
-  <circle cx="256" cy="256" r="168" fill="none" stroke="#c8a24a" stroke-width="10"/>
-  <circle cx="256" cy="256" r="150" fill="none" stroke="#3a2f1c" stroke-width="4"/>
-  <path d="M256 140 L336 196 L322 330 L256 372 L190 330 L176 196 Z"
-        fill="none" stroke="#c8a24a" stroke-width="12" stroke-linejoin="round"/>
-  <path d="M214 232 L238 258 L214 284" fill="none" stroke="#c8a24a"
-        stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M298 232 L274 258 L298 284" fill="none" stroke="#c8a24a"
-        stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="246" y="300" width="20" height="34" rx="6" fill="#c8a24a"/>
+  <!--
+    The app's own mark, not the game's: a map pin, because the whole app is a
+    map, carrying a check, because the whole point is getting to 100%. Drawn in
+    the product palette (#131313 ground, #E9FF69 lime) so the home screen and
+    the app agree with each other.
+  -->
+  <rect width="512" height="512" rx="112" fill="#131313"/>
+  <path d="M152 222a104 104 0 1 1 208 0c0 69-56 112-104 190-48-78-104-121-104-190Z"
+        fill="#E9FF69"/>
+  <path d="M214 221l30 31 54-58" fill="none" stroke="#131313"
+        stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
