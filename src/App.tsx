@@ -457,21 +457,9 @@ export default function App() {
                   onSetDone: () => toggle("trophies", t2.id),
                 })),
               },
-              {
-                key: "markers", label: "Markers",
-                rows: regionMarkers.map((m): ListRow => ({
-                  id: m.id, title: m.name ?? m.category, done: !!progress.markers[m.id],
-                  chips: [m.category, m.region],
-                  onOpen: () => push(() => {
-                    setDetail({ kind: "marker", marker: m });
-                    setLastPlace({
-                      name: m.name ?? m.category, region: m.region, at: Date.now(),
-                      lat: m.lat, lng: m.lng,
-                    });
-                  }),
-                  onSetDone: () => toggle("markers", m.id),
-                })),
-              },
+              /* Markers had a tab here too, and it has gone: the map is where
+                 you deal with them, a pin names itself on one tap and ticks
+                 off on a hold, and they were never part of the 100% anyway. */
             ]} />
         )}
 
