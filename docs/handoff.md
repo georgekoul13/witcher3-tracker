@@ -707,26 +707,32 @@ A search page ("Search anything") with tabs sits behind the *other* button.
 2. **`dist/` was rebuilt during this handoff**, so it carries the 2,804-marker
    data including the missing levels — relevant if it gets deployed as-is.
 3. **Progress is localStorage only**, export manual. Audit item 2.7.
-4. **Deployed as a private Claude Artifact** — https://claude.ai/artifact/J91xNk5aaNESXMKZCjHr9z
-   Re-publish by passing that URL plus `dist/index.html` with `root: dist` and
-   every other `dist` file in `files`. The artifact wraps the page in its own
-   document skeleton, so the built `index.html` ends up nested inside another
-   `<html>`; that parses correctly — verified by serving the published bytes
-   back (dark `#131313` ground, Manrope, app mounted, viewport 375, all icons
-   and the manifest resolving, zero failed requests). **Service worker
-   registration could not be verified** — the in-app browser refuses to
-   register one from any origin, so offline caching and the Android install
-   prompt are still unproven.
-5. **A real static host is still worth doing.** `gh` is authenticated as
-   `georgekoul13` with `repo` scope, but the push was blocked by the auto-mode
-   classifier, and GitHub Pages on a free account would mean a *public* repo —
-   which also commits the project to CC BY-NC-SA share-alike, the user's call
-   to make, not ours.
+4. **Deployed to GitHub Pages** — https://georgekoul13.github.io/witcher3-tracker/
+   Public repo `georgekoul13/witcher3-tracker`, licensed CC BY-NC-SA 4.0 (the
+   user agreed to public + share-alike on 26 Oct 2026, after having it
+   explained). `.github/workflows/pages.yml` typechecks, builds and deploys on
+   every push to `main`; Pages is set to `build_type=workflow`.
+
+   Verified live: every asset 200 with the right MIME, app mounted on the dark
+   shell, **service worker active** with scope
+   `/witcher3-tracker/` and 12 precached entries, 8 map tiles in the runtime
+   tile cache, 1302 markers, active-quest pin, zero failed requests. The
+   service worker is the thing that could not be proven earlier — the in-app
+   browser refuses to register one on localhost, but it registers fine on real
+   HTTPS.
+
+   Still unproven: a true airplane-mode test and the Android install prompt.
+   All four install criteria are met (HTTPS, manifest, SW, icons).
+
+5. **The private Claude Artifact is now redundant** but still live at
+   https://claude.ai/artifact/J91xNk5aaNESXMKZCjHr9z — kept as a fallback, not
+   deleted. It will drift from `main` since nothing republishes it.
 
 ## Version control
 
-The project is a git repo as of 26 Oct 2026, `main`, with a `.gitignore` for
-`node_modules/`, `dist/` and `*.tsbuildinfo`. **No remote** — see item 5.
+Git repo as of 26 Oct 2026, `main`, `.gitignore` covering `node_modules/`,
+`dist/` and `*.tsbuildinfo`. Remote is `origin` →
+github.com/georgekoul13/witcher3-tracker (public). Pushing deploys.
 
 ## The app icon
 
