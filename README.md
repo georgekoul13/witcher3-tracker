@@ -113,9 +113,16 @@ Markers are navigation aids, deliberately **not** counted toward 100%.
 ## Map tiles
 
 Tiles are served through jsDelivr from the `root-BB/witcher3map` fork, which
-commits all 16,411 tiles to the repo. (It replaced `psychodracon/witcher3map`,
-which was deleted in late 2026 — if this one goes too, look for another fork of
-`witcher3map/witcher3map` far larger than the ~247MB base repo.) CORS enabled, no hotlink
+commits all 16,411 tiles to the repo. It replaced `psychodracon/witcher3map`,
+which was deleted in late 2026, taking every tile with it.
+
+`georgekoul13/witcher3map-tiles` is our own fork of that, so the tiles can't be
+taken away again. It is deliberately **not** the live source: jsDelivr warms its
+cache a file at a time, and a fork nobody has requested yet refuses cold tiles
+outright — measured, those 403s survived every retry, which is exactly the black
+square the retry logic exists to prevent. Switch to it only if `root-BB` goes,
+and expect it to be patchy until real traffic warms it. It's one line in
+`src/components/MapView.tsx`. CORS enabled, no hotlink
 protection, proper CDN caching, and the service worker keeps every tile you
 view so a browsed region works offline.
 

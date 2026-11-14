@@ -31,10 +31,16 @@ const TILE_RETRY_MS = 450;
  * installed app because the service worker caches tiles for 60 days.
  *
  * root-BB is another fork of the same project carrying the same 16k tiles and
- * the same mapdata at the same paths, so it is a drop-in replacement. It can
- * vanish just as easily; if it does, look for another fork of
- * witcher3map/witcher3map that is far larger than the ~247MB base repo, since
- * the extra size is the tiles.
+ * the same mapdata at the same paths, so it is a drop-in replacement.
+ *
+ * georgekoul13/witcher3map-tiles is our own fork of it, kept so the tiles can
+ * never be taken away again — switching to it is this one line. It is NOT the
+ * live source, because jsDelivr warms its cache one file at a time and a fork
+ * nobody has requested yet refuses cold tiles outright: measured against
+ * root-BB, cold tiles there came back 403 and stayed 403 through all three
+ * retries below, which is precisely the black square this map used to show.
+ * Prefer it only once root-BB is actually gone, and expect it to be patchy
+ * until real traffic has warmed it.
  */
 const TILES = "https://cdn.jsdelivr.net/gh/root-BB/witcher3map@master/files/maps";
 
