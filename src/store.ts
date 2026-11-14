@@ -1,6 +1,13 @@
 import { useCallback, useEffect, useState } from "react";
 import type { Bucket, LastPlace, Progress } from "./types";
 
+/** one thing to mark done or not done */
+export interface DoneChange {
+  bucket: Bucket;
+  id: string;
+  value: boolean;
+}
+
 const KEY = "w3tracker.progress.v1";
 const EXPORT_KEY = "w3tracker.lastExport.v1";
 
@@ -30,15 +37,37 @@ export function useProgress() {
     }
   }, [progress]);
 
-  const toggle = useCallback(
-    (bucket: Bucket, id: string) =>
+  /**
+   * Set several things done or not done at once.
+   *
+   * One call rather than one per bucket, because a quest and the marker it is
+   * linked to have to move together — two calls would mean two renders with
+   * the two halves disagreeing in between.
+   *
+   * The value is passed in rather than flipped from what is stored: several
+   * buckets start from a baseline in the spreadsheet, and flipping the stored
+   * value would write `true` over something already effectively true, so the
+   * first tap on a baseline-done row did nothing at all.
+   */
+  const setDone = useCallback(
+    (changes: DoneChange[]) =>
       setProgress((p) => {
-        const next = !p[bucket][id];
+        if (changes.length === 0) return p;
+        const next: Progress = { ...p };
         const doneAt = { ...(p.doneAt ?? {}) };
-        // only ticking something counts as doing it; unticking is a correction
-        if (next) doneAt[`${bucket}:${id}`] = Date.now();
-        else delete doneAt[`${bucket}:${id}`];
-        return { ...p, [bucket]: { ...p[bucket], [id]: next }, doneAt };
+        const copied = new Set<Bucket>();
+        for (const { bucket, id, value } of changes) {
+          if (!copied.has(bucket)) {
+            next[bucket] = { ...p[bucket] };
+            copied.add(bucket);
+          }
+          next[bucket][id] = value;
+          // only ticking something counts as doing it; unticking is a correction
+          if (value) doneAt[`${bucket}:${id}`] = Date.now();
+          else delete doneAt[`${bucket}:${id}`];
+        }
+        next.doneAt = doneAt;
+        return next;
       }),
     [],
   );
@@ -65,7 +94,7 @@ export function useProgress() {
     [],
   );
 
-  return { progress, setProgress, toggle, setBucket, setLink, setLastPlace };
+  return { progress, setProgress, setDone, setBucket, setLink, setLastPlace };
 }
 
 /**

@@ -4,7 +4,7 @@ import { iconMarkup, type IconName } from "./Icons";
 import type { Marker as MapMarker, Pin, RegionConfig } from "../types";
 
 /*
- * Tiles come from the psychodracon fork, which commits them to the repo, served
+ * Tiles come from a fork that commits them to the repo, served
  * through jsDelivr: CORS enabled, no hotlink protection, proper CDN caching.
  * witcher3map.com's own server 403s any cross-origin referer.
  */
@@ -20,7 +20,18 @@ function focusZoom(map: L.Map, config: RegionConfig) {
 /** the shallowest zoom at which the fork publishes a complete tile grid */
 const FULL_TILES = 3;
 
-const TILES = "https://cdn.jsdelivr.net/gh/psychodracon/witcher3map@master/files/maps";
+/*
+ * The psychodracon fork this used to point at was deleted some time before
+ * 14 Nov 2026 and every tile now 404s — the map only kept working on an
+ * installed app because the service worker caches tiles for 60 days.
+ *
+ * root-BB is another fork of the same project carrying the same 16k tiles and
+ * the same mapdata at the same paths, so it is a drop-in replacement. It can
+ * vanish just as easily; if it does, look for another fork of
+ * witcher3map/witcher3map that is far larger than the ~247MB base repo, since
+ * the extra size is the tiles.
+ */
+const TILES = "https://cdn.jsdelivr.net/gh/root-BB/witcher3map@master/files/maps";
 
 export const CATEGORY_ICON: Record<string, IconName> = {
   "Merchant": "merchant",
@@ -264,6 +275,10 @@ export default function MapView({
        * flipping those against the global grid asks for tiles that were never
        * published — which is why Kaer Morhen and Toussaint came back with
        * holes once the flip was switched on.
+       *
+       * The same two rules cover the three side maps: the source's own site
+       * picks CRS.Simple for exactly the maps we call flat, so matching that
+       * list is all it takes.
        */
       const rows = config.simple
         ? Math.ceil((span * config.nEast[0]) / 256)

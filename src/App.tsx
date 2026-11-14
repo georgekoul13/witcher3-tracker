@@ -8,7 +8,10 @@ import Legend from "./pages/Legend";
 import { computeTotals } from "./progress";
 import { standing, ZONE_TO_REGION } from "./zones";
 import { lastSession } from "./session";
-import { exportProgress, importProgress, keepStorage, lastExportAt, storageState, useProgress } from "./store";
+import {
+  exportProgress, importProgress, keepStorage, lastExportAt, storageState,
+  useProgress, type DoneChange,
+} from "./store";
 import type {
   AlchemyRecipe, Bucket, GwentCard, Marker as MapMarker, MarkerFile,
   Pin, Quest, ScavengerItem, Trophy,
@@ -112,7 +115,7 @@ function overlay<T extends { id: string }>(
 }
 
 export default function App() {
-  const { progress, setProgress, toggle, setBucket, setLink, setLastPlace } = useProgress();
+  const { progress, setProgress, setDone, setBucket, setLink, setLastPlace } = useProgress();
   /** read once, on the way in: later writes must not re-seed the screen */
   const saved = useRef(readNav()).current;
   const [page, setPage] = useState<Page>(saved?.page ?? "home");
@@ -353,7 +356,36 @@ export default function App() {
     setPage("map");
   }, []);
 
-  const t = (bucket: Bucket) => (id: string) => toggle(bucket, id);
+  /*
+   * A quest and the place it happens are one thing to tick off, so marking
+   * either marks the other. The links are one-to-one in the seeded data, but
+   * a link you set by hand could put two quests on one marker, so finding
+   * that marker closes both.
+   */
+  const questsAtMarker = useMemo(() => {
+    const byMarker = new Map<string, string[]>();
+    for (const [questId, markerId] of Object.entries(links)) {
+      const at = byMarker.get(markerId);
+      if (at) at.push(questId); else byMarker.set(markerId, [questId]);
+    }
+    return byMarker;
+  }, [links]);
+
+  const setQuestDone = useCallback((questId: string, value: boolean) => {
+    const changes: DoneChange[] = [{ bucket: "quests", id: questId, value }];
+    const markerId = links[questId];
+    if (markerId) changes.push({ bucket: "markers", id: markerId, value });
+    setDone(changes);
+  }, [links, setDone]);
+
+  const setMarkerFound = useCallback((markerId: string, value: boolean) => {
+    const changes: DoneChange[] = [{ bucket: "markers", id: markerId, value }];
+    for (const questId of questsAtMarker.get(markerId) ?? []) {
+      changes.push({ bucket: "quests", id: questId, value });
+    }
+    setDone(changes);
+  }, [questsAtMarker, setDone]);
+
   const openQuest = useCallback((q: Quest) => setDetail({ kind: "quest", quest: q }), []);
   const fileRef = useRef<HTMLInputElement>(null);
 
@@ -410,7 +442,7 @@ export default function App() {
                   ...(q.anytime ? [] : ["order matters"]),
                 ],
                 onOpen: () => push(() => openQuest(q)),
-                onSetDone: () => toggle("quests", q.id),
+                onSetDone: (next) => setQuestDone(q.id, next),
               })),
             }]} />
         )}
@@ -426,11 +458,11 @@ export default function App() {
                   chips: [g.hunt, ...(g.section ? [g.section] : [])],
                   toggles: [
                     { label: "Found", on: !!scavFound[g.id],
-                      onToggle: () => toggle("scavFound", g.id) },
+                      onToggle: () => setDone([{ bucket: "scavFound", id: g.id, value: !scavFound[g.id] }]) },
                     { label: "Made", on: !!scavCrafted[g.id],
-                      onToggle: () => toggle("scavCrafted", g.id) },
+                      onToggle: () => setDone([{ bucket: "scavCrafted", id: g.id, value: !scavCrafted[g.id] }]) },
                   ],
-                  onSetDone: () => toggle("scavCrafted", g.id),
+                  onSetDone: (next) => setDone([{ bucket: "scavCrafted", id: g.id, value: next }]),
                 })),
               },
               {
@@ -440,9 +472,9 @@ export default function App() {
                   chips: [c.faction, ...(c.location ? [c.location] : [])],
                   toggles: [
                     { label: "Collected", on: !!gwentCollected[c.id],
-                      onToggle: () => toggle("gwent", c.id) },
+                      onToggle: () => setDone([{ bucket: "gwent", id: c.id, value: !gwentCollected[c.id] }]) },
                   ],
-                  onSetDone: () => toggle("gwent", c.id),
+                  onSetDone: (next) => setDone([{ bucket: "gwent", id: c.id, value: next }]),
                 })),
               },
               {
@@ -452,9 +484,9 @@ export default function App() {
                   chips: t2.missable ? ["Missable"] : [],
                   toggles: [
                     { label: "Earned", on: !!trophyDone[t2.id],
-                      onToggle: () => toggle("trophies", t2.id) },
+                      onToggle: () => setDone([{ bucket: "trophies", id: t2.id, value: !trophyDone[t2.id] }]) },
                   ],
-                  onSetDone: () => toggle("trophies", t2.id),
+                  onSetDone: (next) => setDone([{ bucket: "trophies", id: t2.id, value: next }]),
                 })),
               },
               /* Markers had a tab here too, and it has gone: the map is where
@@ -535,7 +567,7 @@ export default function App() {
             <MapView
               region={region} config={markerFile.regions[region]}
               markers={regionMarkers} found={progress.markers}
-              onToggleFound={t("markers")}
+              onToggleFound={(id) => setMarkerFound(id, !progress.markers[id])}
               selected={detail?.kind === "marker" ? detail.marker : null}
               onSelect={(m) => {
                 if (!m) { setDetail(null); return; }
@@ -594,15 +626,16 @@ export default function App() {
         {detail?.kind === "marker" && (
           <MarkerDetail marker={detail.marker}
             found={!!progress.markers[detail.marker.id]}
-            onToggle={() => toggle("markers", detail.marker.id)}
+            onToggle={() => setMarkerFound(detail.marker.id, !progress.markers[detail.marker.id])}
             linkedQuests={quests.filter(
               (q) => links[q.id] === detail.marker.id)}
             onOpenQuest={(q) => setDetail({ kind: "quest", quest: q })} />
         )}
         {detail?.kind === "quest" && (
           <QuestDetail quest={detail.quest} done={!!questDone[detail.quest.id]}
-            detailSeen={detailSeen} onToggle={() => toggle("quests", detail.quest.id)}
-            onToggleDetail={(k) => toggle("details", k)}
+            detailSeen={detailSeen}
+            onToggle={() => setQuestDone(detail.quest.id, !questDone[detail.quest.id])}
+            onToggleDetail={(k) => setDone([{ bucket: "details", id: k, value: !detailSeen[k] }])}
             linkedMarker={markerById.get(links[detail.quest.id] ?? "") ?? null}
             onLink={() => startLinking(detail.quest)}
             onGoToMarker={(m) => {

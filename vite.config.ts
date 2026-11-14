@@ -52,7 +52,9 @@ export default defineConfig({
           {
             // map tiles are someone else's server: cache what we view so the
             // app works offline and we stop re-requesting the same tiles
-            urlPattern: /^https:\/\/cdn\.jsdelivr\.net\/gh\/psychodracon\/witcher3map.*\.jpg$/,
+            // any fork of the project, so swapping the tile mirror when one
+            // disappears does not silently turn offline tiles off
+            urlPattern: /^https:\/\/cdn\.jsdelivr\.net\/gh\/[^/]+\/witcher3map.*\.jpg$/,
             handler: "CacheFirst",
             options: {
               cacheName: "w3-map-tiles",

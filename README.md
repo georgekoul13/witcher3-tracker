@@ -112,8 +112,10 @@ Markers are navigation aids, deliberately **not** counted toward 100%.
 
 ## Map tiles
 
-Tiles are served through jsDelivr from the `psychodracon/witcher3map` fork,
-which commits all 16,411 tiles to the repo. CORS enabled, no hotlink
+Tiles are served through jsDelivr from the `root-BB/witcher3map` fork, which
+commits all 16,411 tiles to the repo. (It replaced `psychodracon/witcher3map`,
+which was deleted in late 2026 — if this one goes too, look for another fork of
+`witcher3map/witcher3map` far larger than the ~247MB base repo.) CORS enabled, no hotlink
 protection, proper CDN caching, and the service worker keeps every tile you
 view so a browsed region works offline.
 
