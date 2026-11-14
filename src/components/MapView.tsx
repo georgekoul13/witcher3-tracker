@@ -20,6 +20,11 @@ function focusZoom(map: L.Map, config: RegionConfig) {
 /** the shallowest zoom at which the fork publishes a complete tile grid */
 const FULL_TILES = 3;
 
+/** how many times a refused tile is asked for again before it counts as gone */
+const TILE_RETRIES = 3;
+/** growing gap between those attempts, so a throttled CDN gets time to relent */
+const TILE_RETRY_MS = 450;
+
 /*
  * The psychodracon fork this used to point at was deleted some time before
  * 14 Nov 2026 and every tile now 404s — the map only kept working on an
@@ -290,8 +295,32 @@ export default function MapView({
       });
     };
 
+    /*
+     * A tile that fails leaves a black square sitting in the middle of the
+     * map, because Leaflet drops the coarser tile underneath as soon as the
+     * finer one settles — and an error counts as settling. Deep zooms ask the
+     * CDN for a burst of tiles and some of them come back refused rather than
+     * missing, so the hole is usually temporary and worth waiting out.
+     *
+     * Retrying the same URL keeps the service worker's cache rule matching;
+     * a cache-busting query would end the URL in something other than .jpg
+     * and quietly stop the tile being stored for offline use.
+     */
     let errors = 0;
-    tiles.on("tileerror", () => {
+    tiles.on("tileerror", (e) => {
+      const img = e.tile as HTMLImageElement & { _retries?: number };
+      const tries = (img._retries ?? 0) + 1;
+      if (tries <= TILE_RETRIES) {
+        img._retries = tries;
+        const url = img.src;
+        window.setTimeout(() => {
+          if (!img.isConnected) return;   // the view moved on while we waited
+          img.src = "";
+          img.src = url;
+        }, TILE_RETRY_MS * tries);
+        return;
+      }
+      // only tiles that have exhausted their retries count as a real failure
       if (++errors > 4) setTilesFailed(true);
     });
     tiles.addTo(map);

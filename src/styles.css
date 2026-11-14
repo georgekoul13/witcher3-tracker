@@ -220,7 +220,10 @@ input[type="checkbox"] {
 .map-toolbar .zone-strip { width: 100%; max-height: 64px; overflow-y: auto; flex-wrap: wrap; }
 .map-wrap { position: absolute; inset: 0; }
 .map-host { position: absolute; inset: 0; background: var(--bg); }
-.leaflet-container { background: var(--bg); outline: none; }
+/* A muted earth tone rather than the page's near-black: this shows through
+   wherever a tile has not arrived, and against black a slow tile reads as a
+   hole punched in the map instead of ground still loading. */
+.leaflet-container { background: #2A2620; outline: none; }
 .map-credit {
   position: absolute; right: 8px; bottom: 8px; z-index: 450;
   margin: 0; padding: 3px 9px; border-radius: var(--r-sm);
